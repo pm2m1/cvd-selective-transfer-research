@@ -1,0 +1,11 @@
+{
+  "seed": 7,
+  "epochs_source": 2,
+  "epochs_target": 2,
+  "batch_size": 64,
+  "patience": 1,
+  "device": "cpu",
+  "output_dir": "results/runs",
+  "selector_policy": "calibrated_logical",
+  "modes": ["source_only", "head_only", "full", "dmv_mat"]
+}

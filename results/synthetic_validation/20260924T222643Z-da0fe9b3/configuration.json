@@ -1,0 +1,45 @@
+{
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "event_budgets": [
+    10,
+    25,
+    50,
+    100
+  ],
+  "scenarios": [
+    "A_no_shift",
+    "B_haemodynamic",
+    "C_haemodynamic_metabolic",
+    "D_behaviour",
+    "E_broad",
+    "F_concept",
+    "G_nuisance_control"
+  ],
+  "methods": [
+    "source_only",
+    "head_only",
+    "full",
+    "fixed_mask",
+    "random_mask",
+    "dmv_mat"
+  ],
+  "source_n": 1200,
+  "target_n": 1600,
+  "epochs_source": 20,
+  "epochs_target": 12,
+  "learning_rate_target": 0.0007,
+  "mmd_max_samples": 128,
+  "device": "cpu",
+  "output_dir": "results/synthetic_validation"
+}
