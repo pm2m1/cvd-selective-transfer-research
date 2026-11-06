@@ -1,73 +1,94 @@
 # Selective Multiview Transfer Learning for Cardiovascular Outcome Prediction
 
-**Research code and aggregate results.** Phase 1 is a closed HAALSI (South Africa) → MHAS (Mexico) study. Phase 2 is a separate HRS → ELSA feasibility investigation; **no Phase-2 model has been trained**. This repository contains no participant data, private test assignments, fitted real-data preprocessing or real-data checkpoints.
+Research code and approved aggregates for a closed **HAALSI (South Africa) → MHAS (Mexico)** experiment. A five-view neural network tests whether selectively updating pretrained representations helps when target labels are scarce. The primary comparison was **inconclusive**; this repository preserves that result and its limitations.
 
-## Research question
+The implementation is inspired by [Cui et al.'s EEG DMV-MAT](https://doi.org/10.1109/TNNLS.2024.3350085). It re-engineers clinical views and module-selection rules for survey data; it is not an exact reproduction or a demonstrated new algorithm. This is a research artifact, not a clinically validated prediction tool.
 
-Can a model pretrained in one population adapt effectively with few labeled people in another, and can it decide which representations to update? Cross-population transfer is difficult when measurements, disease reporting, participant mix and follow-up differ. A small target-label budget also makes module-level evidence uncertain. Phase 1 tested a **re-engineered DMV-MAT-style** module-selection principle inspired by [Cui et al., *Deep Multiview Module Adaption Transfer Network for Subject-Specific EEG Recognition*](https://doi.org/10.1109/TNNLS.2024.3350085). The clinical views, statistics and decision rules here are **not an exact reproduction** of that EEG paper, nor a demonstrated new algorithmic advance.
+## Research status
 
-## Phase 1 design
-
-HAALSI Wave 1 supplied source training; MHAS's 2012 examination cohort supplied target adaptation, validation and one immutable held-out test. The endpoint was a **wave-observed, doctor-reported heart attack or stroke**, conditional on observed follow-up. It is not adjudicated cardiovascular incidence, a precisely dated first event or validated individual clinical risk. The actual cohort derivations and private split cannot be reproduced from this code release.
-
-| Clinical view | Baseline predictors in the completed public-cohort study |
+| Workstream | Status |
 |---|---|
-| Background | Age, baseline sex |
+| Phase 1 registered HAALSI → MHAS comparison | Closed; approved aggregate results available |
+| Supplementary threshold software | Public methods, synthetic example and tests |
+| Empirical threshold calculation / integrity | Completed privately, operator-reported; not inspected here |
+| New empirical threshold publication | Pending disclosure review; no new cells or figures released |
+| HRS → ELSA | Synthetic engineering implemented; scientific eligibility unresolved; no real training |
+
+## Research question and architecture
+
+Can a pretrained multiview model adapt across populations with relatively few target labels while controlling which representations update?
+
+![Five-view encoders, fusion and selector](figures/02_architecture_selector.svg)
+
+Five view-specific encoders feed two fusion blocks and a binary head. Detached source/target representations provide **MMD and source-relative class geometry** for seven independent SHARE/ADAPT decisions. SHARE freezes parameters; ADAPT permits updates; the head updates during adaptation. **MMD selects modules; it is not an added training loss.** The public code retains `legacy_topk`, `calibrated_threshold` and the primary `calibrated_logical` policy. See [equations, pseudocode and implementation references](docs/phase1/model-architecture.md).
+
+## Dataset and protocol
+
+The endpoint is **wave-observed, doctor-reported heart attack or stroke, conditional on observed follow-up**, among baseline-negative participants. It is not adjudicated incidence or an exact event date.
+
+| Clinical view | Completed study's baseline predictors |
+|---|---|
+| Background | Age, sex |
 | Haemodynamic | Systolic and diastolic blood pressure |
 | Metabolic | BMI, total cholesterol, HDL cholesterol |
 | Behaviour | Smoking status |
-| Comorbidity and medication | Doctor-reported diabetes, antihypertensive treatment |
+| Comorbidity/medication | Doctor-reported diabetes, antihypertensive treatment |
 
-The PyTorch model has five view-specific encoders, two fusion modules and a binary prediction head. Detached intermediate representations inform a selector using source/target **maximum mean discrepancy (MMD)** and source-relative class geometry. A module marked **SHARE** remains frozen; an **ADAPT** module and the prediction head can update on target adaptation labels. MMD is a **module-selection statistic**, never an added training loss. The repository retains `legacy_topk`, `calibrated_threshold` and `calibrated_logical` implementations and synthetic controls. Details and the real-data release boundary are in [Phase 1 method and reproducibility](docs/PHASE1_METHOD_AND_REPRODUCIBILITY.md).
+Source train/validation/held-out roles and target adaptation/validation/test roles were fixed. Ten paired adaptation draws used **25 positive + 75 negative** labels, with a secondary **10 + 30** budget. They share one 283-person test population with 21 positive reports. **Ten draws are not ten-fold cross-validation or ten independent tests.** Target validation adds 171 labeled participants with 13 positives. [Dataset counts and endpoint rules](docs/phase1/dataset-and-endpoint.md) and [the experimental protocol](docs/phase1/experimental-protocol.md) explain label accounting and uncertainty.
 
-![Five-view network and selector workflow](figures/02_architecture_selector.svg)
+## Frozen Phase 1 findings
 
-## Closed Phase 1 result
+| Method, primary budget | AP | AUROC | Brier |
+|---|---:|---:|---:|
+| Source-only five-view network | 0.135493 | 0.688659 | 0.069207 |
+| Head-only fine-tuning | 0.142376 | 0.702490 | 0.067665 |
+| Full fine-tuning | 0.140845 | 0.685714 | 0.067472 |
+| Calibrated logical, prespecified primary | 0.142664 | 0.702854 | 0.067654 |
 
-The locked MHAS test contained **283 people, including 21 positive reports**. Across ten paired 25-positive/75-negative adaptation draws on that same test population:
+The primary paired logical-minus-full AP difference is **+0.001819**, descriptive 95% joint participant-bootstrap interval **−0.024809 to +0.032340**. **Statistically established superiority was not demonstrated.** Head-only tuning was competitive. Logical adapted no internal module in 9/10 primary draws; parameter-matched random masks matched logical in 9/10 primary and 10/10 secondary draws, limiting that control.
 
-| Registered quantity | Held-out aggregate |
-|---|---:|
-| Calibrated logical AP | 0.1427 |
-| Full fine-tuning AP | 0.1408 |
-| Calibrated logical AUROC | 0.7029 |
-| Calibrated logical Brier score | 0.0677 |
-| **Primary paired AP difference, logical − full** | **+0.00182** |
-| Descriptive 95% joint participant-bootstrap interval | **−0.02481 to +0.03234** |
+[All 13 baselines and parameter fractions](docs/phase1/baselines-and-results.md) · [Frozen supplement](docs/SUPPLEMENTARY_AGGREGATE_RESULTS.md) · [Approved aggregate JSON](results/aggregate_only_results.json) · [Manuscript draft](docs/FINAL_SUBMISSION_MANUSCRIPT.md)
 
-**Selective-adaptation superiority was not established.** The logical selector adapted no additional view or fusion module in **9/10 primary draws**, so its small trainable-parameter fraction largely reflects head-only behavior. Head-only fine-tuning was competitive. A parameter-matched random mask exactly matched the logical mask in **9/10 primary** and **10/10 low-label** draws because the feasible mask set often collapsed to one choice. These are observations; the causes of the predictive results are not established. Only 13 validation and 21 test positive reports were available, and the deliberately enriched adaptation samples had a 25% positive fraction, complicating uncertainty and probability calibration. Some prespecified sensitivities were not performed.
+## Classification operating points
 
-![Held-out average precision; separate model intervals are not the primary paired interval](figures/04_final_test_ap.svg)
+The supplementary analysis describes fixed probability cutoffs **0.05 through 0.50**, in steps of 0.05, on unchanged retained scores. TP/TN/FP/FN, accuracy, precision, recall, specificity, F1 and balanced accuracy change with cutoff; AP, AUROC and Brier do not. Undefined precision remains N/A. A conventional 0.50 cutoff is not a proven optimal rule; a **0.05 probability cutoff is unrelated to selector p ≤ 0.05**.
 
-See the [manuscript draft](docs/FINAL_SUBMISSION_MANUSCRIPT.md), [aggregate supplement](docs/SUPPLEMENTARY_AGGREGATE_RESULTS.md), [machine-readable aggregate result](results/aggregate_only_results.json), and [seven aggregate-only figures](figures/). The manuscript remains **subject to author approval**; the MHAS product-specific citation and other disclosure items remain open.
+The independent operator reports private calculation completion and integrity verification. **No new empirical threshold tables, confusion figures or sensitive small cells are published in this update.** The sweep is retrospective descriptive analysis of an already examined test, not validated test-based optimization. `ORIGINAL_VALIDATION_OPTIMAL_THRESHOLD_NOT_ESTABLISHED` remains explicit. [Threshold methodology, formulas and disclosure status](docs/phase1/threshold-analysis.md) explain the public software and its limits.
 
-## Phase 2: research in progress
+## Reproduce public synthetic behavior
 
-[Phase 2A](phase2/PHASE2A_RESEARCH_FEASIBILITY_REPORT.md) examined a new **HRS → ELSA** source/target design, candidate methods and official access/documentation. Its conclusion was **NO-GO for immediate model training**: exact common endpoint semantics, eligible incident-event counts and external-validation precision are not established. HRS public-data registration and additional sensitive-product requirements are documented; this project has not confirmed individual HRS account access. ELSA participant-data acquisition and field-level verification remain pending. CHARLS and SHARE have potentially incompatible compound heart-condition questions. No Phase-2 performance estimate exists.
+Use Python 3.10+ in a fresh environment:
 
-The preferred *hypothesis* is uncertainty-aware, view-specific source shrinkage in a compact tabular model, evaluated against regularized logistic regression, boosting, model updating and neural transfer controls. It is not claimed novel or effective. See [dataset comparison](phase2/PHASE2A_DATASET_COMPARISON.md), [prior art](phase2/PHASE2A_LITERATURE_AND_NOVELTY_REVIEW.md), [candidate methods](phase2/PHASE2A_NEW_METHOD_CANDIDATES.md) and [proposed protocol](phase2/PHASE2A_RECOMMENDED_EXPERIMENTAL_PROTOCOL.md).
-
-## Reproduce synthetic-only behavior
-
-Use Python **3.10+** in a fresh environment. The optional XGBoost extra is not needed for the core smoke test.
-
-```bash
+```sh
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -e . -r requirements-dev.txt
-pytest -q
+python -m pytest -q
 python -m dmv_mat_cvd.experiment --config configs/synthetic_smoke.json --source-n 320 --target-n 160 --device cpu
+python examples/threshold_demo.py --output results/runs/threshold-demo-UNUSED
+python scripts/check_public_release.py
 ```
 
-The example writes new **synthetic** run artifacts beneath ignored `results/runs/`. The tests in this release use invented data; the original controlled-data and final-test executors are excluded. Synthetic selector experiments can be started with `python -m dmv_mat_cvd.experiments.selector_validation` after reading that module's CLI help and choosing a bounded development grid. Synthetic results validate code and method behavior only, **not clinical prediction**.
+These commands require no controlled data. The last demonstration generates invented probabilities internally; it cannot ingest clinical files. Generated artifacts stay ignored. [Reproducibility instructions](docs/phase1/reproducibility.md) distinguish software checks from unavailable historical real-data reconstruction. The generic synthetic schema's historical fasting-glucose slot differs from the real-study diabetes feature; the synthetic CLI is not a complete clinical replication.
 
-## Study and release limits
+## Repository guide
 
-- The released source uses a generic/synthetic schema with a historical fasting-glucose slot; the completed HAALSI/MHAS study used a separately versioned doctor-reported diabetes feature. **Do not treat the synthetic CLI as a complete real-cohort reproduction.**
-- Raw cohort files, crosswalks with release-specific details, private test assignments, adaptation IDs, individual predictions, saved real-data models and fitted preprocessors are absent. Obtain data through [ICPSR HAALSI](https://www.icpsr.umich.edu/web/NACDA/studies/36633) and [official MHAS](https://www.mhasweb.org/DataProducts/Home.aspx) under their terms; do not upload them to GitHub.
-- The first authorized final-test attempt accessed test rows and failed before producing predictions or metrics. A **separately authorized, runtime-only recovery** evaluated the same frozen test. [Reproducibility documentation](docs/PHASE1_METHOD_AND_REPRODUCIBILITY.md) discloses the incident. No further original test access is authorized.
-- This is a research and reproducibility artifact, not a clinical tool or deployment validation. No code license has been granted in this repository; license selection and public-release review require explicit author approval.
+| Location | Purpose |
+|---|---|
+| [docs/phase1](docs/phase1/overview.md) | Navigable scientific and engineering documentation |
+| [docs](docs/PHASE1_METHOD_AND_REPRODUCIBILITY.md) | Preserved manuscript, supplement and historical release review |
+| [src/dmv_mat_cvd](src/dmv_mat_cvd) | Models, selector, synthetic framework and portable threshold arithmetic |
+| [tests](tests), [configs](configs), [examples](examples/README.md) | Invented fixtures and runnable public checks |
+| [figures](figures) | Seven original approved figures and one labeled synthetic illustration |
+| [phase2](phase2/STATUS_20261107.md) | Dated update and unchanged historical feasibility documents |
+| [results](results/aggregate_only_results.json) | Approved ranking aggregates and historical synthetic benchmarks |
 
-## Citation and acknowledgments
+## Phase 2: HRS → ELSA
 
-Cite the original [DMV-MAT EEG paper](https://doi.org/10.1109/TNNLS.2024.3350085) for inspiration, the [HAALSI study and ICPSR V4 release](https://www.icpsr.umich.edu/web/NACDA/studies/36633), and the [MHAS official data products](https://www.mhasweb.org/DataProducts/Home.aspx) for any authorized reuse. Exact MHAS product names, release years and retrieval dates must be checked against the user's original download record before a manuscript is submitted. Follow each distributor's citation, confidentiality, non-reidentification, transfer and research-product-notification terms. This repository does not claim that required MHAS notification or final author sign-off has occurred.
+ELSA registration, a real interview-status diagnostic and a protected review worksheet have progressed in the independent environment, as reported by the operator. Public training infrastructure has passed synthetic tests in the separate research workspace. **Eligibility interpretation is unresolved, valid real event counts are unavailable, mappings are partial, and real HRS → ELSA training has not occurred.** Engineering readiness does not establish scientific clearance. See the [dated status update](phase2/STATUS_20261107.md); earlier Phase-2A reports remain historical records.
+
+## Limitations, access and citation
+
+Only 13 validation and 21 test positives were available. Shared validation stopping/reporting, correlated adaptation draws, enriched fitting prevalence, report-based labels and attrition limit interpretation. No clinical deployment or calibrated individual risk is established. The first final-test attempt failed after access; a separately authorized runtime recovery evaluated the same frozen test. [Scientific limitations](docs/phase1/limitations.md) and the [preserved incident disclosure](docs/PHASE1_METHOD_AND_REPRODUCIBILITY.md) provide details.
+
+Obtain data through [HAALSI ICPSR](https://www.icpsr.umich.edu/web/NACDA/studies/36633) and [MHAS official products](https://www.mhasweb.org/DataProducts/Home.aspx), subject to their terms. Cite the original DMV-MAT paper and dataset/study references retained in the manuscript. Exact MHAS product citations, notification status and final author review remain open. No code license has been granted; none is added here. [Access, attribution and disclosure requirements](docs/phase1/data-access-and-disclosure.md) govern any later public results PR.

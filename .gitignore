@@ -4,6 +4,9 @@ datasets/
 private_data/
 private_locks/
 private_evaluations/
+private_outputs/
+*.private.*
+*.reviewed.json
 **/raw/
 **/controlled/
 *.dta
@@ -58,6 +61,7 @@ results/selector_validation/
 
 # Local build and editor state
 .venv/
+.tools-venv/
 venv/
 __pycache__/
 *.py[cod]
