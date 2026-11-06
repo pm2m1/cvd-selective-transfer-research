@@ -32,10 +32,10 @@ jobs:
           python -m pip install -e . -r requirements-dev.txt
       - name: Public file, preservation, link and SVG checks
         run: python scripts/check_public_release.py
-      - name: Lint additions (historical source remains unchanged)
-        run: python -m ruff check scripts examples/threshold_demo.py src/dmv_mat_cvd/thresholds.py tests/test_thresholds.py tests/test_public_checks.py tests/test_public_results.py
+      - name: Lint additions (frozen models unchanged)
+        run: python -m ruff check scripts examples/threshold_demo.py src/dmv_mat_cvd/thresholds.py tests/test_thresholds.py tests/test_public_checks.py tests/test_public_results.py tests/test_selector_json.py
       - name: Formatting of additions
-        run: python -m ruff format --check scripts examples/threshold_demo.py src/dmv_mat_cvd/thresholds.py tests/test_thresholds.py tests/test_public_checks.py tests/test_public_results.py
+        run: python -m ruff format --check scripts examples/threshold_demo.py src/dmv_mat_cvd/thresholds.py tests/test_thresholds.py tests/test_public_checks.py tests/test_public_results.py tests/test_selector_json.py
       - name: Package import
         run: python -c "import dmv_mat_cvd; import dmv_mat_cvd.thresholds"
       - name: Synthetic tests only

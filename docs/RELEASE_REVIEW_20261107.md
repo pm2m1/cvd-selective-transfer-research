@@ -1,10 +1,10 @@
 # Public repository update review — 7 November 2026
 
-Base commit: `79bd96c078e517824638a893919153f497978b44`. Work was performed in a separate clean clone on `docs/phase1-threshold-analysis-20261107`. The original research workspace and historical GitHub source artifacts were not edited.
+Base commit: `79bd96c078e517824638a893919153f497978b44`. Work was performed in a separate clean clone on `docs/phase1-threshold-analysis-20261107`. The original research workspace and frozen empirical artifacts were not edited; the one public synthetic-report compatibility correction is described below.
 
 ## Public scope
 
-The update adds a nine-page Phase 1 documentation set, a dated Phase 2 status update, portable threshold arithmetic, an invented-data-only example and illustration, synthetic regression tests, public-only CI and explicit tracked-file controls. The original manuscript, supplement, approved aggregate JSON, seven original SVGs, five historical Phase-2A documents and all 50 existing Python source/test files remain byte-identical. Their 75 public-file fingerprints are recorded in [frozen bindings](phase1/frozen-public-bindings.json). These are fingerprints of already tracked public files, not restricted datasets, source lineage or checkpoints.
+The update adds a nine-page Phase 1 documentation set, a dated Phase 2 status update, portable threshold arithmetic, an invented-data-only example and illustration, synthetic regression tests, public-only CI and explicit tracked-file controls. The original manuscript, supplement, approved aggregate JSON, seven original SVGs, five historical Phase-2A documents and 49 of 50 existing Python source/test files remain byte-identical. One output-only synthetic-report compatibility fix is described below; no clinical training or selection code changes. The original 75 public-file fingerprints are recorded in [frozen bindings](phase1/frozen-public-bindings.json). These are fingerprints of already tracked public files, not restricted datasets, source lineage or checkpoints.
 
 The [explicit file allowlist](../.public-files.json) contains every tracked file. The [checker](../scripts/check_public_release.py) verifies it, preserved files, relative documentation paths, SVG dependencies, prohibited formats, absolute home paths and recognizable credential patterns. This automated audit does not establish legal permission or disclosure acceptance.
 
@@ -17,7 +17,7 @@ The operator reports private empirical calculation completion and integrity veri
 ## Verification
 
 - Before changes: **142 passed, 0 failed** (4.61 seconds).
-- After changes: **180 passed, 0 failed** (4.80 seconds), including 38 new portable-threshold, documentation-evidence and public-boundary checks. Separate parity check: 200 invented float32/float64 cases, 2,800 shared metric values exactly matching the original supplementary calculator.
+- Initial update: **180 passed, 0 failed** (4.80 seconds), including 38 new portable-threshold, documentation-evidence and public-boundary checks. Final update after the isolated compatibility fix: **188 passed, 0 failed** (4.34 seconds), including eight additional JSON regression cases. Separate parity check: 200 invented float32/float64 cases, 2,800 shared metric values exactly matching the original supplementary calculator.
 - Offline PEP 517 wheel build (`uv build --wheel --offline`): passed; ignored wheel not published. Separate-checkout package import: passed.
 - Existing four-method CPU invented-cohort smoke: completed; frozen-parameter checks passed. Generated outputs remain ignored.
 - Ten-draw, ten-threshold invented demonstration: completed; aggregate JSON and one labeled integer confusion SVG produced. Only that explicitly synthetic SVG is tracked.
@@ -33,4 +33,10 @@ No license is added. Exact MHAS product citations, retrieval metadata and resear
 
 ## Final public-boundary checks
 
-The reviewed inventory has 100 tracked public files; all 75 frozen bindings match. All 130 relative Markdown targets and eight SVG assets pass the automated checks. A scan of all 76 historical public Git blobs found zero recognizable credential or absolute-home-path matches; the largest blob was 817,841 bytes. No Git history was rewritten. The full staged diff was reviewed against the explicit allowlist and frozen result values; generated synthetic runs, build artifacts and the disposable tools environment are ignored. Public source scans cannot authenticate publisher provenance or establish disclosure rights.
+The final inventory has 101 tracked public files; 74 original files remain byte-identical, with one explicitly hash-bound output-only compatibility correction. The original base hash is retained alongside its reviewed replacement hash. All local relative Markdown targets and eight SVG assets pass the automated checks. A scan of all 76 historical public Git blobs found zero recognizable credential or absolute-home-path matches; the largest blob was 817,841 bytes. No Git history was rewritten. The full staged diff was reviewed against the explicit allowlist and frozen result values; generated synthetic runs, build artifacts and the disposable tools environment are ignored. Public source scans cannot authenticate publisher provenance or establish disclosure rights.
+
+## CI-discovered serialization compatibility correction
+
+The first Python 3.10 job exposed a pre-existing synthetic-summary JSON failure: pandas 2.3 group keys can contain `numpy.int64`, which standard JSON cannot serialize. Python 3.12 with newer pandas did not expose that particular path. A focused new regression reproduced four failures before the fix and passed all eight cases afterward. `selector_validation.write_json` now converts NumPy scalars to their native `.item()` values only at serialization. It retains `allow_nan=False`, rejects unsupported objects and writes no partial JSON on serialization failure. No metric, stopping criterion, model selection, partition or empirical result changes.
+
+This correction is a separate conventional fix commit. The original base fingerprint remains in the frozen ledger; an explicit reviewed exception pins only this corrected file. The release checker continues to reject any other change. Of the original 50 Python files, 49 remain byte-identical; the sole changed file has this narrow output conversion. The original research workspace, tests, manuscript, supplement, aggregate result and seven figures remain untouched. Remote CI results after this fix are available in the PR checks.

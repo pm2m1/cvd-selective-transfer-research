@@ -11,7 +11,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -e . -r requirements-dev.txt
 python -m pytest -q
-python -m ruff check scripts examples/threshold_demo.py src/dmv_mat_cvd/thresholds.py tests/test_thresholds.py tests/test_public_checks.py tests/test_public_results.py
+python -m ruff check scripts examples/threshold_demo.py src/dmv_mat_cvd/thresholds.py tests/test_thresholds.py tests/test_public_checks.py tests/test_public_results.py tests/test_selector_json.py
 python scripts/check_public_release.py
 ```
 
@@ -28,7 +28,7 @@ python examples/threshold_demo.py --output results/runs/threshold-demo-UNUSED
 
 The first exercises source-only, head-only, full and logical transfer using invented cohorts. The second generates invented probabilities internally, computes all ten cutoffs over ten score vectors, and writes an aggregate synthetic JSON and one labeled integer confusion SVG. It accepts no data-file arguments. Output must be new; choose a fresh name if already present. Do not remove historical or consumed real outputs to reuse destinations.
 
-The threshold module ports the formula/aggregation subset of the previously tested standalone supplement, without its controlled-data loader or checkpoint/source bindings. Focused tests cover orientation, equality at threshold, undefined precision, formulas, reconciliation rejection, unchanged ranking metrics and correlated repeated-draw summaries. The separate original package's 41 synthetic tests were also run during this update. Original model/source files and all historical public tests remain byte-identical.
+The threshold module ports the formula/aggregation subset of the previously tested standalone supplement, without its controlled-data loader or checkpoint/source bindings. Focused tests cover orientation, equality at threshold, undefined precision, formulas, reconciliation rejection, unchanged ranking metrics and correlated repeated-draw summaries. The separate original package's 41 synthetic tests were also run during this update. Original model, training, metric and selector computations and all historical tests remain unchanged. A separately tested, output-only correction lets the synthetic selector report serialize NumPy scalars on older supported pandas releases; see [the update review](../RELEASE_REVIEW_20261107.md).
 
 ## Historical empirical reproduction limits
 

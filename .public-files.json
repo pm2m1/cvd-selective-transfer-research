@@ -98,6 +98,7 @@
     "tests/test_public_results.py",
     "tests/test_schema.py",
     "tests/test_scores.py",
+    "tests/test_selector_json.py",
     "tests/test_selector_validation.py",
     "tests/test_splitting.py",
     "tests/test_synthetic_end_to_end.py",

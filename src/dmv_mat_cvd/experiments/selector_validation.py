@@ -144,7 +144,13 @@ def summarize(rows: list[dict]) -> dict:
 
 
 def write_json(path: Path, value: dict) -> None:
-    path.write_text(json.dumps(value, indent=2, allow_nan=False) + "\n")
+    # pandas group keys can be NumPy scalars on supported older releases.
+    # Convert only at serialization; never change metric or selection values.
+    def scalar_default(item):
+        if isinstance(item, np.generic):
+            return item.item()
+        raise TypeError("Unsupported JSON summary value")
+    path.write_text(json.dumps(value, indent=2, allow_nan=False, default=scalar_default) + "\n")
 
 
 def legacy_audit(directory: Path, output: Path) -> dict:

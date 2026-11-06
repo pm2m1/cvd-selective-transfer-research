@@ -78,5 +78,12 @@
     "tests/test_selector_validation.py": "b81add2a3b8c517060a0876a3c6715300666f83d47b13fe656fcd2c191287bf8",
     "tests/test_splitting.py": "caa86b245856186300826827e97ad81a1fa78da351e7979da715efe20289dad9",
     "tests/test_synthetic_end_to_end.py": "ab654440c91ace216f8b02a5f3e24bdbf372918f5a88db91392d1e41ade65605"
+  },
+  "reviewed_implementation_fixes": {
+    "src/dmv_mat_cvd/experiments/selector_validation.py": {
+      "base_sha256": "7c74877767e0728710881eee083123bfcffdfdd3e18712ba2866282d8c21574b",
+      "reviewed_sha256": "3bf695cbc66d2578485f4cbf885d4f70a1e772ca65c05c957e8c48fff2aa7548",
+      "reason": "JSON output-only NumPy scalar conversion demonstrated necessary by Python 3.10/pandas 2.3 CI and failing-then-passing synthetic regressions; no training, scoring or selection change"
+    }
   }
 }

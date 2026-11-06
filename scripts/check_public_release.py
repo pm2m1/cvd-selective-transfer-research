@@ -111,11 +111,20 @@ def run(root=ROOT):
             links += check_links(root, path, text)
         svgs += path.suffix == ".svg"
     frozen = json.loads((root / "docs/phase1/frozen-public-bindings.json").read_text())
+    fixes = frozen.get("reviewed_implementation_fixes", {})
+    if not set(fixes) <= set(frozen["sha256"]):
+        raise ValueError("Invalid reviewed implementation fix")
     for relative, expected in frozen["sha256"].items():
+        if relative in fixes:
+            fix = fixes[relative]
+            if fix["base_sha256"] != expected or not fix["reason"]:
+                raise ValueError("Missing compatibility-fix provenance")
+            expected = fix["reviewed_sha256"]
         if hashlib.sha256((root / relative).read_bytes()).hexdigest() != expected:
             raise ValueError("Historical public artifact changed")
     print(
-        f"PASS: {len(listed)} allowlisted files; {len(frozen['sha256'])} preserved; {links} local links; {svgs} SVGs"
+        f"PASS: {len(listed)} allowlisted files; {len(frozen['sha256']) - len(fixes)} preserved; "
+        f"{len(fixes)} reviewed compatibility fixes; {links} local links; {svgs} SVGs"
     )
 
 
