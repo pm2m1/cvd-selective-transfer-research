@@ -50,6 +50,13 @@ def check_file(root, relative):
         or any(p.is_symlink() for p in path.parents if p.is_relative_to(root))
     ):
         raise ValueError("Unsafe public file")
+    # Aggregate approval does not authorize an identifiable institutional report.
+    # Only its status README is reviewed until a separate report-release decision.
+    if (
+        relative.startswith("reports/nitw-btech-phase1/")
+        and relative != "reports/nitw-btech-phase1/README.md"
+    ):
+        raise ValueError("Academic report publication review is pending")
     lower = relative.lower()
     if (
         path.suffix.lower() in PRIVATE_SUFFIXES

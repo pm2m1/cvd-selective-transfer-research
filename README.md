@@ -4,6 +4,22 @@ Research code and approved aggregates for a closed **HAALSI (South Africa) → M
 
 The implementation is inspired by [Cui et al.'s EEG DMV-MAT](https://doi.org/10.1109/TNNLS.2024.3350085). It re-engineers clinical views and module-selection rules for survey data; it is not an exact reproduction or a demonstrated new algorithm. This is a research artifact, not a clinically validated prediction tool.
 
+## Start here: supervisor navigation
+
+| Review question | Entry point |
+|---|---|
+| What did we develop and what did it show? | [Phase 1 supervisor guide](docs/SUPERVISOR_PHASE1_GUIDE.md) |
+| Where is the academic B.Tech PDF? | [Report publication status](reports/nitw-btech-phase1/README.md): PDF/LaTeX staged locally; separate authorship/identifier/form/public-distribution approval pending |
+| How does the report map to implementation? | [Exact report-to-code map and gaps](docs/PHASE1_REPORT_TO_CODE_MAP.md) |
+| Which figures are approved, empirical or synthetic? | [Figure inventory](docs/PHASE1_FIGURE_INVENTORY.md) and [paired AP contrasts](figures/08_primary_paired_ap_contrasts.svg) |
+| What is the scientific method? | [Phase 1 overview](docs/phase1/overview.md), [frozen manuscript](docs/FINAL_SUBMISSION_MANUSCRIPT.md) |
+| Where are all original results? | [Complete supplement](docs/SUPPLEMENTARY_AGGREGATE_RESULTS.md), [approved JSON](results/aggregate_only_results.json) |
+| What can I run? | [Public source](src/dmv_mat_cvd), [reproduction instructions](docs/phase1/reproducibility.md), [tests](tests), [CI](.github/workflows/public-checks.yml) |
+| What remains restricted? | [Threshold methodology/disclosure](docs/phase1/threshold-analysis.md) and [access requirements](docs/phase1/data-access-and-disclosure.md) |
+| Has Phase 2 produced a real model? | [HRS → ELSA status](phase2/STATUS_20261107.md): no real training/performance result established |
+
+Public synthetic checks and approved-aggregate figures are reproducible. The original clinical runner, joint test-bootstrap executor, controlled datasets, exact memberships and fitted models are not distributed; this is **not a one-command reconstruction of the private empirical experiment**. Academic-report and unreleased threshold publication require separate review; passing software checks does not establish institutional approval.
+
 ## Research status
 
 | Workstream | Status |
@@ -79,7 +95,7 @@ These commands require no controlled data. The last demonstration generates inve
 | [docs](docs/PHASE1_METHOD_AND_REPRODUCIBILITY.md) | Preserved manuscript, supplement and historical release review |
 | [src/dmv_mat_cvd](src/dmv_mat_cvd) | Models, selector, synthetic framework and portable threshold arithmetic |
 | [tests](tests), [configs](configs), [examples](examples/README.md) | Invented fixtures and runnable public checks |
-| [figures](figures) | Seven original approved figures and one labeled synthetic illustration |
+| [figures](figures) | Seven original approved figures, the new approved-aggregate paired contrast and one labeled synthetic illustration |
 | [phase2](phase2/STATUS_20261107.md) | Dated update and unchanged historical feasibility documents |
 | [results](results/aggregate_only_results.json) | Approved ranking aggregates and historical synthetic benchmarks |
 

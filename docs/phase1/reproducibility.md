@@ -41,3 +41,14 @@ The operator reports that the private threshold calculation and its integrity re
 The explicit [public file allowlist](../../.public-files.json) bounds tracked files. The [release checker](../../scripts/check_public_release.py) checks that allowlist, frozen SHA256 bindings, relative documentation links, SVG references, prohibited artifacts, absolute home paths and recognizable credentials. CI runs those checks, targeted lint, imports, all public tests and both synthetic smoke commands, without clinical inputs or credentials.
 
 Automated scanning is defense in depth, not proof of disclosure clearance or an absence of all secrets. Adding future empirical outputs still requires the independent review described in [data access and disclosure](data-access-and-disclosure.md). Existing historical Git objects are not rewritten by this update.
+
+## Replot approved paired AP contrasts
+
+The [paired-contrast renderer](../../examples/plot_primary_paired_ap.py) reads only the repository's existing approved aggregate JSON. It creates a new SVG and refuses overwrite; it does not read clinical files, refit models or rerun bootstrap inference.
+
+```sh
+python -m pip install -r requirements-figures.txt
+python examples/plot_primary_paired_ap.py --output results/runs/paired-ap-UNUSED.svg
+```
+
+The [tracked figure](../../figures/08_primary_paired_ap_contrasts.svg) uses the stored primary-budget logical-minus-comparator estimates and descriptive joint participant-bootstrap intervals. The full-fine-tuning contrast is primary; the other three are secondary. All include zero. An aggregate visualization is reproducible here; original bootstrap recomputation is not. See the [supervisor implementation map](../PHASE1_REPORT_TO_CODE_MAP.md) for the exact boundary and [academic-report status](../../reports/nitw-btech-phase1/README.md) for why no report PDF/LaTeX is distributed.

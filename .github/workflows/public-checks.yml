@@ -29,13 +29,13 @@ jobs:
       - name: Install public dependencies
         run: |
           python -m pip install 'torch>=2.2' --index-url https://download.pytorch.org/whl/cpu
-          python -m pip install -e . -r requirements-dev.txt
+          python -m pip install -e . -r requirements-dev.txt -r requirements-figures.txt
       - name: Public file, preservation, link and SVG checks
         run: python scripts/check_public_release.py
       - name: Lint additions (frozen models unchanged)
-        run: python -m ruff check scripts examples/threshold_demo.py src/dmv_mat_cvd/thresholds.py tests/test_thresholds.py tests/test_public_checks.py tests/test_public_results.py tests/test_selector_json.py
+        run: python -m ruff check scripts examples src/dmv_mat_cvd/thresholds.py tests/test_thresholds.py tests/test_public_checks.py tests/test_public_results.py tests/test_selector_json.py tests/test_supervisor_handoff.py
       - name: Formatting of additions
-        run: python -m ruff format --check scripts examples/threshold_demo.py src/dmv_mat_cvd/thresholds.py tests/test_thresholds.py tests/test_public_checks.py tests/test_public_results.py tests/test_selector_json.py
+        run: python -m ruff format --check scripts examples src/dmv_mat_cvd/thresholds.py tests/test_thresholds.py tests/test_public_checks.py tests/test_public_results.py tests/test_selector_json.py tests/test_supervisor_handoff.py
       - name: Package import
         run: python -c "import dmv_mat_cvd; import dmv_mat_cvd.thresholds"
       - name: Synthetic tests only
@@ -44,3 +44,5 @@ jobs:
         run: python -m dmv_mat_cvd.experiment --config configs/synthetic_smoke.json --source-n 320 --target-n 160 --device cpu
       - name: Invented threshold smoke test
         run: python examples/threshold_demo.py --output results/runs/ci-threshold-synthetic
+      - name: Replot approved aggregate contrasts (no clinical inputs)
+        run: python examples/plot_primary_paired_ap.py --output results/runs/ci-primary-paired.svg

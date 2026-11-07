@@ -1,0 +1,2 @@
+# Optional public aggregate-artwork rendering; not needed for model/threshold tests.
+matplotlib>=3.8,<4
