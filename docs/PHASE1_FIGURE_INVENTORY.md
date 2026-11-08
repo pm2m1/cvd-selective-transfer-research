@@ -2,7 +2,7 @@
 
 [Supervisor guide](SUPERVISOR_PHASE1_GUIDE.md) · [Report map](PHASE1_REPORT_TO_CODE_MAP.md) · [Report publication status](../reports/nitw-btech-phase1/README.md)
 
-The original seven public SVG files remain byte-identical. Report references below use the checked **30-page public-results academic copy**, not a restricted threshold-expanded edition. Academic PDF/LaTeX publication remains pending. Source SVG availability does not imply that the institutional report, logo, forms or student identifiers may be published.
+The original seven public SVG files remain byte-identical. Report references below use the checked **30-page public-results academic copy**, not a restricted threshold-expanded edition. Academic PDF/LaTeX files remain excluded by explicit author instruction. Source SVG availability does not imply that the institutional report, logo, forms or student identifiers may be published.
 
 | Repository file | Purpose / statistical meaning | Academic-report correspondence | Evidence/source type | Publication status |
 |---|---|---|---|---|
@@ -28,8 +28,8 @@ The primary difference remains +0.001819 with interval [−0.024809,+0.032340]. 
 
 | Candidate | State | Reason |
 |---|---|---|
-| Empirical threshold confusion matrices | Restricted, not tracked | Exact cells/figures have not passed the separate public-disclosure gate |
-| Private ten-draw threshold-response plot or screenshot | Restricted, not tracked | Means/SD on the same participants are not automatically safe aggregates; differencing and destination-specific disclosure review required |
+| Empirical threshold confusion matrices | [510 original SVGs published](../results/haalsi_mhas_real_threshold_analysis/confusion_matrices) | Researcher-attested completed disclosure review; bytes and all cells independently verified |
+| Original empirical response plots | [Six families, SVG and PNG](../results/haalsi_mhas_real_threshold_analysis/summary_plots) | Published on researcher attestation, sample SD labeling and mean coordinates verified; original screenshots not needed |
 | Expanded local-review threshold academic report | Restricted, not tracked | Contains unreleased supplementary results; filename recency/completeness is not publication permission |
 | Actual B.Tech PDF/LaTeX | Staged locally only, not tracked | Separate authorship/identifier/form/institute/public-distribution approval is unresolved |
 | ROC/PR or calibration curves inferred from scalars | Unsupported | AP/AUROC/Brier scalars cannot reconstruct authentic curves or score distributions |
@@ -38,3 +38,7 @@ The primary difference remains +0.001819 with interval [−0.024809,+0.032340]. 
 The repository has **ten approved-public result/method SVGs plus one explicitly synthetic SVG** after this portfolio update. Only seven of those original/public-method figures are used in the concise academic report: its architecture/cohort visuals correspond conceptually to repository artwork, five other PDFs correspond to the validation/test/parameter/mask/paired results. The audit timeline is an additional repository asset. Report assets remain outside Git while academic publication review is pending.
 
 The [results gallery](PHASE1_RESULTS_GALLERY.md) embeds all 11 public SVGs with captions and evidence limitations. Figures 09/10 expand the portfolio without altering the separately staged academic report. Both plot sources are approved public aggregates; earlier public audit artwork remains unchanged outside the checkout.
+
+## Complete original threshold collection
+
+The separate real release adds 510 matrix SVGs, six model-response figures and one cross-method figure, each in SVG/PNG (14 plot files), plus the existing offline aggregate dashboard. Original filenames, model/draw identities and historical private/post-hoc labels remain preserved. All 528 integrity-bound outputs match their original recorded hashes; the additional post-run dashboard is separately reconciled to the CSV. See the [release inventory and exclusions](../results/haalsi_mhas_real_threshold_analysis/RELEASE_MANIFEST.json). The 300 original synthetic-run matrices remain separately labeled and are not counted as real MHAS outputs. No report files or participant predictions are included.

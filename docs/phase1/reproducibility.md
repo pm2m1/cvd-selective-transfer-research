@@ -36,7 +36,7 @@ The threshold module ports the formula/aggregation subset of the previously test
 
 The 13-method frozen ranking results are inspectable in the approved JSON, supplement and seven original figures. This release cannot reconstruct real analytic cohorts, original draw membership, fitted preprocessing, saved weights or participant-level predictions. Those require separately permitted data and retained private evidence. It offers no original locked-test inference or clinical threshold-execution CLI. The synthetic CLI does not regenerate the historical cohort study.
 
-The operator reports that the private threshold calculation and its integrity review completed. Its new empirical metrics remain undisclosed. Public reproducibility therefore covers software behavior and already approved ranking summaries; it does not include regeneration of protected threshold results.
+The [real aggregate release](../../results/haalsi_mhas_real_threshold_analysis) now supplies the original matrices and summaries following researcher-attested clearance. Run `python scripts/validate_real_threshold_release.py` to verify original-file hashes, matrix/plot identities, count arithmetic, summary statistics and unchanged public ranking references without private data. The separate post-run dashboard is reconciled to all 510 original CSV rows. This verifies released outputs; it does not regenerate predictions, authenticate participant membership or repeat historical inference. Private score-level inputs and operational metadata remain unavailable.
 
 ## Release checks and CI
 
@@ -66,4 +66,4 @@ python examples/plot_public_comparisons.py --kind budgets --output results/runs/
 python scripts/check_result_consistency.py
 ```
 
-The checker reconciles all 13 methods at both budgets (78 metric summaries), 26 frozen supplement rows, 13 manuscript rows, README/guide/gallery summaries and 21 new figure points. It checks stored per-draw means, source/adaptation draw counts and bootstrap accounting, not the missing historical bootstrap executor. Actual academic PDF/LaTeX and protected threshold outputs remain outside this public check. [Artifact inventory](../PHASE1_COMPLETE_ARTIFACT_INVENTORY.md) records those limits.
+The checker reconciles all 13 methods at both budgets (78 metric summaries), 26 frozen supplement rows, 13 manuscript rows, README/guide/gallery summaries and 21 new figure points. It checks stored per-draw means, source/adaptation draw counts and bootstrap accounting, not the missing historical bootstrap executor. Academic PDF/LaTeX and private operational inputs remain outside the public check. The separately released real aggregates have their own dedicated validator. [Artifact inventory](../PHASE1_COMPLETE_ARTIFACT_INVENTORY.md) records those limits.

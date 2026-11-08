@@ -54,14 +54,14 @@
       "path": "docs/PHASE1_COMPLETE_ARTIFACT_INVENTORY.md",
       "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/docs/PHASE1_COMPLETE_ARTIFACT_INVENTORY.md",
       "source": "EXISTING_PUBLIC_REPOSITORY_OR_NEW_INTEGRATION_TOOL",
-      "sha256": "a6162d6fc5930d92f6e6f18219ba27993e85fa21b8083763e4ff8e28388a9eb4",
+      "sha256": "897f78595cae69134e3bd5fff6ada0bf694c15038bb4ec3105cc518c71dc3ffb",
       "original_bytes": null
     },
     {
       "path": "docs/PHASE1_FIGURE_INVENTORY.md",
       "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/docs/PHASE1_FIGURE_INVENTORY.md",
       "source": "EXISTING_PUBLIC_REPOSITORY_OR_NEW_INTEGRATION_TOOL",
-      "sha256": "3c362bc35e111157b01c8c9169188a62c207c300f620543a630d9958374d490c",
+      "sha256": "b0c31ddc37ed205092f561c831937801576205bd5bb42f419dc02df0ff30dc14",
       "original_bytes": null
     },
     {
@@ -75,7 +75,7 @@
       "path": "docs/PHASE1_REPORT_TO_CODE_MAP.md",
       "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/docs/PHASE1_REPORT_TO_CODE_MAP.md",
       "source": "EXISTING_PUBLIC_REPOSITORY_OR_NEW_INTEGRATION_TOOL",
-      "sha256": "7b1f3b0d07d2a0d1f04b4909b1398214070764147afa09da2b763c0868ffe81a",
+      "sha256": "3b8aed7ae053f58dffa62c6e45a8f412cce485eeaf361c23e6cc8eac2d64a05e",
       "original_bytes": null
     },
     {
@@ -110,7 +110,7 @@
       "path": "docs/SUPERVISOR_PHASE1_GUIDE.md",
       "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/docs/SUPERVISOR_PHASE1_GUIDE.md",
       "source": "EXISTING_PUBLIC_REPOSITORY_OR_NEW_INTEGRATION_TOOL",
-      "sha256": "888ceb3197414ea18ac9ed6e4d5e673ab414581e224427e0e51775cddc3a9d65",
+      "sha256": "e0cef6edccd5e9b28ff7169fafbefc0b02781bf91a2f53714cf8febe1874c3b7",
       "original_bytes": null
     },
     {
@@ -187,7 +187,7 @@
       "path": "docs/phase1/reproducibility.md",
       "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/docs/phase1/reproducibility.md",
       "source": "EXISTING_PUBLIC_REPOSITORY_OR_NEW_INTEGRATION_TOOL",
-      "sha256": "725cee19ed38d09436e3ef019a9a7c17a3329ae53434da8f7ea89644a5948f55",
+      "sha256": "2f4c05b32723e31eb33845ee626f434cab4464268cd74ab4dee492ca875519ac",
       "original_bytes": null
     },
     {
