@@ -1,0 +1,46 @@
+{
+  "schema": "elsa-interview-status-diagnostic-protocol-v1",
+  "purpose": "elsa_interview_participation_status_only_v1_20261106",
+  "authorship": "AI_AUTHORED_RESEARCHER_DELEGATED_PUBLIC_ENGINEERING",
+  "scope": "DIAGNOSTIC_STATUS_ONLY_NO_SCIENTIFIC_ELIGIBILITY_CHANGE",
+  "source_use_review_required": "INDEPENDENTLY_ESTABLISHED_FOR_THIS_NEW_STATUS_ONLY_OPERATION",
+  "reviewed_scope": [
+    "READ_REGISTERED_SOURCE_AND_INTEGRITY_METADATA",
+    "HASH_REGISTERED_SOURCE_BYTES",
+    "READ_LINKAGE_AND_INTERVIEW_STATUS_COLUMNS_ONLY",
+    "WRITE_PRIVATE_AGGREGATE_STATUS_DIAGNOSTICS"
+  ],
+  "source_universe": "EXACT_NUMERIC_HARMONIZED_H_KEYS_WITH_CORE_W1_W9_STATUS_ROWS",
+  "selected_harmonized_columns": [
+    "idauniq",
+    "inw1",
+    "inw2",
+    "inw3",
+    "inw4",
+    "inw5",
+    "inw6",
+    "inw7",
+    "inw8",
+    "inw9"
+  ],
+  "selected_core_columns": "idauniq + indoc(W1)/wWindout(W2-9) + askpx1(W1-2)/askpx(W3-9)",
+  "source_registration_tier": "NEW_QUALIFIED_LOCAL_BINDING_NOT_PUBLISHER_AUTHENTICATION",
+  "unresolved_archive_edition": "PRESERVED_NOT_INVENTED",
+  "missing_participation": "PRESERVED_NOT_ZERO_OR_ONE",
+  "proxy_flag_fallback": "REPRODUCE_FROZEN_DECODER_BUT_ALWAYS_LABEL_UNRESOLVED_DECODER_AMBIGUITY",
+  "invalid_linkage": "PRIVATE_INPUT_DIAGNOSTIC_THEN_FAIL_NO_RETRY",
+  "invalid_status_domain": "PRIVATE_MATRIX_RETAINED_THEN_FAIL_NO_RETRY",
+  "unmatched_core_keys": "PRIVATE_AGGREGATE_ONLY_NOT_ADDED_TO_HARMONIZED_UNIVERSE",
+  "first_conflict_order": "HARMONIZED_FILE_ROW_ORDER_THEN_ASCENDING_WAVE_NOT_PROOF_OF_HISTORICAL_FIRST",
+  "public_acknowledgment": "STATIC_OPERATIONAL_ONLY_NO_COUNTS_OR_EMPIRICAL_VERDICT",
+  "new_authorization_required": true,
+  "no_old_attempt_reuse": true,
+  "no_count_pipeline": true,
+  "no_event_rates": true,
+  "no_models": true,
+  "action_categories": {
+    "A": "OBSERVABILITY_ONLY",
+    "B": "ONLY_DEMONSTRATED_IMPLEMENTATION_DEFECT_NEW_REVIEWED_RELEASE",
+    "C": "PROSPECTIVE_AMENDMENT_BEFORE_ANY_SEMANTIC_ELIGIBILITY_CHANGE"
+  }
+}

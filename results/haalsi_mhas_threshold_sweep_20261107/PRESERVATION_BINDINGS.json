@@ -1,0 +1,32 @@
+{
+  "scope": "PUBLIC_SOURCE_AND_CLEARED_AGGREGATES_ONLY",
+  "files": {
+    "results/supervisor_metrics_and_improvement_20261104/compute_classification_metrics.py": "daf996ad519450d672137f512019506e232a5dfb49e515848517ff5078ac7efc",
+    "results/supervisor_metrics_and_improvement_20261104/local_execution.py": "d1227f629eaaf727c3ca41195c7ab1dccd1da3a15040168752b1f2cbbc3b2e02",
+    "results/supervisor_metrics_and_improvement_20261104/classification_metric_config.template.json": "ebfb955adb9eea9467e309d481316fccac02fb0e740e74028446918018c5e1e7",
+    "results/supervisor_metrics_and_improvement_20261104/FROZEN_PUBLIC_METRIC_REFERENCES.json": "e4cc0274f10af8498f63faa324b639cd7aba1a4c4d6a870a41ec88ff14730027",
+    "results/supervisor_metrics_and_improvement_20261104/HUMAN_ONLY_METRICS_EXECUTION_GUIDE.md": "8b17b95775afa6cf7c2474049ec70d4ef9c9add40d703c66b1dddfed55f775e1",
+    "results/supervisor_metrics_and_improvement_20261104/METRIC_RECOVERABILITY_AUDIT.md": "2fcb75ee3b8367c4fb09449074bcef3a9a09bd1519cd338625f2fd674ac54a73",
+    "results/supervisor_metrics_and_improvement_20261104/render_metrics_report.py": "1737e65058f968e65786cc45189a105d109b50ebb79f7ab82ff76348f1a5ae84",
+    "results/supervisor_metrics_and_improvement_20261104/tests/test_metrics.py": "d1ccc3d835f4ab7f26a7a85bc300784eb358894218bfc80f2997d918eda7c61f",
+    "submission/final_20261026/FINAL_SUBMISSION_MANUSCRIPT.md": "ccfad6dccb93537f0df25183c1d677811dac5448e23d92ccd6d497f812af2608",
+    "submission/final_20261026/SUPPLEMENTARY_AGGREGATE_RESULTS.md": "a063e9c2861cbf8068e26cb834a21086663d3806ed605bc3c7f07b9be39cdab5",
+    "MILESTONE6A_REAL_DATA_BASELINE_REPORT.md": "c1e4166f4361b80553c67c636413756cc509401ad53018c0e225d4cb33dc973c",
+    "MILESTONE6B_SELECTIVE_ADAPTATION_REPORT.md": "d03313047c15057e35c7d4cbc719ba919ef62521654be21485d332b1757cd0db",
+    "MILESTONE6C5_REAL_TEST_RECOVERY_EXECUTION_REPORT.md": "86aff30a21ebb4ab22b75e76b80d625fb5e1baa889a47070ef25a7cb4ea94edf",
+    "FINAL_MHAS_TEST_EVALUATION_REGISTRATION.json": "43351eb56cd331d6729f0a1766d6ae0dce0deb41114b380a52c9ed100c090e40",
+    "src/dmv_mat_cvd/final_eval_recovery_execute.py": "eb52087cac3d556d694d6348b0ad88a1ad373f0cd01fbe5f66675d57de870608",
+    "src/dmv_mat_cvd/final_eval_recovery_worker.py": "d05a6839961bd7eca05e4aac4581cafcce3108edd0be47c8e049cb908ebb093b",
+    "src/dmv_mat_cvd/final_eval_recovery_stats_worker.py": "b478a6cd2aff7c92e0874860156958d6204d714d735818a0b082058cc1d7b58b",
+    "src/dmv_mat_cvd/final_eval_runtime_v2.py": "458052bc4256906e2d992823f988c5fd8feaf48f65edb5f6675bb730e313b1c7",
+    "src/dmv_mat_cvd/final_eval_stats.py": "86418a88c660ce3890941103a3303c75b4df762ff6d29d12011f9e6b66edfab6",
+    "src/dmv_mat_cvd/real_baselines.py": "4ee62b239ce8961e7b4c1ce29e3d38b42d3e95ac92a3573a5385e8d8f10ba877",
+    "src/dmv_mat_cvd/real_selective.py": "d892e575a01b890280b1e86cc11402358e9d45fe5062cc7829f73d101e7a869e",
+    "src/dmv_mat_cvd/data/public_preprocessing.py": "5d9ec9ecabc0460ac4b74e408a6e7cf36d497b4916bc84077c69091297c91532",
+    "src/dmv_mat_cvd/models/multiview_mlp.py": "3ab16d2501033f86e0c6a9b87d24f2bcafe38b020e2a4340caa9e1067ebef38a",
+    "src/dmv_mat_cvd/transfer/calibration.py": "4652970653ac43881506b265ed36decbdd7a6c6e28e7b5e7b3b7cdb0ae6b1745",
+    "results/real_training/m6c_final_test_v2_recovery/aggregate_only_results.json": "b23106ccae093c0bcfcc63a2754d443a9b67f50ea65cbaafc04dbed003595bf3",
+    "report/DMV_MAT_CVD_NITW_BTech_Report_v4_SingleTex/main.tex": "5a6ecbc52236214bf9e76a20fd04471b9b2f2f9aeb66d9ad06bef5bfa919b775",
+    "report/DMV_MAT_CVD_NITW_BTech_Report_v4_SingleTex.pdf": "0c7c13258cd0be22c27fb2067aede62f34a88117d2ab4e7cf54892f6555781c4"
+  }
+}

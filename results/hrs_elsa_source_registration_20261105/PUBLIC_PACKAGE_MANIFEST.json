@@ -1,0 +1,25 @@
+{
+  "schema": "elsa-source-registration-public-package-v1",
+  "scope": "PUBLIC_SOURCE_DOCUMENTATION_TEMPLATES_INVENTED_TEST_CODE_ONLY",
+  "files": {
+    "HISTORICAL_SOURCE_CONTRACT_AUDIT.md": "f0cab8985c59a8b239841e58645d738a3a3667314a87e6b15287558c920293b2",
+    "HUMAN_ONLY_SOURCE_REGISTRATION.md": "efdd74727ab97b01e94a38a1778c35d338e4346f627a81e4f973ebf028f89a7e",
+    "PACKAGE_REBUILD_VERIFICATION.md": "536b2204a7b7c24182ca8d2afbe644bd1f2a81b5bd71838732fe2d454a7743e2",
+    "PRIOR_PUBLIC_BINDINGS.json": "45a18e1dc29f806d25c98a09abdd04a02bc0572706335d2aa8d88040d6115f2f",
+    "PRIVATE_REGISTRATION_MANIFEST.template.json": "1b0c848961d83ce680ac62ed7124caaa5f3439f36426fba85c8d8295cff1f7a1",
+    "PROVENANCE_LIMITATIONS_AND_BLOCKERS.md": "8af301d61ccda95f001336d5d1f8b3eacf9e88175410e0624d177a44e402d1f6",
+    "PUBLIC_SOURCE_CONTRACT.json": "f92f18d41f4b57d74f11977f64cca0ca8882be4e49baf5d25502edf4b6870b26",
+    "README.md": "e24d18f70c86a3fd1f585c2a74ecc57e1f9c18dab27e1e07853781c5d06965e3",
+    "REGISTRATION_PROTOCOL.json": "3d5b3554763ee6bf3f2c92a606c86d1539f16be1e0e527c0acde3b9f67e33e79",
+    "VALIDATION_REPORT.md": "02b30131a5392087ae1cdd4542094e0510a14789173bbb9feaabcdcac7171016",
+    "config_generation.py": "93aadb9a98d80e867656f4b894f9c72109591e07439188acf2d4f0b3d13d58ab",
+    "local_execution.py": "d1227f629eaaf727c3ca41195c7ab1dccd1da3a15040168752b1f2cbbc3b2e02",
+    "references/count_config.template.json": "897aaf342cca11521e82820e050f81669f03a358e0c526b317fa04962f0d3816",
+    "references/count_tool_release_manifest.json": "e1026e76d8d96560eb6973cbf13a3d528ea30ed9356c60dd72febfc60faa4373",
+    "register_sources.py": "6400235afa59406ead390a6260f83b5a2ce0e05f25e872f032fb69b15720b9ea",
+    "registration.py": "e4f2cc64190b220af41e6af5f7161d0f18f147d4a6c4177656cf87e1f0c4ccc9",
+    "registration_plan.template.json": "2f42e48b89b6939794ff7530fd437e585c67464964b3b333e8ac17f5c6eda9be",
+    "tests/test_registration.py": "ba6c3857ef4dfda2936aa3d233aca53093d9e024e7b6eba594f350d4eb0004eb",
+    "verify_package.py": "0ead93c16b33ea94d1f9e18345b4ea948b60bc04de1e4b23aa9d6e5eef13bc32"
+  }
+}

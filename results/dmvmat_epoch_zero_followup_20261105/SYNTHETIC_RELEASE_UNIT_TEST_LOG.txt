@@ -1,0 +1,37 @@
+test_better_stopping_bce_can_have_worse_outer_ap (test_epoch_zero.CheckpointTests.test_better_stopping_bce_can_have_worse_outer_ap) ... ok
+test_epoch_zero_wins_restores_exact_weights_and_patience (test_epoch_zero.CheckpointTests.test_epoch_zero_wins_restores_exact_weights_and_patience) ... ok
+test_initial_evaluation_preserves_weights_rng_and_mode (test_epoch_zero.CheckpointTests.test_initial_evaluation_preserves_weights_rng_and_mode) ... ok
+test_later_improvement_selected_and_original_matches (test_epoch_zero.CheckpointTests.test_later_improvement_selected_and_original_matches) ... ok
+test_min_delta_tie_keeps_zero (test_epoch_zero.CheckpointTests.test_min_delta_tie_keeps_zero) ... ok
+test_original_excludes_better_initial_state (test_epoch_zero.CheckpointTests.test_original_excludes_better_initial_state) ... ok
+test_role_rejection (test_epoch_zero.CheckpointTests.test_role_rejection) ... ok
+test_arm_a_is_exact_frozen_fit (test_epoch_zero.PairingTests.test_arm_a_is_exact_frozen_fit) ... ok
+test_identical_initial_optimizer_updates_scores_rng (test_epoch_zero.PairingTests.test_identical_initial_optimizer_updates_scores_rng) ... ok
+test_nested_budgets_and_roles_identical_original (test_epoch_zero.PairingTests.test_nested_budgets_and_roles_identical_original) ... ok
+test_no_calibration_support_no_fallback (test_epoch_zero.PairingTests.test_no_calibration_support_no_fallback) ... ok
+test_outer_calibration_labels_cannot_change_fit (test_epoch_zero.PairingTests.test_outer_calibration_labels_cannot_change_fit) ... ok
+test_overlap_fails_closed (test_epoch_zero.PairingTests.test_overlap_fails_closed) ... ok
+test_source_state_and_inputs_immutable (test_epoch_zero.PairingTests.test_source_state_and_inputs_immutable) ... ok
+test_source_vs_epoch_zero_forward_exact (test_epoch_zero.PairingTests.test_source_vs_epoch_zero_forward_exact) ... ok
+test_agent_guard_before_config_read (test_epoch_zero.SecurityTests.test_agent_guard_before_config_read) ... ok
+test_authorization_cancellation_writes_nothing (test_epoch_zero.SecurityTests.test_authorization_cancellation_writes_nothing) ... ok
+test_expected_configuration_and_runtime_bindings (test_epoch_zero.SecurityTests.test_expected_configuration_and_runtime_bindings) ... ok
+test_failed_and_interrupted_outputs_consumed_no_retry (test_epoch_zero.SecurityTests.test_failed_and_interrupted_outputs_consumed_no_retry) ... ok
+test_installer_allowlist_hash_and_no_overwrite (test_epoch_zero.SecurityTests.test_installer_allowlist_hash_and_no_overwrite) ... ok
+test_manifest_mismatch_and_traversal_rejected (test_epoch_zero.SecurityTests.test_manifest_mismatch_and_traversal_rejected) ... ok
+test_old_authorization_purpose_rejected (test_epoch_zero.SecurityTests.test_old_authorization_purpose_rejected) ... ok
+test_output_mode_private (test_epoch_zero.SecurityTests.test_output_mode_private) ... ok
+test_package_and_config_reject_change (test_epoch_zero.SecurityTests.test_package_and_config_reject_change) ... ok
+test_processing_failure_records_plan_and_never_retries (test_epoch_zero.SecurityTests.test_processing_failure_records_plan_and_never_retries) ... ok
+test_public_package_verifier_rejects_changed_immutable_file (test_epoch_zero.SecurityTests.test_public_package_verifier_rejects_changed_immutable_file) ... ok
+test_synthetic_mode_rejects_external_config (test_epoch_zero.SecurityTests.test_synthetic_mode_rejects_external_config) ... ok
+test_equal_fold_primary_and_single_class_unavailable (test_epoch_zero.StatisticsTests.test_equal_fold_primary_and_single_class_unavailable) ... ok
+test_fold_mean_and_pooled_different_estimands (test_epoch_zero.StatisticsTests.test_fold_mean_and_pooled_different_estimands) ... ok
+test_missing_positive_metrics_remain_none (test_epoch_zero.StatisticsTests.test_missing_positive_metrics_remain_none) ... ok
+test_primary_is_equal_fold_difference (test_epoch_zero.StatisticsTests.test_primary_is_equal_fold_difference) ... ok
+test_shared_participant_resample_and_no_redraw (test_epoch_zero.StatisticsTests.test_shared_participant_resample_and_no_redraw) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 0.885s
+
+OK

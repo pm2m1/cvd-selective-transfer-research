@@ -1,0 +1,11 @@
+{
+  "results/hrs_elsa_final_count_feasibility_20261105/count_engine.py": "c10fd97b2a5321eeac4ea2e7ad3b092d67f555a4641c648a15c9ff62ebf0264c",
+  "results/hrs_elsa_final_count_feasibility_20261105/read_release.py": "58d8aa6bc422204d2affb4ae57d7a32a24dd9e29db3f77f835dbdf5b10b80cfd",
+  "results/hrs_elsa_final_count_feasibility_20261105/local_execution.py": "d1227f629eaaf727c3ca41195c7ab1dccd1da3a15040168752b1f2cbbc3b2e02",
+  "results/hrs_elsa_final_count_feasibility_20261105/PROTOCOL.json": "02e0262677facd3bd5e5db3ea26310be67900af16541c170879d2d3a9561bc92",
+  "results/hrs_elsa_final_count_feasibility_20261105/official_variable_map.json": "158822fb918835c34b79d7deae5050bcc9832eaadbfce570da91542372a40c61",
+  "results/hrs_elsa_final_count_feasibility_20261105/RELEASE_MANIFEST.json": "e1026e76d8d96560eb6973cbf13a3d528ea30ed9356c60dd72febfc60faa4373",
+  "results/hrs_elsa_source_registration_20261105/PUBLIC_PACKAGE_MANIFEST.json": "595483c00a38fc4b035cd94612b137fc058cac0f25d409e5560ebaa8fa92dfc4",
+  "results/hrs_elsa_source_registration_20261105/PUBLIC_SOURCE_CONTRACT.json": "f92f18d41f4b57d74f11977f64cca0ca8882be4e49baf5d25502edf4b6870b26",
+  "results/hrs_elsa_source_registration_20261105/REGISTRATION_PROTOCOL.json": "3d5b3554763ee6bf3f2c92a606c86d1539f16be1e0e527c0acde3b9f67e33e79"
+}

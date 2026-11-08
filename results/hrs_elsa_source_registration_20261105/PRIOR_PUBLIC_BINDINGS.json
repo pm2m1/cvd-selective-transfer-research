@@ -1,0 +1,13 @@
+{
+  "results/hrs_elsa_cvd_feasibility_20261105/EXECUTED_SCREEN_SOURCE_HASHES.json": "ccacfe5e0bfea58a6446e3b322602ddceac53fdade80da28c903f58a0cf8f8a5",
+  "results/hrs_elsa_cvd_feasibility_20261105/SHA256_MANIFEST.json": "7478031ef2977dca1347fac82f52bf23da9b2b7e89316a8e2aa0476efaa3c9a2",
+  "results/hrs_elsa_cvd_feasibility_20261105/downloaded_source_audit.py": "ec6798ccbfc83f181d4977721b7159106e1ebaa351658daf46c204de1214d0af",
+  "results/hrs_elsa_cvd_feasibility_20261105/target_ceiling.py": "c9adb0866bb65ad63478a9487b24a13bdf75eec7708879d0bf1a067ec97ad034",
+  "results/hrs_elsa_cvd_feasibility_20261105/DATASET_ACCESS_AUDIT.md": "60af4ac0bff4b54ae938d94303d934320139f4ae8285e4806933b23091dad797",
+  "results/hrs_elsa_final_count_feasibility_20261105/RELEASE_MANIFEST.json": "e1026e76d8d96560eb6973cbf13a3d528ea30ed9356c60dd72febfc60faa4373",
+  "results/hrs_elsa_final_count_feasibility_20261105/config.template.json": "897aaf342cca11521e82820e050f81669f03a358e0c526b317fa04962f0d3816",
+  "results/hrs_elsa_final_count_feasibility_20261105/read_release.py": "58d8aa6bc422204d2affb4ae57d7a32a24dd9e29db3f77f835dbdf5b10b80cfd",
+  "results/hrs_elsa_final_count_feasibility_20261105/run_counts.py": "3b7152951087ca3a5d923929f974a7fc925c4fad8f651a4d1eabdc1c7b5fbc59",
+  "results/hrs_elsa_final_count_feasibility_20261105/official_variable_map.json": "158822fb918835c34b79d7deae5050bcc9832eaadbfce570da91542372a40c61",
+  "results/hrs_elsa_final_count_feasibility_20261105/PROTOCOL.json": "02e0262677facd3bd5e5db3ea26310be67900af16541c170879d2d3a9561bc92"
+}

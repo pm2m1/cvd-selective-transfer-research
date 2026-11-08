@@ -111,3 +111,5 @@ Thirteen validation and 21 test positives limit stable stopping, threshold calib
 5. Review [report-publication status](../reports/nitw-btech-phase1/README.md), [disclosure rules](phase1/data-access-and-disclosure.md) and unresolved items before approving a broader release.
 
 Public execution demonstrates software behavior on invented cohorts. It cannot reconstruct the historical empirical results from this checkout alone: controlled datasets, exact mappings/memberships, fitted models, original clinical runner and joint test-bootstrap executor are not distributed. This is an explicit reproducibility boundary, not a promised one-command clinical replication.
+
+**Source archive update:** the [original research implementation packages](../research/README.md), historical baseline/selective source and joint-bootstrap statistics source are now included. Three historical source files explicitly project private bindings/paths. Earlier unavailable-executor statements describe the prior release, not the new reference-source archive. Academic report files remain excluded by author instruction.

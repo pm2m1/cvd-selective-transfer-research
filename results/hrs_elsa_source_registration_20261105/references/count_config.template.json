@@ -1,0 +1,86 @@
+{
+  "schema": "elsa-final-count-local-config-v1",
+  "mode": "independent_local_only",
+  "no_models": true,
+  "source_use_review": "UNRESOLVED_NOT_AUTHORIZED",
+  "source_format": "registered_stata_tables_v1",
+  "protocol_sha256": "02e0262677facd3bd5e5db3ea26310be67900af16541c170879d2d3a9561bc92",
+  "mapping_sha256": "158822fb918835c34b79d7deae5050bcc9832eaadbfce570da91542372a40c61",
+  "sources": {
+    "harmonized": {
+      "path": "SET_ABSOLUTE_PATH_LOCALLY",
+      "sha256": null,
+      "dataset_basename": "gh_elsa_h.dta",
+      "claimed_archive_edition": "UNRESOLVED"
+    },
+    "core1": {
+      "path": "SET_ABSOLUTE_PATH_LOCALLY",
+      "sha256": null,
+      "dataset_basename": "wave_1_core_data_v3.dta",
+      "claimed_archive_edition": "UNRESOLVED"
+    },
+    "core2": {
+      "path": "SET_ABSOLUTE_PATH_LOCALLY",
+      "sha256": null,
+      "dataset_basename": "wave_2_core_data_v4.dta",
+      "claimed_archive_edition": "UNRESOLVED"
+    },
+    "core3": {
+      "path": "SET_ABSOLUTE_PATH_LOCALLY",
+      "sha256": null,
+      "dataset_basename": "wave_3_elsa_data_v4.dta",
+      "claimed_archive_edition": "UNRESOLVED"
+    },
+    "core4": {
+      "path": "SET_ABSOLUTE_PATH_LOCALLY",
+      "sha256": null,
+      "dataset_basename": "wave_4_elsa_data_eul.dta",
+      "claimed_archive_edition": "UNRESOLVED"
+    },
+    "core5": {
+      "path": "SET_ABSOLUTE_PATH_LOCALLY",
+      "sha256": null,
+      "dataset_basename": "wave_5_elsa_data_eul.dta",
+      "claimed_archive_edition": "UNRESOLVED"
+    },
+    "core6": {
+      "path": "SET_ABSOLUTE_PATH_LOCALLY",
+      "sha256": null,
+      "dataset_basename": "wave_6_elsa_data_eul.dta",
+      "claimed_archive_edition": "UNRESOLVED"
+    },
+    "core7": {
+      "path": "SET_ABSOLUTE_PATH_LOCALLY",
+      "sha256": null,
+      "dataset_basename": "wave_7_elsa_data_eul.dta",
+      "claimed_archive_edition": "UNRESOLVED"
+    },
+    "core8": {
+      "path": "SET_ABSOLUTE_PATH_LOCALLY",
+      "sha256": null,
+      "dataset_basename": "wave_8_elsa_data_eul_v2.dta",
+      "claimed_archive_edition": "UNRESOLVED"
+    },
+    "core9": {
+      "path": "SET_ABSOLUTE_PATH_LOCALLY",
+      "sha256": null,
+      "dataset_basename": "wave_9_elsa_data_eul_v2.dta",
+      "claimed_archive_edition": "UNRESOLVED"
+    }
+  },
+  "measurement_sources": {
+    "4": {
+      "path": "SET_ABSOLUTE_PATH_LOCALLY",
+      "sha256": null,
+      "dataset_basename": "wave_4_nurse_data.dta",
+      "claimed_archive_edition": "UNRESOLVED"
+    },
+    "6": {
+      "path": "SET_ABSOLUTE_PATH_LOCALLY",
+      "sha256": null,
+      "dataset_basename": "wave_6_elsa_nurse_data_v2.dta",
+      "claimed_archive_edition": "UNRESOLVED"
+    }
+  },
+  "feature_metadata": null
+}

@@ -1,0 +1,20 @@
+{
+  "schema": "elsa-interview-conflict-public-evidence-v1",
+  "root_relative_to_results": "hrs_elsa_final_count_feasibility_20261105",
+  "files": {
+    "count_engine.py": "c10fd97b2a5321eeac4ea2e7ad3b092d67f555a4641c648a15c9ff62ebf0264c",
+    "read_release.py": "58d8aa6bc422204d2affb4ae57d7a32a24dd9e29db3f77f835dbdf5b10b80cfd",
+    "run_counts.py": "3b7152951087ca3a5d923929f974a7fc925c4fad8f651a4d1eabdc1c7b5fbc59",
+    "local_execution.py": "d1227f629eaaf727c3ca41195c7ab1dccd1da3a15040168752b1f2cbbc3b2e02",
+    "synthetic_fixture.py": "1e23af0d86ebf94ddfebf9ae3907d8eb6d75c4897f926caab3e49c9ca260204a",
+    "tests/test_counts.py": "477d3819d6e94098a46559e8a06b437b1fa4e570aa427364a23a8dff94aa5b3f",
+    "PROTOCOL.json": "02e0262677facd3bd5e5db3ea26310be67900af16541c170879d2d3a9561bc92",
+    "SCIENTIFIC_PROTOCOL.md": "dd64f297da9ab7ea46eb92078beec9e598c1d47b348eac7c5e007e37fb4e59a5",
+    "official_variable_map.json": "158822fb918835c34b79d7deae5050bcc9832eaadbfce570da91542372a40c61",
+    "RELEASE_MANIFEST.json": "e1026e76d8d96560eb6973cbf13a3d528ea30ed9356c60dd72febfc60faa4373",
+    "PUBLIC_DOCUMENTATION_MANIFEST.json": "dc8a53149d3252150253f06e2078cd8bdb14ab6815a196e24f49ea91c3da05cf",
+    "public_documentation/harmonized_elsa_H.txt": "f988aa00d15d0984cc317f4b62d08b9b1e994c099863302bffb764d11713bb3b",
+    "public_documentation/wave_4_elsa_data_eul_ukda_data_dictionary.txt": "d668ba8cd1760f8fd81bf75dccecf0ba03f0a9e81845008fa52040a4f706774f",
+    "public_documentation/wave_6_elsa_data_eul_ukda_data_dictionary.txt": "0eaa20c7a527827f7e7a1f2792e0e129d8b23451763b2aee5f82cae6c3df3b91"
+  }
+}

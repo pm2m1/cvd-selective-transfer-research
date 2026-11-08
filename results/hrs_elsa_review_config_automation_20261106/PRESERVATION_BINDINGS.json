@@ -1,0 +1,33 @@
+{
+  "scope": "PUBLIC_ORIGINAL_REVIEW_RELEASE_ONLY",
+  "files": {
+    "results/hrs_elsa_private_review_handoff_20261106/CONDITIONAL_COUNT_RELEASE.md": "bf2d157595c39e378b778f5cb9c5aae24b00cf986e9b789d6830c41081a428a2",
+    "results/hrs_elsa_private_review_handoff_20261106/FROZEN_PREDICATE_REVIEW.md": "915eafe690a02d6e69f3d77703f0b9ea02c44acf48c00585e947301e9009a034",
+    "results/hrs_elsa_private_review_handoff_20261106/HRS_ELSA_TRAINING_READINESS.md": "2b51e1cd89ed76ae643169b63c500c7910736e22c5afb4ae004005f7086cdbf5",
+    "results/hrs_elsa_private_review_handoff_20261106/JOINT_SEMANTICS_DECISION_TABLE.md": "7fdc8832e8a062559c3763323b1de827b04ae349b6b171f9cc712d588c26c5ac",
+    "results/hrs_elsa_private_review_handoff_20261106/OFFICIAL_ELSA_SCIENTIFIC_EVIDENCE.md": "8070bad4711ec6f80772252500c353fc1ca7935eca7e6c12d513bc51f88d8ab5",
+    "results/hrs_elsa_private_review_handoff_20261106/PRESERVATION_AUDIT.md": "fd423893d7874e39dd8efbb3b81c5441c80775a446885ef32d764a564e764baf",
+    "results/hrs_elsa_private_review_handoff_20261106/PRESERVATION_BINDINGS.json": "2c132ec6c2e0a351e1f0ddcabea4cdf5e4ef7cc36cf04dd183a11ab9aa7423b1",
+    "results/hrs_elsa_private_review_handoff_20261106/PRIVATE_OPERATOR_RUNBOOK.md": "7454fa9e308dd61ec5bcddca9ce8c1d5575083d71a7d006a8918d886f1e04e68",
+    "results/hrs_elsa_private_review_handoff_20261106/PRIVATE_REVIEW_SCHEMA.json": "8571e3998fda2ce24a3cabb7c0c0914fa3545ab13e46593d3ebad483a58fbad4",
+    "results/hrs_elsa_private_review_handoff_20261106/README.md": "657b9a9f525c95e0a9c911dfd91af3ccaa5484d0a42b66f90db5f66972257091",
+    "results/hrs_elsa_private_review_handoff_20261106/SCIENTIFIC_DECISION_TEMPLATE.json": "750872d100a7939b7561c484a1bbaba8dd4e13fbe429ed999dcda758cb8bb703",
+    "results/hrs_elsa_private_review_handoff_20261106/TEST_REPORT.md": "57d10b008be714204dc93ff019a543a18d966785ccd0b36d05a3aa7b37318e38",
+    "results/hrs_elsa_private_review_handoff_20261106/conditional_paths.py": "ba75b65b48d8c7939040227503a316d28eb359808fe19818772f0ba9b1c8d962",
+    "results/hrs_elsa_private_review_handoff_20261106/local_execution.py": "d1227f629eaaf727c3ca41195c7ab1dccd1da3a15040168752b1f2cbbc3b2e02",
+    "results/hrs_elsa_private_review_handoff_20261106/offline_scientific_review.py": "b572a593aa2bb8268d6f39f2079c42caf6bb7791037de987795e78707f86261d",
+    "results/hrs_elsa_private_review_handoff_20261106/proposals/UNADOPTED_AMENDMENT.md": "95a5e213a90315b105bd5471f5de5590d4ea6ae5a5415f9b6f4caee16f469b80",
+    "results/hrs_elsa_private_review_handoff_20261106/references/OFFICIAL_SOURCES.json": "a0ff931ce2cdc31638cf8ff9383fe6e3fbc43846437b5427e561ab8e4b9ed4c4",
+    "results/hrs_elsa_private_review_handoff_20261106/references/OFFICIAL_VARIABLE_MAPPING.csv": "ad11ebbbb8ab6343ea3547130766f07789d3d4f7958f5cdc42efc3598f2a1716",
+    "results/hrs_elsa_private_review_handoff_20261106/references/PUBLIC_CONTRACT.json": "e977cf1eee1eb2dc74e1f519bd347ffc1899abf2a432f499d9410e0ffb7752d5",
+    "results/hrs_elsa_private_review_handoff_20261106/references/REVIEW_SCOPE.json": "02fd9f1212deb934e2e02ba6ef3e4754f4c59c23af800c9a1fdddec72d45a931",
+    "results/hrs_elsa_private_review_handoff_20261106/review_config.template.json": "f3043ffea77a0841049e29ba0591b18164fadf2adb08aa2f0a4e8b42f089003d",
+    "results/hrs_elsa_private_review_handoff_20261106/review_logic.py": "59b1beec2caf5b9addf425e19aa6652ffaa36dd7a3ad05b2a1a156175e05df62",
+    "results/hrs_elsa_private_review_handoff_20261106/tests/invented_fixture.py": "c6a81bfafadc05ef8af8137be2ed98f74e4bcf809c18feb8a0c07324efe0172f",
+    "results/hrs_elsa_private_review_handoff_20261106/tests/reference/diagnostic_engine.py": "3308c5d4d411e81c6490c1955942cdbc82ae4ce1f001c77bad54a4432ee46cd5",
+    "results/hrs_elsa_private_review_handoff_20261106/tests/reference/frozen_decoder.py": "94294b26d7fdcf63fb2188f198b145b83594a9a96c1fc38bcb62b0f4996bf60e",
+    "results/hrs_elsa_private_review_handoff_20261106/tests/test_review.py": "99c7224cbab0dfbad0616d3f0ca5559beb9f491498b06ab6a06cfdd9a765240b",
+    "results/hrs_elsa_private_review_handoff_20261106/verify_public.py": "2fa1cf6a21350410dcf1c678de48b2dbceea346956e3161aa8658758f293f43f",
+    "results/hrs_elsa_private_review_handoff_20261106/RELEASE_MANIFEST.json": "5bb62e1cfec5326b9f9bdd5221e4b2e0b9b51457f5eb8244768e2d669729d130"
+  }
+}

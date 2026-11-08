@@ -1,0 +1,11 @@
+{
+  "results/hrs_elsa_eligibility_reassessment_20261105/SOURCE_HASHES.json": "567acb5f6f666b60c95466a9eb5c9ad19e6f3bf006b7a46bf63d3f90a3b21203",
+  "results/hrs_elsa_eligibility_reassessment_20261105/eligibility.py": "71429877061c1d2126c644ae231aaf6738d47d978afa1fc046b55f7fc750bdcc",
+  "results/hrs_elsa_eligibility_reassessment_20261105/count_reassessment.py": "ccab09c3ea28977adb2b998e0177f3f8bbe42d8a21e1ea7b275bd2026fd9f9ce",
+  "results/hrs_elsa_eligibility_reassessment_20261105/RECOMMENDED_PROTOCOL.md": "2645acbb4351b2ca41324aca7f5456af9f0ca25e5edde000eba7abc958e3dfff",
+  "results/hrs_elsa_eligibility_reassessment_20261105/ELIGIBILITY_BOTTLENECK_AUDIT.md": "30aa5098d366870a8e1eab65faa7ced0f3ce375874e6c0aef45220cdeec6c043",
+  "results/hrs_elsa_eligibility_reassessment_20261105/REVISED_COHORT_FLOW.csv": "7990de6b3ebebcddc69eb9bcfeee843859e22f85527b5c24ee3c349fcc4b7563",
+  "results/hrs_elsa_cvd_feasibility_20261105/LOCAL_SOURCE_SCREEN.json": "e44e8e6647f4b7c0295c95e3a3ea899cc776897d8a99c16e4c0568ebb7ac5c0b",
+  "results/hrs_elsa_cvd_feasibility_20261105/TARGET_EVENT_UPPER_BOUNDS.json": "64185bce6dc068b160d60618744478eb6d5bc84712573603959be29536c3e43b",
+  "phase2/phase2a_6_wave_based_audit/ELSA_INTERVIEW_OUTCOME_OFFICIAL_MAP_V1.json": "85a1a568f9f11aba2ee2bd07d61892438d5d2506ba1dbdd9e4e7814486268908"
+}

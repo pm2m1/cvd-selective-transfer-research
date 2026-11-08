@@ -1,5 +1,7 @@
 # Complete Phase 1 artifact inventory and publication status
 
+**8 November source-integration update:** the [original research archive](../research/README.md) now contains historical cohort/baseline/selective and joint-bootstrap reference source plus 13 standalone public packages. Earlier unavailable-executor statements below describe the prior release. Private bindings/memberships/checkpoints remain withheld, and reference source is not permission to repeat a consumed real operation. Academic report files are excluded by explicit author instruction.
+
 Audit date: 8 November 2026. [Results gallery](PHASE1_RESULTS_GALLERY.md) · [Implementation map](PHASE1_REPORT_TO_CODE_MAP.md) · [Figure inventory](PHASE1_FIGURE_INVENTORY.md)
 
 This inventory records **what was observed**, not blanket approval of a local directory. Repository paths are public GitHub destinations. `PUBLIC_WORKSPACE/results/…`, `REPORT_AUDIT/…` and `ACADEMIC_STAGING/…` are sanitized local aliases, not downloadable repository paths. Exact local locations are retained only in the separate local publication audit. Protected sources were not traversed; operator-reported completion is distinguished from independently checked public code. A restricted artifact is not a missing artifact.

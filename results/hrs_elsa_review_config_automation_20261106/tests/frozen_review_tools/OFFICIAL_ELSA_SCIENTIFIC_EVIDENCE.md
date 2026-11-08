@@ -1,0 +1,24 @@
+# Official ELSA evidence and limits
+
+Public review, 6 November 2026. AI-authored methods analysis; no institutional or independent human approval is claimed. The completed protected diagnostic has not been opened or interpreted by Codex.
+
+| Finding | Classification | Official evidence and implication |
+|---|---|---|
+| `inwW` includes full/partial personal/proxy/institutional response | CONFIRMED_PUBLIC_DOCUMENTATION | [H manual](https://doc.ukdataservice.ac.uk/doc/5050/mrdoc/pdf/5050_gateway_harmonized_elsa_h_2002-2023.pdf), printed pp30–32, Wave Status: Response Indicator. It is not a personal-interview eligibility flag or disease absence. |
+| H derives W6–10 participation from Core because those Index outcomes are unavailable | CONFIRMED_PUBLIC_DOCUMENTATION | Same section. Earlier response flags may use Index. Separate nurse/self-completion indicators cannot substitute. |
+| Institutions were not surveyed in W1–2; institutional follow-up begins W3 | CONFIRMED_PUBLIC_DOCUMENTATION | H manual, same section. A code describing institutional nonresponse is not automatically a completed institutional interview. |
+| Older harmonization documentation describes Index-based response derivation | CONFIRMED_PUBLIC_DOCUMENTATION | [G.3 manual](https://doc.ukdataservice.ac.uk/doc/5050/mrdoc/pdf/5050_harmonized_elsa_g3_2002-2019.pdf), Wave Status: Response Indicator, How Constructed. Do not substitute this description for H. The documentation difference does not establish a cause in the actual registered files. |
+| Exact Core outcome and proxy domains vary by wave | CONFIRMED_PUBLIC_DOCUMENTATION | [UKDS dictionaries](https://doc.ukdataservice.ac.uk/doc/5050/mrdoc/ukda_data_dictionaries.zip); named dictionary/section identities and exact code labels are retained in `references/PUBLIC_CONTRACT.json`. W1 uses `indoc`, W2–9 `wWindout`; proxy-no is 2 at W1 and 0 later. Some partial/institutional codes are wave-specific. |
+| Household proxy generation is a routing instruction | CONFIRMED_PUBLIC_DOCUMENTATION | [W1 questionnaire](https://doc.ukdataservice.ac.uk/doc/5050/mrdoc/pdf/5050_wave_1_documentation.pdf), DHAnyPx/DHProxy; [W7 questionnaire](https://doc.ukdataservice.ac.uk/doc/5050/mrdoc/pdf/5050_elsa_wave_7_questionnaires.pdf), printed p18, same items. Eligibility/need for proxy does not by itself document completion or universal precedence over an outcome code. |
+| Outcome naming in older guides may differ from a named released product | CONFIRMED_PUBLIC_DOCUMENTATION | [Waves1–5 guide](https://ifs.org.uk/sites/default/files/output_url_files/waves_1_5_datasets_user_guide.pdf), §6.4 p23. Use the exact dictionary identity/spelling, not an inferred renamed field. |
+| Proxy fallback can override ambiguous, personal, partial, institutional or death/nonresponse outcomes in the decoder | CONFIRMED_SYNTHETIC_REPRODUCTION | Frozen predicate is documented in the companion review; no real combination is inferred. |
+| A matched H/Core release guarantees all actual joined statuses agree | UNRESOLVED | Public manuals do not authenticate the locally acquired editions, revisions, universes or joins. Review registered metadata and the existing diagnostic privately. |
+| Actual conflict mechanism, wave distribution and scientifically appropriate precedence | PRIVATE_REVIEW_REQUIRED | Frequencies alone cannot identify linkage, routing, revision or genuine contradiction. No unconditional source-precedence repair is established. |
+
+## Historical coverage and current limits
+
+All W1–9 histories affect first-response, lifetime evidence and interval references. The helper checks every wave and records missing/unmatched coverage. It does not reconstruct the respondent universe or perform a new join. The original diagnostic rejects invalid or duplicate linkage before a successful report; a failed or domain-incompatible diagnostic cannot be promoted into a completed one here.
+
+Death, attrition, proxy, partial and institutional responses have different observability implications. Their response-status meaning does not certify MI/stroke-negative follow-up. A valid clinical count still requires the adopted personal history/confirmation/dispute, chronology and censoring rules. [W9 Health questionnaire](https://doc.ukdataservice.ac.uk/doc/5050/mrdoc/pdf/5050_elsa_wave_9_interviewer_questionnaire.pdf), pp54–59, lists confirmation concepts, but `hedacmi` is absent in the selected named W9 EUL-v2 dictionary. It must not be fabricated.
+
+Official cached documentation and prior public mapping are reused rather than redownloading clinical sources. Fresh public search reconfirmed H and G.3 response definitions and household proxy routing. The exact ten registered products and original distributor edition are not reauthenticated by this documentary work. Source hashes in the public contract fingerprint public code/documents only.

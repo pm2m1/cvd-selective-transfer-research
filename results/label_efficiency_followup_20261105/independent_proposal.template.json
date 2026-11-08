@@ -1,0 +1,53 @@
+{
+  "schema": "genuine-independent-test-proposal-v1",
+  "cohort_id": null,
+  "availability_attested_by_independent_operator": false,
+  "previously_used_in_any_model_decision": null,
+  "outcomes_not_inspected_for_registration": false,
+  "cohort_origin": null,
+  "predictor_schema": "cvd-public-wave-v2-ten-doctor-report",
+  "scientific_contract": {
+    "target_population": null,
+    "eligibility": null,
+    "outcome_definition": null,
+    "baseline_timing": null,
+    "followup_horizon": null,
+    "exclusion_criteria": null
+  },
+  "membership": {
+    "path": null,
+    "sha256": null
+  },
+  "prior_person_token_registry": {
+    "path": null,
+    "sha256": null
+  },
+  "features": {
+    "path": null,
+    "sha256": null
+  },
+  "feature_provenance": {
+    "path": null,
+    "sha256": null
+  },
+  "frozen_model": {
+    "architecture": null,
+    "checkpoint": {
+      "path": null,
+      "sha256": null
+    },
+    "source_preprocessing": {
+      "path": null,
+      "sha256": null
+    },
+    "hyperparameter_record": {
+      "path": null,
+      "sha256": null
+    },
+    "threshold_calibration_record": {
+      "path": null,
+      "sha256": null
+    },
+    "numerical_threshold": null
+  }
+}

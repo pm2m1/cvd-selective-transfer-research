@@ -1,0 +1,12 @@
+{
+  "seed": 20261106,
+  "device": "cpu",
+  "source_epochs": 5,
+  "target_epochs": 4,
+  "patience": 5,
+  "target_fit_budget": 100,
+  "tree_iterations": 12,
+  "selector_permutations": 9,
+  "selector_bootstraps": 19,
+  "bootstrap_resamples": 50
+}

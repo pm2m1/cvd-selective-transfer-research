@@ -1,0 +1,10 @@
+{
+  "schema": "elsa-registration-plan-helper-public-hashes-v1",
+  "files": {
+    "prepare_plan.py": "e693224b6277454b346a949088a542be76435073887a3abdb3d400dea903f5f5",
+    "check_readiness.py": "0a9fa653b23a927c3bf1ae2d577df600abac1ea5a75cd32a246fcb40cd241317",
+    "tests/test_helper.py": "3ad40b0aa16ba904e1b178d12a963eb9226655e689718f7d4a6690780edfe283",
+    "README.md": "a3727c268d2cdff7b54d986b08f7d075b17504094bafdbb2f505cc5a33c69807",
+    "VALIDATION_REPORT.md": "2b5863170b2646181f1954f67773bf2e16bb072a969a3e8580c71edffd3a0374"
+  }
+}

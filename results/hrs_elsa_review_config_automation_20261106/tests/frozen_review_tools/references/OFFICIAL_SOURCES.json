@@ -1,0 +1,89 @@
+{
+  "checked": "2026-11-06",
+  "sources": {
+    "HRS2012C": {
+      "title": "HRS 2012 Core respondent health codebook",
+      "url": "https://hrs.isr.umich.edu/sites/default/files/meta/2012/core/codebook/h12c_r.htm",
+      "locator": "NC005/006/010/036/040/053/257",
+      "verification": "Official HTML newly accessible; no microdata accessed"
+    },
+    "RANDV1": {
+      "title": "RAND HRS Longitudinal 2022 V1 codebook",
+      "url": "https://hrsdata.isr.umich.edu/sites/default/files/documentation/other/1758643082/randhrs1992_2022v1.pdf",
+      "locator": "Section A age; Section B Health p395 Q response definitions",
+      "verification": "Fresh official indexed excerpts; full PDF parser failed. Other field identities reuse prior public records; do not substitute V2."
+    },
+    "HRSD": {
+      "title": "Gateway Harmonized HRS D 1992-2021 codebook",
+      "url": "https://hrsdata.isr.umich.edu/sites/default/files/documentation/other/1694551378/Harmonized%20HRS%20D%201992-2021.pdf",
+      "locator": "Section K p557 average SBP; Section B p236 BP medication; previous review p224 MI",
+      "verification": "Fresh indexed SBP/BP-medication excerpts; full PDF parser failed. BMI/DBP and MI construction also rely on prior public records."
+    },
+    "ELSAH": {
+      "title": "Gateway Harmonized ELSA H 2002-2023",
+      "url": "https://doc.ukdataservice.ac.uk/doc/5050/mrdoc/pdf/5050_gateway_harmonized_elsa_h_2002-2023.pdf",
+      "locator": "pp30-32 response; pp238-240 condition revision; pp293-294 BP medication; pp411-413 smoking; pp915-916 BP; pp938-939 BMI",
+      "verification": "Frozen public text/PDF cache reread; no clinical source inspected"
+    },
+    "DICT": {
+      "title": "UKDS public ELSA data dictionaries",
+      "url": "https://doc.ukdataservice.ac.uk/doc/5050/mrdoc/ukda_data_dictionaries.zip",
+      "locator": "Exact named dictionaries and field section hashes in ELSA_DICTIONARY_EVIDENCE.json",
+      "verification": "Frozen public dictionary map reread; codebook identity does not authenticate private archive edition"
+    },
+    "W4Q": {
+      "title": "ELSA Wave 4 documentation",
+      "url": "https://doc.ukdataservice.ac.uk/doc/5050/mrdoc/pdf/5050_wave_4_documentation.pdf",
+      "locator": "Health doctor-diagnosis, feed-forward and confirmation/dispute routing",
+      "verification": "Existing public cached text and mapped dictionary"
+    },
+    "W6Q": {
+      "title": "ELSA Wave 6 documentation",
+      "url": "https://doc.ukdataservice.ac.uk/doc/5050/mrdoc/pdf/5050_elsa_wave_6_documentation.pdf",
+      "locator": "Health pp57-62",
+      "verification": "Existing public cached text and mapped dictionary"
+    },
+    "W7Q": {
+      "title": "ELSA Wave 7 questionnaires",
+      "url": "https://doc.ukdataservice.ac.uk/doc/5050/mrdoc/pdf/5050_elsa_wave_7_questionnaires.pdf",
+      "locator": "Household interview checks pp34-35; Health pp60-69",
+      "verification": "Proxy routing is not an unconditional interview-completion rule"
+    },
+    "W9Q": {
+      "title": "ELSA Wave 9 interviewer questionnaire",
+      "url": "https://doc.ukdataservice.ac.uk/doc/5050/mrdoc/pdf/5050_elsa_wave_9_interviewer_questionnaire.pdf",
+      "locator": "Health pp54-59; HEDIC/HEDIAN",
+      "verification": "Official indexed questionnaire names confirmation; selected released dictionary lacks MI confirmation: do not invent field"
+    },
+    "GUIDE15": {
+      "title": "ELSA Waves 1-5 datasets user guide",
+      "url": "https://ifs.org.uk/sites/default/files/output_url_files/waves_1_5_datasets_user_guide.pdf",
+      "locator": "Section 6.4 p23 interview outcomes",
+      "verification": "Official historical guide; selected EUL field spelling takes precedence over guide shorthand"
+    },
+    "HRSPRODUCT": {
+      "title": "Gateway Harmonized HRS official product page",
+      "url": "https://hrsdata.isr.umich.edu/data-products/gateway-harmonized-hrs",
+      "locator": "Version D, August 2023; data login boundary",
+      "verification": "Fresh public page; no data download"
+    },
+    "HRS2014C": {
+      "title": "HRS 2014 Core respondent health codebook",
+      "url": "https://hrs.isr.umich.edu/sites/default/files/meta/2014/core/codebook/h14c_r.htm",
+      "locator": "OC040 heart attack; OC053 stroke",
+      "verification": "Fresh official HTML; raw routing and special codes must remain wave-specific. 2018 -8 web nonresponse is unknown."
+    },
+    "HRS2016C": {
+      "title": "HRS 2016 Core respondent health codebook",
+      "url": "https://hrs.isr.umich.edu/sites/default/files/meta/2016/core/codebook/h16c_r.htm",
+      "locator": "PC040 heart attack; PC053 stroke",
+      "verification": "Fresh official HTML; raw routing and special codes must remain wave-specific. 2018 -8 web nonresponse is unknown."
+    },
+    "HRS2018C": {
+      "title": "HRS 2018 Core respondent health codebook",
+      "url": "https://hrs.isr.umich.edu/sites/default/files/meta/2018/core/codebook/h18c_r.htm",
+      "locator": "QC040 heart attack; QC053 stroke",
+      "verification": "Fresh official HTML; raw routing and special codes must remain wave-specific. 2018 -8 web nonresponse is unknown."
+    }
+  }
+}

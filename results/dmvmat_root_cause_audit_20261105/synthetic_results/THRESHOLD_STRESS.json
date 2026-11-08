@@ -1,0 +1,38 @@
+{
+  "scope": "synthetic_threshold_bootstrap_not_clinical_precision",
+  "resamples": 100,
+  "unsupported": 1,
+  "supported": 99,
+  "threshold_min": 0.04380764730530315,
+  "threshold_max": 0.3736798405227661,
+  "threshold_median": 0.2514854625029555,
+  "outer_recall_range": [
+    0.03,
+    0.94
+  ],
+  "outer_f1_range": [
+    0.05825242718446602,
+    0.2967741935483871
+  ],
+  "fixed_0_50": {
+    "threshold": 0.5,
+    "TP": 0,
+    "TN": 900,
+    "FP": 0,
+    "FN": 100,
+    "accuracy": 0.9,
+    "precision": null,
+    "recall": 0.0,
+    "sensitivity": 0.0,
+    "specificity": 1.0,
+    "f1": 0.0,
+    "FPR": 0.0,
+    "FNR": 1.0,
+    "NPV": 0.9,
+    "balanced_accuracy": 0.5,
+    "MCC": null,
+    "ap": 0.27437698303160923,
+    "auroc": 0.7323944444444445,
+    "brier": 0.0840695324205372
+  }
+}

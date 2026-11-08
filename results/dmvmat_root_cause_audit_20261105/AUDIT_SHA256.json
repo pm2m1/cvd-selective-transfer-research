@@ -1,0 +1,33 @@
+{
+  "scope": "new public code, reports and invented aggregate diagnostics only",
+  "files": {
+    "ADDITIONAL_PUBLIC_MAPPING_INTEGRITY.json": "c64ca22f56c866373b204b1d8372a97234dbd49fd2fed24dead74e583324cf44",
+    "AUDIT_SUMMARY.md": "3c70005157a291787c26a607f9339eb19dd28053b28c77dfd79270e668a996db",
+    "CROSS_EXPERIMENT_COMPARABILITY.md": "a69d109a1b1293200e29c0380088feca5cdccd13d7927592235567f749662f1d",
+    "FUTURE_EXPERIMENT_PROPOSAL.md": "1e497782905f280eb2ed817e8f0b7ce62e78de7bd1eb78c0a686aefd6fa63ef8",
+    "NEGATIVE_TRANSFER_AUDIT.md": "f63015c0f8c8c1b395778d4e229e57c78c65df2fe346e91bc7b8260663d12dfd",
+    "README.md": "753fedcf97433f8ac11d2611759b75f41d251fe5dc099e945a71dcb9b64e5bd5",
+    "ROOT_CAUSE_REPORT.md": "120ebb78afe663c99340fb2854d2af525911badd63d908b8167504c6bd9debcd",
+    "SHARE_ADAPT_SELECTOR_AUDIT.md": "473d61c36e0de9b2ccf8b252794abe0806c7099c034488cf654ce322c79c8b2a",
+    "SOURCE_INTEGRITY.json": "71d6cf9043db038b123437c03d9572bd6269886431b7195eca1a9f60879d82c3",
+    "STOPPING_CALIBRATION_AUDIT.md": "b1d5b24dc1c7170db39305f7b042ccb0138680d714bcd7a181d10ccfbb33d504",
+    "SYNTHETIC_DIAGNOSTICS.md": "b8db30d914e6a2141db307df4fc6dac2ceda692a19a5121b860e1a08b79528aa",
+    "TEST_RESULTS.txt": "d37ce2eb022e30564a923bbe49e4fee249f607ff355b88f4bb1ca87bfe6e1b66",
+    "audit_core.py": "7a472e73aa53b40fb5f7a42b71fde559efb580b7a13d06b08c1f2d4dca6dc559",
+    "figures/synthetic_mechanisms.png": "d63ff40a477758660765abd04f40b36864f9dbf83209e5b4503bb62bf9a1b833",
+    "figures/synthetic_mechanisms.svg": "ae31cc4ab867ee872892ce6602d9164430aae410216375c09315ef09daa160cb",
+    "run_synthetic_diagnostics.py": "2cb5bc92c3f73533fcd8f01ade8e772ee070799ad4317bea48981e9182b77de7",
+    "synthetic_results/DESIGN_ARITHMETIC.json": "24106ba30a48e745a7389111d76c5b62f8ea16b95b18fdb625aa378f85f5c61c",
+    "synthetic_results/ENVIRONMENT.json": "34e65a300af6411946d8a0b6afc68e01275a741def873551cdf0867baf6ba0b6",
+    "synthetic_results/EPOCH_ZERO_COUNTEREXAMPLE.json": "06d7dc91abe7b7cf6fdaf7c6201e4c790c2216f623736f8c86e7540f41ddb7d4",
+    "synthetic_results/MEAN_DELTAS.json": "0fc453ebfa9950a339a4b2fc6b0199e2626ad37abe0cf7c96eb85b4ec035342b",
+    "synthetic_results/NEURAL_MECHANISMS.json": "2e30f797411a56d1a47989ba0fc6250f0e6f1f31d18a64a533f767e8a2df53dd",
+    "synthetic_results/POOLED_OOF_COUNTEREXAMPLE.json": "032a7b281bb07abec58400f5bd0806c1745e3f494ed607b4fa21d7efd94f6cd3",
+    "synthetic_results/PUBLIC_SOURCE_SNAPSHOT_AFTER.json": "2e0844984fc01b62d16ea5147fc83aa8ce3f291dfc640f2e4a33fece4781dfdd",
+    "synthetic_results/PUBLIC_SOURCE_SNAPSHOT_BEFORE.json": "2e0844984fc01b62d16ea5147fc83aa8ce3f291dfc640f2e4a33fece4781dfdd",
+    "synthetic_results/SYNTHETIC_PLAN.json": "3efdfb72f8e81c1660b0cd895b732f26bded70b6bcdac66495a43ac3424c0cdc",
+    "synthetic_results/THRESHOLD_STRESS.json": "416dfbaee0ea7cf9f4e681bc5c148c5b91fb2f3e4fcc45b1cff8d9e8d40353b3",
+    "tests/test_audit.py": "c535fec2cb5cf69fd0e2826a334112e528364f0892b9a05c80f57f442b071385",
+    "write_synthetic_summary.py": "d58a04d0aefa1e43ca1ed44cd76ef21de51ccefdad71e8770305c78259111de8"
+  }
+}

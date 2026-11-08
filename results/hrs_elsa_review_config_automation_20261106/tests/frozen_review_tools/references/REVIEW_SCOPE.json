@@ -1,0 +1,20 @@
+{
+  "required_scope": [
+    "READ_EXISTING_STATUS_DIAGNOSTIC_AND_INTEGRITY_METADATA",
+    "READ_HISTORICAL_CONFIGURATION_AUTHORIZATION_AND_COMPLETION_METADATA_ONLY",
+    "READ_EXISTING_SOURCE_REGISTRATION_METADATA_ONLY",
+    "WRITE_NEW_PRIVATE_REVIEW_WORKSHEET_NO_ELIGIBILITY_CHANGE"
+  ],
+  "input_roles": [
+    "diagnostic_config",
+    "diagnostic_authorization",
+    "diagnostic_completion",
+    "diagnostic_integrity",
+    "diagnostic_report",
+    "diagnostic_input_validation",
+    "failed_count_config",
+    "failed_count_authorization",
+    "failed_count_completion",
+    "source_registration"
+  ]
+}

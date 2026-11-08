@@ -1,0 +1,52 @@
+{
+  "schema": "elsa-source-registration-public-contract-v1",
+  "count_config_template_sha256": "897aaf342cca11521e82820e050f81669f03a358e0c526b317fa04962f0d3816",
+  "count_release_manifest_sha256": "e1026e76d8d96560eb6973cbf13a3d528ea30ed9356c60dd72febfc60faa4373",
+  "count_mapping_sha256": "158822fb918835c34b79d7deae5050bcc9832eaadbfce570da91542372a40c61",
+  "count_protocol_sha256": "02e0262677facd3bd5e5db3ea26310be67900af16541c170879d2d3a9561bc92",
+  "required_products": {
+    "harmonized": "gh_elsa_h.dta",
+    "core1": "wave_1_core_data_v3.dta",
+    "core2": "wave_2_core_data_v4.dta",
+    "core3": "wave_3_elsa_data_v4.dta",
+    "core4": "wave_4_elsa_data_eul.dta",
+    "core5": "wave_5_elsa_data_eul.dta",
+    "core6": "wave_6_elsa_data_eul.dta",
+    "core7": "wave_7_elsa_data_eul.dta",
+    "core8": "wave_8_elsa_data_eul_v2.dta",
+    "core9": "wave_9_elsa_data_eul_v2.dta"
+  },
+  "optional_measurements": {
+    "4": "wave_4_nurse_data.dta",
+    "6": "wave_6_elsa_nurse_data_v2.dta"
+  },
+  "historical_archive_fingerprints": {},
+  "historical_code_fingerprints": {
+    "downloaded_source_audit.py": "9cd147b4ab14d9e5dd50c91b9c12f46b9893d4e0b20515cc5bcec08d1a3b8f95",
+    "target_ceiling.py": "c9adb0866bb65ad63478a9487b24a13bdf75eec7708879d0bf1a067ec97ad034"
+  },
+  "historical_script_hash_comparison": {
+    "downloaded_source_audit.py": {
+      "recorded": "9cd147b4ab14d9e5dd50c91b9c12f46b9893d4e0b20515cc5bcec08d1a3b8f95",
+      "current_public_file_sha256": "ec6798ccbfc83f181d4977721b7159106e1ebaa351658daf46c204de1214d0af",
+      "matches_current_public_file": false
+    },
+    "target_ceiling.py": {
+      "recorded": "c9adb0866bb65ad63478a9487b24a13bdf75eec7708879d0bf1a067ec97ad034",
+      "current_public_file_sha256": "c9adb0866bb65ad63478a9487b24a13bdf75eec7708879d0bf1a067ec97ad034",
+      "matches_current_public_file": true
+    }
+  },
+  "evidence_tier": "NEW_QUALIFIED_LOCAL_ARCHIVE_TO_MEMBER_BINDING_NOT_INDEPENDENT_DISTRIBUTOR_AUTHENTICATION",
+  "historical_elsa_container_selector": "exactly one basename starting 5050stata_ and ending .zip; full name and digest not preserved",
+  "historically_read_elsa_basenames": [
+    "gh_elsa_h.dta",
+    "wave_6_elsa_data_eul.dta",
+    "wave_7_elsa_data_eul.dta",
+    "wave_8_elsa_data_eul_v2.dta",
+    "wave_9_elsa_data_eul_v2.dta"
+  ],
+  "clinical_archive_edition_established": false,
+  "documented_harmonized_product_version": "H, September 2025",
+  "harmonized_manual_underlying_edition": "45th edition, July 2025; not proof of downloaded archive edition"
+}

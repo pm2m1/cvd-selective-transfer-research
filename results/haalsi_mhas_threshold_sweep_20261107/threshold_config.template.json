@@ -1,0 +1,35 @@
+{
+  "schema": "frozen-mhas-threshold-sweep-v1",
+  "mode": "independent_local_only",
+  "source_use_review": "UNRESOLVED_NOT_AUTHORIZED",
+  "reviewed_scope": [],
+  "metrics_source": {
+    "kind": "completed_metrics_provenance",
+    "record": {
+      "path": null,
+      "sha256": null
+    },
+    "completion": {
+      "path": null,
+      "sha256": null
+    }
+  },
+  "thresholds": [
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5
+  ],
+  "validation_policy": "AUTHENTIC_ORIGINAL_VALIDATION_ONLY_OR_NOT_ESTABLISHED",
+  "original_validation": null,
+  "no_inference": true,
+  "no_training": true,
+  "no_score_changes": true,
+  "private_output_only": true
+}

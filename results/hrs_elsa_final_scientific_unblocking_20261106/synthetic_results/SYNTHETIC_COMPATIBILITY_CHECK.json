@@ -1,0 +1,36 @@
+{
+  "scope": "INVENTED_FIXTURES_ONLY_NOT_REAL_HRS_ELSA",
+  "demonstration_invocations_this_review": 1,
+  "return_code": 0,
+  "development_and_separate_evaluation_completed": true,
+  "methods": [
+    "source_logistic",
+    "source_regularized",
+    "source_boosting",
+    "source_dmvmat",
+    "head",
+    "full",
+    "selective"
+  ],
+  "source_public_release": "hrs_elsa_training_fasttrack_20261106",
+  "runtime_versions": {
+    "torch": "2.14.0",
+    "numpy": "2.5.3",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "target_test_accessed_during_development": false,
+  "test_thresholds_changed": false,
+  "clinical_training_executed": false,
+  "parameter_trace_keys": [
+    "source_logistic",
+    "source_regularized",
+    "source_boosting",
+    "source_dmvmat",
+    "head",
+    "full",
+    "selective"
+  ],
+  "original_code_changed": false,
+  "checkpoints_predictions_arrays_in_review_package": false
+}

@@ -34,6 +34,9 @@ PRIVATE_SUFFIXES = {
     ".db",
     ".sqlite",
     ".tsv",
+    ".tex",
+    ".sty",
+    ".bib",
 }
 # A public URL such as domain.example/home/policy is not a filesystem path.
 # Bare, quoted, Markdown and file:// home paths still match at this boundary.
@@ -59,17 +62,32 @@ def check_file(root, relative):
         and relative != "reports/nitw-btech-phase1/README.md"
     ):
         raise ValueError("Academic report publication review is pending")
+    # Reviewed imports retain original bytes and directory structures. Exceptions
+    # are exact hash-bound files, never a wildcard permission for private data.
+    import_record = None
+    registry = root / "research/IMPORTED_PUBLIC_ARTIFACTS.json"
+    if registry.is_file():
+        import_record = json.loads(registry.read_text())["files"].get(relative)
+    if import_record and hashlib.sha256(path.read_bytes()).hexdigest() != import_record["sha256"]:
+        raise ValueError("Imported original artifact changed")
+    synthetic_output = bool(import_record and import_record["kind"] == "ORIGINAL_SYNTHETIC_OUTPUT")
+    if path.suffix.lower() == ".png":
+        if not import_record or not path.read_bytes().startswith(b"\x89PNG\r\n\x1a\n"):
+            raise ValueError("Unreviewed binary artwork")
+        return ""
     lower = relative.lower()
     if (
         path.suffix.lower() in PRIVATE_SUFFIXES
-        or ".private." in lower
+        or (".private." in lower and not synthetic_output)
         or Path(relative).parts[0].lower() in {"data", "datasets", "raw", "controlled", "private_data"}
         or path.name.startswith(".env")
         or path.suffix in {".pem", ".key"}
     ):
         raise ValueError("Prohibited artifact")
-    if path.suffix == ".csv" and not relative.startswith(
-        "results/synthetic_validation/20260924T222643Z-da0fe9b3/"
+    if (
+        path.suffix == ".csv"
+        and not import_record
+        and not relative.startswith("results/synthetic_validation/20260924T222643Z-da0fe9b3/")
     ):
         raise ValueError("Unreviewed table")
     text = path.read_text(encoding="utf-8")

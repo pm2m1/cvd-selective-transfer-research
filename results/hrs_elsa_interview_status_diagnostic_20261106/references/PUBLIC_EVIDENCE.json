@@ -1,0 +1,45 @@
+{
+  "schema": "elsa-status-public-evidence-v1",
+  "frozen_count_engine_sha256": "c10fd97b2a5321eeac4ea2e7ad3b092d67f555a4641c648a15c9ff62ebf0264c",
+  "frozen_mapping_sha256": "158822fb918835c34b79d7deae5050bcc9832eaadbfce570da91542372a40c61",
+  "frozen_protocol_sha256": "02e0262677facd3bd5e5db3ea26310be67900af16541c170879d2d3a9561bc92",
+  "registration_public_contract_sha256": "f92f18d41f4b57d74f11977f64cca0ca8882be4e49baf5d25502edf4b6870b26",
+  "registration_protocol_sha256": "3d5b3554763ee6bf3f2c92a606c86d1539f16be1e0e527c0acde3b9f67e33e79",
+  "registration_code_bindings": {
+    "config_generation.py": "93aadb9a98d80e867656f4b894f9c72109591e07439188acf2d4f0b3d13d58ab",
+    "local_execution.py": "d1227f629eaaf727c3ca41195c7ab1dccd1da3a15040168752b1f2cbbc3b2e02",
+    "register_sources.py": "6400235afa59406ead390a6260f83b5a2ce0e05f25e872f032fb69b15720b9ea",
+    "registration.py": "e4f2cc64190b220af41e6af5f7161d0f18f147d4a6c4177656cf87e1f0c4ccc9",
+    "verify_package.py": "0ead93c16b33ea94d1f9e18345b4ea948b60bc04de1e4b23aa9d6e5eef13bc32"
+  },
+  "count_tool_release_sha256": "e1026e76d8d96560eb6973cbf13a3d528ea30ed9356c60dd72febfc60faa4373",
+  "required_products": {
+    "harmonized": "gh_elsa_h.dta",
+    "core1": "wave_1_core_data_v3.dta",
+    "core2": "wave_2_core_data_v4.dta",
+    "core3": "wave_3_elsa_data_v4.dta",
+    "core4": "wave_4_elsa_data_eul.dta",
+    "core5": "wave_5_elsa_data_eul.dta",
+    "core6": "wave_6_elsa_data_eul.dta",
+    "core7": "wave_7_elsa_data_eul.dta",
+    "core8": "wave_8_elsa_data_eul_v2.dta",
+    "core9": "wave_9_elsa_data_eul_v2.dta"
+  },
+  "decoder_functions": [
+    "CountError",
+    "code",
+    "interview",
+    "need",
+    "num",
+    "scalar"
+  ],
+  "decoder_extraction": "Exact AST source segments from the pinned public engine; only math,re imports added",
+  "decoder_function_sha256": {
+    "CountError": "f929198887e5cf1c1b22ed2c94dc40f69e06abaf834da9a58799fdde6304a554",
+    "need": "20074ceca111d7640144b06373d3124d20b861a09ad2960039801ae7529e0ab9",
+    "num": "258acde7e1f953ca003bf703eb9b82d744c50e9e0954b9e4994dfc60e6fc16ef",
+    "code": "60f7943c2ad7650da994586cc61258fbfcf1621c773d4b06d61ac53cd00d6d67",
+    "scalar": "48e0be06cce423143421383b2e8e1f7bf6332f925566b9abf5ffe54392f390f8",
+    "interview": "07feb85cc1bfe35560705381c8985a225a21b46856d40cf0ef0207b783014fb3"
+  }
+}

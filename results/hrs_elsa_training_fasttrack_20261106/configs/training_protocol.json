@@ -1,0 +1,53 @@
+{
+  "schema": "hrs-elsa-fasttrack-prospective-engineering-v1",
+  "authorship": "AI_AUTHORED_PUBLIC_ENGINEERING_NOT_REAL_SCIENTIFIC_ACCEPTANCE",
+  "source_endpoint": "HRS_SCREENING_ASSUMED_NEGATIVE_SENSITIVITY_ONLY",
+  "target_endpoint": "ELSA_PERSONAL_FIRST_QUALIFYING_SURVEY_REPORT",
+  "real_modeling_current_status": "BLOCKED_PENDING_BOUND_SCIENTIFIC_READINESS",
+  "primary_contrast": "selective_minus_full_raw_AP",
+  "feature_order": [
+    "age",
+    "sex",
+    "sbp",
+    "dbp",
+    "bmi",
+    "smoking",
+    "diabetes",
+    "bp_treatment"
+  ],
+  "training": {
+    "seed": 20261106,
+    "device": "cpu",
+    "source_epochs": 30,
+    "target_epochs": 20,
+    "patience": 5,
+    "target_fit_budget": 100,
+    "tree_iterations": 100,
+    "selector_permutations": 199,
+    "selector_bootstraps": 199,
+    "bootstrap_resamples": 1000
+  },
+  "hyperparameter_search": "SINGLETON_PER_METHOD_NO_TEST_TUNING",
+  "target_training_budgets_prospective": [
+    40,
+    100,
+    200
+  ],
+  "active_fitting_budget": 100,
+  "all_other_target_labels_counted_separately": true,
+  "threshold_selection": "CALIBRATION_ROLE_ONLY_F1_MINIMUM_5_EACH_CLASS_TIES_HIGHER",
+  "probability_calibration": "POSITIVE_SLOPE_PLATT_MINIMUM_10_EACH_CLASS_ELSE_UNAVAILABLE",
+  "target_initial_checkpoint_eligible": true,
+  "source_imputation": "SOURCE_TRAIN_MEDIAN_MODE_PLUS_ROLE_MISSING_INDICATORS_NO_STRUCTURAL_MISSING",
+  "test_access": "SEPARATE_FROZEN_PURPOSE_ONLY",
+  "proposed_target_partition_fractions": {
+    "target_fit": 0.4,
+    "target_stop": 0.1,
+    "target_calibration": 0.1,
+    "target_validation": 0.1,
+    "target_test": 0.3
+  },
+  "partition_method": "FROZEN_OUTCOME_BLIND_HASH",
+  "class_capacity_requirement": "INDEPENDENT_MODEL_SPECIFIC_FEASIBILITY_AND_PRECISION_REVIEW_NOT_SOFTWARE_PASS",
+  "uncertainty": "PAIRED_PARTICIPANT_BOOTSTRAP_CONDITIONAL_ON_FITTED_MODELS_NOT_SURVEY_OR_TRAINING_UNCERTAINTY"
+}

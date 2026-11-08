@@ -1,0 +1,11 @@
+{
+  "scope": "TEMPORARY_PUBLIC_INSTALL_AND_INVENTED_DATA_ONLY",
+  "public_installer": "PASS",
+  "standalone_tests_passed": 32,
+  "standalone_tests_failed": 0,
+  "standalone_synthetic_demo_RC": 0,
+  "private_mode_checks_on_invented_outputs": "PASS",
+  "external_project_runtime_dependency": "NONE",
+  "actual_independent_research_environment_accessed": false,
+  "real_data_operation": false
+}

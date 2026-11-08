@@ -1,0 +1,40 @@
+{
+  "schema": "hrs-elsa-independent-readiness-v1",
+  "source_endpoint": "HRS_SCREENING_ASSUMED_NEGATIVE_SENSITIVITY_ONLY",
+  "target_endpoint": "ELSA_PERSONAL_FIRST_QUALIFYING_SURVEY_REPORT",
+  "approved_manifest_sha256": null,
+  "evidence": {
+    "elsa_resolution": {
+      "path": "SET_ABSOLUTE_PRIVATE_PATH_LOCALLY",
+      "sha256": null
+    },
+    "fresh_counts": {
+      "path": "SET_ABSOLUTE_PRIVATE_PATH_LOCALLY",
+      "sha256": null
+    },
+    "hrs_endpoint_and_support": {
+      "path": "SET_ABSOLUTE_PRIVATE_PATH_LOCALLY",
+      "sha256": null
+    },
+    "statistical_feasibility": {
+      "path": "SET_ABSOLUTE_PRIVATE_PATH_LOCALLY",
+      "sha256": null
+    },
+    "harmonization_and_export": {
+      "path": "SET_ABSOLUTE_PRIVATE_PATH_LOCALLY",
+      "sha256": null
+    },
+    "independent_membership": {
+      "path": "SET_ABSOLUTE_PRIVATE_PATH_LOCALLY",
+      "sha256": null
+    }
+  },
+  "elsa_conflict_resolution_adopted": false,
+  "fresh_count_acceptance": false,
+  "hrs_source_event_support_accepted": false,
+  "source_specific_sensitivity_claim_adopted": false,
+  "feature_harmonization_and_timing_accepted": false,
+  "precision_and_untouched_test_design_accepted": false,
+  "independent_export_scope_established": false,
+  "provider_and_institutional_scope_confirmed": false
+}

@@ -1,0 +1,18 @@
+{
+  "schema": "elsa-source-registration-plan-v1",
+  "mode": "independent_local_only",
+  "source_use_review": "UNRESOLVED_NOT_AUTHORIZED",
+  "reviewed_scope": [],
+  "count_tool_root": "SET_ABSOLUTE_PUBLIC_COUNT_INSTALLATION_LOCALLY",
+  "register_measurements": false,
+  "input_archives": [
+    {
+      "archive_id": "elsa_original_download",
+      "archive_path": "SET_ABSOLUTE_ARCHIVE_PATH_LOCALLY",
+      "verification_mode": "first_local_registration",
+      "expected_archive_sha256": null,
+      "study_id": "UKDS_SN5050",
+      "archive_edition": "UNRESOLVED"
+    }
+  ]
+}

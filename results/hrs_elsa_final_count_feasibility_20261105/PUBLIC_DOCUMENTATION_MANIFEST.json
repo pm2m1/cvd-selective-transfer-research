@@ -1,0 +1,27 @@
+{
+  "scope": "PUBLIC_OFFICIAL_DOCUMENTATION_ONLY_NO_MICRODATA",
+  "files": {
+    "harmonized_elsa_H.pdf": "42b2cb88793eba1aa1a9d452216d702ab0a8b69320ce231197610519fb3caa08",
+    "harmonized_elsa_H.txt": "f988aa00d15d0984cc317f4b62d08b9b1e994c099863302bffb764d11713bb3b",
+    "ukda_data_dictionaries.zip": "32161c5b497f5ae3df03cc81169b018548967e429eaaf0299bfd6b0f1c1082ae",
+    "wave4_questionnaire.pdf": "4690593c081115cd164c9c9ffd73c249845618e0b9a00e78241bfa8cd266cf98",
+    "wave4_questionnaire.txt": "819bbcdf11b0d8b703c44c16a0d5467e2fd7bf9683dcf94263d8a846c20521ca",
+    "wave6_questionnaire.pdf": "216b861a10ef33e7f6a809a8e7a3c653e67ab5e3ae462809b88894162cb62e18",
+    "wave6_questionnaire.txt": "78227f66a5ad930367465654de63c63ef74b00f37600f80fd9db3053babb0b0b",
+    "wave7_questionnaire.pdf": "14091caaf2d4211da177c8cc5fd9a630881d28e158dae15d5229215ac0423c72",
+    "wave7_questionnaire.txt": "0393c4b3f0b67270e09f5cf834e4b2bf611e2ba953b1b2460a2b08948b7639e2",
+    "wave9_questionnaire.pdf": "c547ff29da27c77784756b29af43c05e395f16bb8cfb29a70118358f796d970c",
+    "wave9_questionnaire.txt": "e16cb8142a717d653516b5c4a73684d357a2405152eda15607e35d3ad2f7a639",
+    "wave_1_core_data_v3_ukda_data_dictionary.txt": "692fdfd4fa7da5075dc5988e316511888d7fc778241039230ec640d5426671b9",
+    "wave_2_core_data_v4_ukda_data_dictionary.txt": "dcfe0d30e0d024c3139982fa3e3189126214f87a20a280e4c1190eaa1ab353cf",
+    "wave_3_elsa_data_v4_ukda_data_dictionary.txt": "efbe4c0fa1ae9d83d9f7a4c90dc4956ea12637bd84accfa754748d9cca7d537e",
+    "wave_4_elsa_data_eul_ukda_data_dictionary.txt": "d668ba8cd1760f8fd81bf75dccecf0ba03f0a9e81845008fa52040a4f706774f",
+    "wave_4_nurse_data_ukda_data_dictionary.txt": "97f077569d2686e98c2abc5d735d416b63a36add9594d3973b0397f1df3e6242",
+    "wave_5_elsa_data_eul_ukda_data_dictionary.txt": "097ffcaba2b9fc690dd4b67a8b87fd88f53bf94e8a5e178ed481626a9a6ad413",
+    "wave_6_elsa_data_eul_ukda_data_dictionary.txt": "0eaa20c7a527827f7e7a1f2792e0e129d8b23451763b2aee5f82cae6c3df3b91",
+    "wave_6_elsa_nurse_data_v2_ukda_data_dictionary.txt": "a6bffdea776684a288c320c711a3dae2049abd531d09817ee430bc323b41d730",
+    "wave_7_elsa_data_eul_ukda_data_dictionary.txt": "8e86d5628f37eaee547cfea5b9aac215cc59637fcb83a2b28df56f8d467d80bb",
+    "wave_8_elsa_data_eul_v2_ukda_data_dictionary.txt": "ce3eb9d09f75d0e0585994e862adc740574377082bd0cc5cfc50cc94ff3eff5a",
+    "wave_9_elsa_data_eul_v2_ukda_data_dictionary.txt": "7d707c7804473ae563b9bb1e83769baf63fded16f8400bc6625730ee92c372e8"
+  }
+}

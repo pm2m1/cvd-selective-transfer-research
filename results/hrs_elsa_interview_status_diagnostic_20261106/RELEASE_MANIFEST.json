@@ -1,0 +1,25 @@
+{
+  "schema": "elsa-status-diagnostic-public-release-v1",
+  "scope": "PUBLIC_CODE_MAPPING_PROTOCOL_INVENTED_TESTS_ONLY",
+  "files": {
+    "DIAGNOSTIC_PROTOCOL.json": "7fd3c4abecc89280e93f092620c3a82d284d30418b540a2949b53508c3746c74",
+    "INDEPENDENT_LOCAL_EXECUTION.md": "85fa039dd37324cc1a0a17659d0046b6a4234d28691dd0a74aedfb436a268f1a",
+    "PRIOR_PUBLIC_BINDINGS.json": "f8f017048f3ebb552a04275bb689105c3f63388874d0f365bd4f1793447a1880",
+    "README.md": "134d2ae99a3d1373f3326b7ae4aea0e2ee1179d4d36a27499244160d022b6b5c",
+    "SCIENTIFIC_INTERPRETATION_GUIDE.md": "3fcefc84237fbec18212a6ef8fbdfa935005ce5d9a71bc7a36fa46c3cf1b59a6",
+    "STATUS_CLASSIFICATION_CONTRACT.md": "63230a4c4b8abe4d8f1758fbd370b9ae5f2ae74841b934bcca9ceaebdd979810",
+    "VALIDATION_REPORT.md": "962c331d69f5a1a6c0dc14300b5f431255b6d40821e1d087195bc58aee7e52bb",
+    "config.template.json": "fbd441c2a353d943f9d27d7bed6a2784bb70121fc9a8afa5122e530cc84d24f5",
+    "diagnostic_engine.py": "3308c5d4d411e81c6490c1955942cdbc82ae4ce1f001c77bad54a4432ee46cd5",
+    "frozen_decoder.py": "94294b26d7fdcf63fb2188f198b145b83594a9a96c1fc38bcb62b0f4996bf60e",
+    "local_execution.py": "d1227f629eaaf727c3ca41195c7ab1dccd1da3a15040168752b1f2cbbc3b2e02",
+    "references/PUBLIC_EVIDENCE.json": "54532cfc397db4046801defaa664250503b7657cb47e72dcfe0e116acee09fde",
+    "references/frozen_mapping.json": "158822fb918835c34b79d7deae5050bcc9832eaadbfce570da91542372a40c61",
+    "requirements-test.txt": "1438527233ce7beb1cdf4a046b8b5d38f140bd77217ef4df17d5592989d3ec15",
+    "requirements.txt": "5d69d1b481faf6346aa8699ae6cb5a58c3c4fefa9a392b3adb5d42ccf49f6068",
+    "run_status_diagnostic.py": "54d15e1a62a6e41a22f4dfc96738532f2c6bcf9798442d5ce3bb407f0774fb02",
+    "status_reader.py": "34534e4c022d47167a60381f50b514cf9786381a920dca38b00914acd5daae39",
+    "tests/test_status_diagnostic.py": "4172f601905a397e1e8566db0a804eb687d77c1e5da35e8dd523e5f5dc1dbe71",
+    "verify_public.py": "a9b86d307f5b9d1664d36b8fe7c9ec804e018014e46af025d69b6223b40d9802"
+  }
+}

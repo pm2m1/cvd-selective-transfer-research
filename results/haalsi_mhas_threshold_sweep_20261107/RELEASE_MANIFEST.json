@@ -1,0 +1,29 @@
+{
+  "schema": "frozen-mhas-threshold-sweep-public-v1",
+  "scope": "PUBLIC_CODE_CLEARED_REFERENCES_AND_INVENTED_TESTS_ONLY",
+  "status": "READY_FOR_INDEPENDENT_THRESHOLD_SWEEP",
+  "real_threshold_comparison_completed": false,
+  "new_inference_or_training": false,
+  "files": {
+    "FROZEN_PUBLIC_METRIC_REFERENCES.json": "e4cc0274f10af8498f63faa324b639cd7aba1a4c4d6a870a41ec88ff14730027",
+    "ORIGINAL_CONFIG_SCHEMA_REFERENCE.json": "ebfb955adb9eea9467e309d481316fccac02fb0e740e74028446918018c5e1e7",
+    "PRESERVATION_BINDINGS.json": "fd2bc128b1288a9ab0e6e61137be54bb1218d7ca02a6a856631156da709ebf4f",
+    "PRIVATE_OPERATOR_RUNBOOK.md": "152c67abaabcefe76c348c0633fa71738936099c97dfd1979109f5da77872e5c",
+    "README.md": "372c776a09269eb6e1e22871bd337f525708357166b654a6032516ffe3eca6ff",
+    "SCIENTIFIC_PROTOCOL.md": "883c7d0676af98aaf6d1cd13e514b9b520c84f93411acdd5bb5b418c43da0456",
+    "SOURCE_AND_PRESERVATION_AUDIT.md": "c4bf9e74824f07bbcb7f00982fb135439b07789a8ac6e1c74a80cad1e9e349c7",
+    "SYNTHETIC_VERIFICATION.json": "1f11dfc0c3e5c2aa101d293d1cb6e0a2b36f429b26f0361c3fcdd5f14693f8b9",
+    "VALIDATION_REPORT.md": "a0eafd2cc8cf18cabe5db2a61ebe5795de1930a1025bf99011769d6dbb4a283a",
+    "frozen_metrics.py": "daf996ad519450d672137f512019506e232a5dfb49e515848517ff5078ac7efc",
+    "local_execution.py": "d1227f629eaaf727c3ca41195c7ab1dccd1da3a15040168752b1f2cbbc3b2e02",
+    "requirements-test.txt": "93c4ab5f175d24229e46ec70a8ecaeb6db8b36e3f54d8005808044c060acbc92",
+    "requirements.txt": "58b791a389905ff23819e3e0b1de3c31803583a81276a506a43cf8a66b13d61d",
+    "sweep_analysis.py": "068eb08f9676fbaf186d843f5dd522c9bf67f2670fe804c414814619ffa10104",
+    "tests/invented.py": "8157f6649bb198a34266d3f327083eaf5b0533d370aea36e5e7ab8a6510be164",
+    "tests/test_threshold_sweep.py": "e68ce438b946c5e237865ee95e7ad54969e298a2bbb972929acefce0120e13bd",
+    "threshold_config.template.json": "08e7342cf8cb391a39605ba25334ac3f354087958e0ac4a386c8da9e828ec3fe",
+    "threshold_report.py": "3c567cda107c1e996b149b06c3a82d33a112304778e8fc0dcd1fc04a99d48b6c",
+    "threshold_sweep.py": "bbec6784d8e73f6972455bb3d19acdd7ce6b1cf9ba403a261596660dc6b61787",
+    "verify_release.py": "691ccd01089daa2dcfb9c38c99d23800fedb5a792b4c6e590e9a0709174bb719"
+  }
+}

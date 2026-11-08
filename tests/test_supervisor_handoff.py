@@ -61,7 +61,8 @@ def test_supervisor_summary_keeps_publication_gaps_explicit():
     assert "not 3-fold, 5-fold or 10-fold cross-validation" in guide
     assert "ORIGINAL_VALIDATION_OPTIMAL_THRESHOLD_NOT_ESTABLISHED" in guide
     mapping = (ROOT / "docs/PHASE1_REPORT_TO_CODE_MAP.md").read_text()
-    assert "Original clinical joint-test bootstrap executor is not released" in mapping
+    assert "paired_participant_bootstrap" in mapping
+    assert (ROOT / "research/phase1_implementation_snapshot/src/dmv_mat_cvd/final_eval_stats.py").is_file()
     assert "not a complete clinical replay" in mapping
 
 

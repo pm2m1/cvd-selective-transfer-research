@@ -1,0 +1,22 @@
+{
+  "schema": "prospective-independent-evaluation-v1",
+  "primary_metric": "average_precision",
+  "secondary_metrics": [
+    "auroc",
+    "brier",
+    "precision",
+    "recall",
+    "specificity",
+    "f1",
+    "confusion_matrix"
+  ],
+  "operating_points": [
+    "fixed_0_50",
+    "numerical_threshold_frozen_before_outcome_access"
+  ],
+  "bootstrap_repetitions": 2000,
+  "bootstrap_seed": 20261109,
+  "uncertainty": "participant percentile bootstrap, primary AP; secondary metrics descriptive",
+  "clinical_validation_claim": false,
+  "external_comparative_superiority_claim": false
+}

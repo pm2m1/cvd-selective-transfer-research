@@ -1,0 +1,20 @@
+{
+  "schema": "prospective-evaluation-local-v1",
+  "mode": "independent_local_only",
+  "registration": {
+    "path": null,
+    "sha256": null
+  },
+  "registration_started_receipt": {
+    "path": null,
+    "sha256": null
+  },
+  "registration_completed_receipt": {
+    "path": null,
+    "sha256": null
+  },
+  "outcomes": {
+    "path": null,
+    "sha256": null
+  }
+}

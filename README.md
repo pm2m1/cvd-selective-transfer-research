@@ -4,6 +4,15 @@ Research code and approved aggregates for a closed **HAALSI (South Africa) → M
 
 The implementation is inspired by [Cui et al.'s EEG DMV-MAT](https://doi.org/10.1109/TNNLS.2024.3350085). It re-engineers clinical views and module-selection rules for survey data; it is not an exact reproduction or a demonstrated new algorithm. This is a research artifact, not a clinically validated prediction tool.
 
+## Original implementation and complete public artifact packages
+
+The [research archive](research/README.md) now includes **13 original experiment/tool packages**, the historical Phase 1 implementation snapshot, and the original three retained **invented-data** threshold runs (300 matrix SVGs) with per-draw/summary metrics and SVG/PNG plots. These are actual source/output files, preserved and hash-checked, rather than documentation-only descriptions. They are not the protected real MHAS confusion collection. 7 historical source files explicitly project private bindings/paths; the remaining archived code retains original bytes. Academic reports, LaTeX and bibliographies are excluded by author instruction.
+
+```sh
+python scripts/verify_imported_artifacts.py
+python scripts/run_imported_tests.py
+```
+
 ## Explore the research portfolio
 
 | Review question | Entry point |
@@ -20,7 +29,7 @@ The implementation is inspired by [Cui et al.'s EEG DMV-MAT](https://doi.org/10.
 | What remains restricted? | [Threshold methodology/disclosure](docs/phase1/threshold-analysis.md) and [access requirements](docs/phase1/data-access-and-disclosure.md) |
 | Has Phase 2 produced a real model? | [HRS → ELSA status](phase2/STATUS_20261107.md): no real training/performance result established |
 
-Public synthetic checks and approved-aggregate figures are reproducible. The original clinical runner, joint test-bootstrap executor, controlled datasets, exact memberships and fitted models are not distributed; this is **not a one-command reconstruction of the private empirical experiment**. Academic-report and unreleased threshold publication require separate review; passing software checks does not establish institutional approval.
+Public synthetic checks and approved-aggregate figures are reproducible. Historical cohort/baseline/selective code and the joint-bootstrap implementation are now archived as reference source; controlled datasets, original private bindings, exact memberships and fitted models are not distributed; this is **not a one-command reconstruction of the private empirical experiment**. Academic-report and unreleased threshold publication require separate review; passing software checks does not establish institutional approval.
 
 ## Research status
 

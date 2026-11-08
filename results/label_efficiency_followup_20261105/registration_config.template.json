@@ -1,0 +1,8 @@
+{
+  "schema": "prospective-registration-local-v1",
+  "mode": "independent_local_only",
+  "proposal": {
+    "path": null,
+    "sha256": null
+  }
+}

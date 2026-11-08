@@ -1,5 +1,7 @@
 # Reproducibility: what this release can establish
 
+**8 November source-integration update:** the [original research archive](../../research/README.md) now contains historical cohort/baseline/selective and joint-bootstrap reference source plus 13 standalone public packages. Earlier unavailable-executor statements below describe the prior release. Private bindings/memberships/checkpoints remain withheld, and reference source is not permission to repeat a consumed real operation. Academic report files are excluded by explicit author instruction.
+
 [Phase 1 index](overview.md) · [Original boundary and recovery disclosure](../PHASE1_METHOD_AND_REPRODUCIBILITY.md)
 
 ## Public environment and tests

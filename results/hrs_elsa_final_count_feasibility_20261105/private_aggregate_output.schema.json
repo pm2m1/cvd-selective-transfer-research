@@ -1,0 +1,613 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ELSA private two-design count aggregates v1",
+  "type": "object",
+  "required": [
+    "schema",
+    "scope",
+    "designs",
+    "participant_rows_or_ids_written",
+    "training_authorized",
+    "independent_test_status"
+  ],
+  "properties": {
+    "schema": {
+      "const": "elsa-final-count-aggregates-v1"
+    },
+    "scope": {
+      "type": "string"
+    },
+    "participant_rows_or_ids_written": {
+      "const": false
+    },
+    "training_authorized": {
+      "const": false
+    },
+    "independent_test_status": {
+      "const": "NOT_ESTABLISHED_BY_COUNTS"
+    },
+    "designs": {
+      "type": "object",
+      "required": [
+        "W6_W9",
+        "W4_W7"
+      ],
+      "properties": {
+        "W6_W9": {
+          "type": "object",
+          "required": [
+            "flow_ordered",
+            "baseline_component_marginals",
+            "baseline_history_joint",
+            "outcomes",
+            "feature_availability"
+          ],
+          "properties": {
+            "flow_ordered": {
+              "type": "object",
+              "additionalProperties": {
+                "type": "integer",
+                "minimum": 0
+              }
+            },
+            "baseline_component_marginals": {
+              "type": "object",
+              "additionalProperties": {
+                "type": "integer",
+                "minimum": 0
+              }
+            },
+            "baseline_history_joint": {
+              "type": "object",
+              "additionalProperties": {
+                "type": "integer",
+                "minimum": 0
+              }
+            },
+            "feature_availability": {
+              "type": "object",
+              "additionalProperties": {
+                "type": "integer",
+                "minimum": 0
+              }
+            },
+            "outcomes": {
+              "type": "object",
+              "required": [
+                "wave_window",
+                "fixed_six_year"
+              ],
+              "properties": {
+                "wave_window": {
+                  "type": "object",
+                  "required": [
+                    "components",
+                    "joint",
+                    "composite",
+                    "summary",
+                    "partition_status",
+                    "partition_scenarios"
+                  ],
+                  "properties": {
+                    "components": {
+                      "type": "object",
+                      "required": [
+                        "mi",
+                        "stroke"
+                      ],
+                      "properties": {
+                        "mi": {
+                          "type": "object",
+                          "additionalProperties": {
+                            "type": "integer",
+                            "minimum": 0
+                          }
+                        },
+                        "stroke": {
+                          "type": "object",
+                          "additionalProperties": {
+                            "type": "integer",
+                            "minimum": 0
+                          }
+                        }
+                      }
+                    },
+                    "joint": {
+                      "type": "object",
+                      "additionalProperties": {
+                        "type": "integer",
+                        "minimum": 0
+                      }
+                    },
+                    "composite": {
+                      "type": "object",
+                      "additionalProperties": {
+                        "type": "integer",
+                        "minimum": 0
+                      }
+                    },
+                    "summary": {
+                      "type": "object",
+                      "required": [
+                        "eligible_baseline",
+                        "incident_MI_reports",
+                        "incident_stroke_reports",
+                        "unique_composite_incident_reports",
+                        "observed_composite_nonevents",
+                        "ascertained_binary_outcomes",
+                        "unknown_disputed_or_censored",
+                        "timely_complete_case_binary"
+                      ],
+                      "properties": {
+                        "eligible_baseline": {
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "incident_MI_reports": {
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "incident_stroke_reports": {
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "unique_composite_incident_reports": {
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "observed_composite_nonevents": {
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "ascertained_binary_outcomes": {
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "unknown_disputed_or_censored": {
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "timely_complete_case_binary": {
+                          "type": [
+                            "integer",
+                            "null"
+                          ],
+                          "minimum": 0
+                        }
+                      }
+                    },
+                    "partition_status": {
+                      "type": "string"
+                    },
+                    "partition_scenarios": {
+                      "type": "object",
+                      "required": [
+                        "adaptation",
+                        "stopping",
+                        "calibration",
+                        "evaluation"
+                      ],
+                      "additionalProperties": {
+                        "type": "object",
+                        "additionalProperties": {
+                          "type": "integer",
+                          "minimum": 0
+                        }
+                      }
+                    }
+                  }
+                },
+                "fixed_six_year": {
+                  "type": "object",
+                  "required": [
+                    "components",
+                    "joint",
+                    "composite",
+                    "summary",
+                    "partition_status",
+                    "partition_scenarios"
+                  ],
+                  "properties": {
+                    "components": {
+                      "type": "object",
+                      "required": [
+                        "mi",
+                        "stroke"
+                      ],
+                      "properties": {
+                        "mi": {
+                          "type": "object",
+                          "additionalProperties": {
+                            "type": "integer",
+                            "minimum": 0
+                          }
+                        },
+                        "stroke": {
+                          "type": "object",
+                          "additionalProperties": {
+                            "type": "integer",
+                            "minimum": 0
+                          }
+                        }
+                      }
+                    },
+                    "joint": {
+                      "type": "object",
+                      "additionalProperties": {
+                        "type": "integer",
+                        "minimum": 0
+                      }
+                    },
+                    "composite": {
+                      "type": "object",
+                      "additionalProperties": {
+                        "type": "integer",
+                        "minimum": 0
+                      }
+                    },
+                    "summary": {
+                      "type": "object",
+                      "required": [
+                        "eligible_baseline",
+                        "incident_MI_reports",
+                        "incident_stroke_reports",
+                        "unique_composite_incident_reports",
+                        "observed_composite_nonevents",
+                        "ascertained_binary_outcomes",
+                        "unknown_disputed_or_censored",
+                        "timely_complete_case_binary"
+                      ],
+                      "properties": {
+                        "eligible_baseline": {
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "incident_MI_reports": {
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "incident_stroke_reports": {
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "unique_composite_incident_reports": {
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "observed_composite_nonevents": {
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "ascertained_binary_outcomes": {
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "unknown_disputed_or_censored": {
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "timely_complete_case_binary": {
+                          "type": [
+                            "integer",
+                            "null"
+                          ],
+                          "minimum": 0
+                        }
+                      }
+                    },
+                    "partition_status": {
+                      "type": "string"
+                    },
+                    "partition_scenarios": {
+                      "type": "object",
+                      "required": [
+                        "adaptation",
+                        "stopping",
+                        "calibration",
+                        "evaluation"
+                      ],
+                      "additionalProperties": {
+                        "type": "object",
+                        "additionalProperties": {
+                          "type": "integer",
+                          "minimum": 0
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "W4_W7": {
+          "type": "object",
+          "required": [
+            "flow_ordered",
+            "baseline_component_marginals",
+            "baseline_history_joint",
+            "outcomes",
+            "feature_availability"
+          ],
+          "properties": {
+            "flow_ordered": {
+              "type": "object",
+              "additionalProperties": {
+                "type": "integer",
+                "minimum": 0
+              }
+            },
+            "baseline_component_marginals": {
+              "type": "object",
+              "additionalProperties": {
+                "type": "integer",
+                "minimum": 0
+              }
+            },
+            "baseline_history_joint": {
+              "type": "object",
+              "additionalProperties": {
+                "type": "integer",
+                "minimum": 0
+              }
+            },
+            "feature_availability": {
+              "type": "object",
+              "additionalProperties": {
+                "type": "integer",
+                "minimum": 0
+              }
+            },
+            "outcomes": {
+              "type": "object",
+              "required": [
+                "wave_window",
+                "fixed_six_year"
+              ],
+              "properties": {
+                "wave_window": {
+                  "type": "object",
+                  "required": [
+                    "components",
+                    "joint",
+                    "composite",
+                    "summary",
+                    "partition_status",
+                    "partition_scenarios"
+                  ],
+                  "properties": {
+                    "components": {
+                      "type": "object",
+                      "required": [
+                        "mi",
+                        "stroke"
+                      ],
+                      "properties": {
+                        "mi": {
+                          "type": "object",
+                          "additionalProperties": {
+                            "type": "integer",
+                            "minimum": 0
+                          }
+                        },
+                        "stroke": {
+                          "type": "object",
+                          "additionalProperties": {
+                            "type": "integer",
+                            "minimum": 0
+                          }
+                        }
+                      }
+                    },
+                    "joint": {
+                      "type": "object",
+                      "additionalProperties": {
+                        "type": "integer",
+                        "minimum": 0
+                      }
+                    },
+                    "composite": {
+                      "type": "object",
+                      "additionalProperties": {
+                        "type": "integer",
+                        "minimum": 0
+                      }
+                    },
+                    "summary": {
+                      "type": "object",
+                      "required": [
+                        "eligible_baseline",
+                        "incident_MI_reports",
+                        "incident_stroke_reports",
+                        "unique_composite_incident_reports",
+                        "observed_composite_nonevents",
+                        "ascertained_binary_outcomes",
+                        "unknown_disputed_or_censored",
+                        "timely_complete_case_binary"
+                      ],
+                      "properties": {
+                        "eligible_baseline": {
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "incident_MI_reports": {
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "incident_stroke_reports": {
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "unique_composite_incident_reports": {
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "observed_composite_nonevents": {
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "ascertained_binary_outcomes": {
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "unknown_disputed_or_censored": {
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "timely_complete_case_binary": {
+                          "type": [
+                            "integer",
+                            "null"
+                          ],
+                          "minimum": 0
+                        }
+                      }
+                    },
+                    "partition_status": {
+                      "type": "string"
+                    },
+                    "partition_scenarios": {
+                      "type": "object",
+                      "required": [
+                        "adaptation",
+                        "stopping",
+                        "calibration",
+                        "evaluation"
+                      ],
+                      "additionalProperties": {
+                        "type": "object",
+                        "additionalProperties": {
+                          "type": "integer",
+                          "minimum": 0
+                        }
+                      }
+                    }
+                  }
+                },
+                "fixed_six_year": {
+                  "type": "object",
+                  "required": [
+                    "components",
+                    "joint",
+                    "composite",
+                    "summary",
+                    "partition_status",
+                    "partition_scenarios"
+                  ],
+                  "properties": {
+                    "components": {
+                      "type": "object",
+                      "required": [
+                        "mi",
+                        "stroke"
+                      ],
+                      "properties": {
+                        "mi": {
+                          "type": "object",
+                          "additionalProperties": {
+                            "type": "integer",
+                            "minimum": 0
+                          }
+                        },
+                        "stroke": {
+                          "type": "object",
+                          "additionalProperties": {
+                            "type": "integer",
+                            "minimum": 0
+                          }
+                        }
+                      }
+                    },
+                    "joint": {
+                      "type": "object",
+                      "additionalProperties": {
+                        "type": "integer",
+                        "minimum": 0
+                      }
+                    },
+                    "composite": {
+                      "type": "object",
+                      "additionalProperties": {
+                        "type": "integer",
+                        "minimum": 0
+                      }
+                    },
+                    "summary": {
+                      "type": "object",
+                      "required": [
+                        "eligible_baseline",
+                        "incident_MI_reports",
+                        "incident_stroke_reports",
+                        "unique_composite_incident_reports",
+                        "observed_composite_nonevents",
+                        "ascertained_binary_outcomes",
+                        "unknown_disputed_or_censored",
+                        "timely_complete_case_binary"
+                      ],
+                      "properties": {
+                        "eligible_baseline": {
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "incident_MI_reports": {
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "incident_stroke_reports": {
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "unique_composite_incident_reports": {
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "observed_composite_nonevents": {
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "ascertained_binary_outcomes": {
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "unknown_disputed_or_censored": {
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "timely_complete_case_binary": {
+                          "type": [
+                            "integer",
+                            "null"
+                          ],
+                          "minimum": 0
+                        }
+                      }
+                    },
+                    "partition_status": {
+                      "type": "string"
+                    },
+                    "partition_scenarios": {
+                      "type": "object",
+                      "required": [
+                        "adaptation",
+                        "stopping",
+                        "calibration",
+                        "evaluation"
+                      ],
+                      "additionalProperties": {
+                        "type": "object",
+                        "additionalProperties": {
+                          "type": "integer",
+                          "minimum": 0
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
