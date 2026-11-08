@@ -6,7 +6,7 @@ The implementation is inspired by [Cui et al.'s EEG DMV-MAT](https://doi.org/10.
 
 ## Original implementation and complete public artifact packages
 
-The [research archive](research/README.md) now includes **13 original experiment/tool packages**, the historical Phase 1 implementation snapshot, and the original three retained **invented-data** threshold runs (300 matrix SVGs) with per-draw/summary metrics and SVG/PNG plots. These are actual source/output files, preserved and hash-checked, rather than documentation-only descriptions. They are not the protected real MHAS confusion collection. 16 historical source files explicitly project private bindings/paths; the remaining archived code retains original bytes. Academic reports, LaTeX and bibliographies are excluded by author instruction.
+The [research archive](research/README.md) now includes **13 original experiment/tool packages**, the historical Phase 1 implementation snapshot, and the original three retained **invented-data** threshold runs (300 matrix SVGs) with per-draw/summary metrics and SVG/PNG plots. These are actual source/output files, preserved and hash-checked, rather than documentation-only descriptions. They are separate from the [real MHAS threshold collection](results/haalsi_mhas_real_threshold_analysis), which now contains all 510 authentic confusion SVGs and the original aggregate plots/tables. 16 historical source files explicitly project private bindings/paths; the remaining archived code retains original bytes. Academic reports, LaTeX and bibliographies are excluded by author instruction.
 
 ```sh
 python scripts/verify_imported_artifacts.py
@@ -17,6 +17,7 @@ python scripts/run_imported_tests.py
 
 | Review question | Entry point |
 |---|---|
+| Where are the real threshold results? | [Complete authentic empirical collection](results/haalsi_mhas_real_threshold_analysis) — separate from invented demonstrations |
 | What figures and results can I inspect? | [Scientific results gallery](docs/PHASE1_RESULTS_GALLERY.md) |
 | What exists, and what remains unpublished? | [Complete artifact inventory](docs/PHASE1_COMPLETE_ARTIFACT_INVENTORY.md) |
 | What did we develop and what did it show? | [Phase 1 supervisor guide](docs/SUPERVISOR_PHASE1_GUIDE.md) |
@@ -29,7 +30,7 @@ python scripts/run_imported_tests.py
 | What remains restricted? | [Threshold methodology/disclosure](docs/phase1/threshold-analysis.md) and [access requirements](docs/phase1/data-access-and-disclosure.md) |
 | Has Phase 2 produced a real model? | [HRS → ELSA status](phase2/STATUS_20261107.md): no real training/performance result established |
 
-Public synthetic checks and approved-aggregate figures are reproducible. Historical cohort/baseline/selective code and the joint-bootstrap implementation are now archived as reference source; controlled datasets, original private bindings, exact memberships and fitted models are not distributed; this is **not a one-command reconstruction of the private empirical experiment**. Academic-report and unreleased threshold publication require separate review; passing software checks does not establish institutional approval.
+Public synthetic checks and approved-aggregate figures are reproducible. Historical cohort/baseline/selective code and the joint-bootstrap implementation are now archived as reference source; controlled datasets, original private bindings, exact memberships and fitted models are not distributed; this is **not a one-command reconstruction of the private empirical experiment**. Academic report files remain excluded; the real aggregate release records the researcher's explicit clearance attestation; passing software checks does not establish institutional approval.
 
 ## Research status
 
@@ -37,8 +38,8 @@ Public synthetic checks and approved-aggregate figures are reproducible. Histori
 |---|---|
 | Phase 1 registered HAALSI → MHAS comparison | Closed; approved aggregate results available |
 | Supplementary threshold software | Public methods, synthetic example and tests |
-| Empirical threshold calculation / integrity | Completed privately, operator-reported; not inspected here |
-| New empirical threshold publication | Pending disclosure review; no new cells or figures released |
+| Empirical threshold outputs / integrity | 528 original aggregate files verified against the original recorded integrity entries; one additional post-run dashboard reconciled to the CSV |
+| Real empirical threshold publication | [510 matrices, 14 plot files, two CSVs, aggregate JSON and report](results/haalsi_mhas_real_threshold_analysis); researcher-attested clearance |
 | HRS → ELSA | Synthetic engineering implemented; scientific eligibility unresolved; no real training |
 
 ## Research question and architecture
@@ -84,7 +85,7 @@ The [results gallery](docs/PHASE1_RESULTS_GALLERY.md) puts the cohort, architect
 
 The supplementary analysis describes fixed probability cutoffs **0.05 through 0.50**, in steps of 0.05, on unchanged retained scores. TP/TN/FP/FN, accuracy, precision, recall, specificity, F1 and balanced accuracy change with cutoff; AP, AUROC and Brier do not. Undefined precision remains N/A. A conventional 0.50 cutoff is not a proven optimal rule; a **0.05 probability cutoff is unrelated to selector p ≤ 0.05**.
 
-The independent operator reports private calculation completion and integrity verification. **No new empirical threshold tables, confusion figures or sensitive small cells are published in this update.** The sweep is retrospective descriptive analysis of an already examined test, not validated test-based optimization. `ORIGINAL_VALIDATION_OPTIMAL_THRESHOLD_NOT_ESTABLISHED` remains explicit. [Threshold methodology and formulas](docs/phase1/threshold-analysis.md) and [empirical publication status](docs/phase1/threshold-publication-status.md) explain the public software and its limits.
+The [real empirical threshold release](results/haalsi_mhas_real_threshold_analysis) publishes **510 original confusion matrices, all six response families, the cross-method plots and original numerical outputs** after the researcher explicitly stated that review/clearance was completed and publication should proceed. No separate documentary clearance record was supplied, and no independent legal/institutional certification is claimed. All 528 released originals retain their source bytes and recorded integrity hashes; private operational records remain excluded. The sweep is retrospective descriptive analysis of an already examined test, not validated test-based optimization. `ORIGINAL_VALIDATION_OPTIMAL_THRESHOLD_NOT_ESTABLISHED` remains explicit. [Threshold methodology and formulas](docs/phase1/threshold-analysis.md) and [empirical publication status](docs/phase1/threshold-publication-status.md) explain the public software and its limits.
 
 ## Reproduce public synthetic behavior
 
@@ -99,6 +100,7 @@ python -m dmv_mat_cvd.experiment --config configs/synthetic_smoke.json --source-
 python examples/threshold_demo.py --output results/runs/threshold-demo-UNUSED
 python scripts/check_public_release.py
 python scripts/check_result_consistency.py
+python scripts/validate_real_threshold_release.py
 ```
 
 These commands require no controlled data. The last demonstration generates invented probabilities internally; it cannot ingest clinical files. Generated artifacts stay ignored. [Reproducibility instructions](docs/phase1/reproducibility.md) distinguish software checks from unavailable historical real-data reconstruction. The generic synthetic schema's historical fasting-glucose slot differs from the real-study diabetes feature; the synthetic CLI is not a complete clinical replication.

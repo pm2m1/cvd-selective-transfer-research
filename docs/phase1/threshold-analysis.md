@@ -8,13 +8,13 @@
 |---|---|
 | Public threshold methodology and portable metrics software | Included in this repository |
 | Public standalone analysis-package verification | 41 synthetic tests passed in this update |
-| Private empirical threshold calculation | Completed independently, as reported by the operator; not inspected here |
-| Private result-integrity check | Reported complete by the operator; not independently verified through private access |
-| New empirical threshold statistics cleared for public disclosure | Not established; pending applicable disclosure review |
-| New empirical threshold tables or confusion figures published here | No |
+| Original empirical threshold calculation | Completed independently; original aggregate outputs now inspected and validated |
+| Source-output integrity | All 528 released aggregate files match their original recorded output hashes |
+| Publication evidence basis | Researcher explicitly attested completed review/clearance and instructed publication; no separate documentary record or independent legal certification |
+| Real published outputs | [510 matrices, 14 plot files, two CSVs, aggregate JSON and report](../../results/haalsi_mhas_real_threshold_analysis) |
 | Original authenticated validation-optimal threshold | `ORIGINAL_VALIDATION_OPTIMAL_THRESHOLD_NOT_ESTABLISHED` |
 
-The original standalone public source package generated an invented-data demonstration with 100 separate matrices. The portable GitHub demonstration uses a different, explicitly invented 80-observation fixture and ten draws. Neither is a clinical result. Original frozen AP/AUROC/Brier remain in the approved aggregate JSON; no new empirical classification cells are added.
+The original standalone public source package generated an invented-data demonstration with 100 separate matrices. The portable GitHub demonstration uses a different, explicitly invented 80-observation fixture and ten draws. Neither is a clinical result. Original frozen AP/AUROC/Brier remain in the approved aggregate JSON; the real empirical outputs are published separately with their original identities.
 
 ## Fixed retrospective grid
 
@@ -67,4 +67,4 @@ Run the [synthetic-only example](../../examples/threshold_demo.py) as documented
 
 ![SYNTHETIC ONLY: one invented draw at 0.50](../../figures/synthetic_threshold_confusion.svg)
 
-A later [disclosure-reviewed results PR](data-access-and-disclosure.md) is required before publishing any empirical cells, rates or figures. Review threshold-to-threshold differencing and joint small cells, not just each table independently. Completion and SHA256 integrity do not supply disclosure permission.
+The [real empirical release](../../results/haalsi_mhas_real_threshold_analysis) records the subsequent researcher-attested review covering this collection, including small-cell/differencing and public GitHub scope. Completion and hashes did not themselves grant permission. The source-generation PRIVATE labels remain unchanged, and the release does not assert independent legal/institutional approval. Participant-level inputs/predictions, checkpoints and operational records remain excluded.

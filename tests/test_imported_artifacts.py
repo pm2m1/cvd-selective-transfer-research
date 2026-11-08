@@ -24,8 +24,8 @@ def test_imported_original_packages_are_intact_and_real_results_not_substituted(
     counts = VERIFY.verify()
     assert counts["standalone_packages"] == 13
     assert counts["categories"]["synthetic_confusion_matrix"] == 300
-    assert counts["real_confusion_matrices_published"] == 0
-    assert counts["real_threshold_plots_published"] == 0
+    assert counts["real_confusion_matrices_published"] == 510
+    assert counts["real_threshold_plots_published"] == 12
     assert counts["privacy_projected_source_files"] == 16
 
 

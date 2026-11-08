@@ -98,3 +98,7 @@ dist/
 !results/haalsi_mhas_threshold_sweep_20261107_SYNTHETIC_FINAL/threshold_metrics_per_draw.private.csv
 !results/haalsi_mhas_threshold_sweep_20261107_SYNTHETIC_FINAL/threshold_metrics_summary.private.csv
 !results/haalsi_mhas_threshold_sweep_20261107_SYNTHETIC_FINAL/SUPERVISOR_THRESHOLD_COMPARISON.private.md
+
+# Exact researcher-attested real aggregate CSVs; no private inputs or arrays.
+!results/haalsi_mhas_real_threshold_analysis/threshold_metrics_per_draw.csv
+!results/haalsi_mhas_real_threshold_analysis/threshold_metrics_summary.csv

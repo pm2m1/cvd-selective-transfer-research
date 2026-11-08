@@ -64,11 +64,15 @@ def verify(root=ROOT):
         for name, expected in manifest["files"].items():
             if hashlib.sha256((manifest_path.parent / name).read_bytes()).hexdigest() != expected:
                 raise ValueError("Original package manifest mismatch")
+    real_manifest = root / "results/haalsi_mhas_real_threshold_analysis/RELEASE_MANIFEST.json"
+    real_files = json.loads(real_manifest.read_text())["files"] if real_manifest.is_file() else {}
     return {
         "imported_files": len(registry["files"]),
         "standalone_packages": len(registry["packages"]),
-        "real_confusion_matrices_published": 0,
-        "real_threshold_plots_published": 0,
+        "real_confusion_matrices_published": sum(
+            n.startswith("confusion_matrices/") and n.endswith(".svg") for n in real_files
+        ),
+        "real_threshold_plots_published": sum("_threshold_response." in n for n in real_files),
         "categories": dict(sorted(counts.items())),
         "privacy_projected_source_files": sum(not r["original_bytes"] for r in registry["files"].values()),
     }

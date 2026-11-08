@@ -1,0 +1,39 @@
+{
+  "additional_post_run_dashboard_files": 1,
+  "all_matrix_cells_and_svg_plot_means_verified": true,
+  "clearance_basis": "RESEARCHER_ATTESTATION_NOT_INDEPENDENT_LEGAL_CERTIFICATION",
+  "comparison_plot_files": 2,
+  "confusion_matrices": 510,
+  "draw0_selected_counts": [
+    {
+      "FN": 21,
+      "FP": 0,
+      "TN": 262,
+      "TP": 0,
+      "threshold": "0.50"
+    },
+    {
+      "FN": 17,
+      "FP": 24,
+      "TN": 238,
+      "TP": 4,
+      "threshold": "0.10"
+    },
+    {
+      "FN": 0,
+      "FP": 262,
+      "TN": 0,
+      "TP": 21,
+      "threshold": "0.05"
+    }
+  ],
+  "metric_csv_files": 2,
+  "model_families": 6,
+  "new_training_or_inference": false,
+  "original_aggregate_files": 528,
+  "per_draw_rows": 510,
+  "ranking_reconciliation": "MATCHES_ORIGINAL_PUBLIC_PER_DRAW_AND_MEAN_REFERENCES",
+  "response_plot_files": 12,
+  "summary_rows": 1140,
+  "total_released_aggregate_files": 529
+}

@@ -6,13 +6,13 @@ This repository distributes public code, synthetic tests and previously approved
 
 Cite the original [DMV-MAT EEG paper](https://doi.org/10.1109/TNNLS.2024.3350085) for inspiration, not as a claim of exact reproduction. Existing study citations remain in the [manuscript bibliography](../FINAL_SUBMISSION_MANUSCRIPT.md). The HAALSI V4 record provides DOI 10.3886/ICPSR36633.v4. Exact MHAS product-specific citation metadata, retrieval information and research-product notification status still require author confirmation. No ethics, notification, manuscript acceptance or institutional approval is invented.
 
-## Threshold publication gate
+## Real aggregate publication and continuing boundaries
 
-The new empirical threshold tables and figures remain **not cleared for public disclosure**. Operator-reported private completion and an integrity check do not constitute disclosure approval. This branch publishes no new empirical TP/TN/FP/FN, classification rates, private confusion matrices, source fingerprints or result archives.
+The [original real threshold collection](../../results/haalsi_mhas_real_threshold_analysis) is now published on the researcher's explicit statement that the independent review/clearance was completed and publication should proceed. The conversation scope covered AI-assisted aggregate inspection and public GitHub distribution, including the whole-collection small-cell/differencing review. No separate documentary record was supplied, no approval receipt or reviewer signature was manufactured, and independent legal/institutional certification is not claimed.
 
-Before a later PR can add results, an independently authorized reviewer must establish applicable permission, review the exact proposed artifact allowlist and joint disclosure risks, and approve the public wording. Review all models/draws/thresholds together: differencing nested cutoff counts can reveal small cells. Removing IDs alone is insufficient. A statistical integrity manifest is not a publisher-authenticity or confidentiality assessment.
+The release contains 528 original aggregate figures/tables/JSON/report files verified against their original recorded output hashes, plus one separately hash-bound offline aggregate dashboard whose 510 rows match the original CSV. The post-run dashboard is not claimed to be part of the original integrity manifest. Private input data, individual predictions/IDs, checkpoints, original authorization/configuration/provenance/runtime records and academic files are excluded. Original generation-time privacy labels remain unmodified, with the subsequent attested publication basis explained in the release README. Hash integrity alone did not establish permission.
 
-The publication mechanism is a **separate reviewed results PR**, with an updated explicit public-file allowlist, source provenance retained privately, disclosure approval recorded through the applicable governance process, and rerun public checks. There is no auto-publish command or default approval flag. Until then, documentation contains methodology and synthetic examples only. Never add the private comparison archive to bypass this gate.
+Future artifacts outside this exact scope still require their applicable review. Public aggregate release does not authorize raw-data access or repeat a consumed experiment. The explicit allowlist and new hash-bound real-release checks preserve those limits; the existing PR is updated without automatically merging it.
 
 ## Licensing and author review
 

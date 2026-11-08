@@ -2,7 +2,7 @@
 
 [Research guide](SUPERVISOR_PHASE1_GUIDE.md) · [All baseline values](phase1/baselines-and-results.md) · [Artifact inventory](PHASE1_COMPLETE_ARTIFACT_INVENTORY.md) · [Reproduce public software](phase1/reproducibility.md)
 
-This gallery separates approved frozen HAALSI → MHAS evidence, method diagrams and an explicitly invented threshold illustration. It publishes no new empirical threshold cells. The endpoint is **wave-observed, doctor-reported heart attack or stroke conditional on observed follow-up**, not adjudicated incidence. The design is **fixed hold-out evaluation with ten repeated stratified target-adaptation draws**, not cross-validation.
+This gallery separates approved frozen HAALSI → MHAS evidence, method diagrams and an explicitly invented threshold illustration. It now includes the separately identified original real threshold release as well as clearly labeled synthetic examples. The endpoint is **wave-observed, doctor-reported heart attack or stroke conditional on observed follow-up**, not adjudicated incidence. The design is **fixed hold-out evaluation with ten repeated stratified target-adaptation draws**, not cross-validation.
 
 ## 1. Cohort construction and fixed roles
 
@@ -58,13 +58,33 @@ Cells show the frequency of ADAPT decisions over ten fitted draws for each modul
 
 The horizontal scale is held-out AP. Blue circles use 25 positive +75 negative adaptation labels; brown squares use 10+30. Whiskers are separate descriptive 95% participant-bootstrap intervals. Both sets share the same held-out participants, and the smaller draws are nested. They are **two enriched budgets, not an outcome-blind learning curve or independent replication**; stopping labels remain additional. The secondary logical AP is **0.140706**, versus full fine-tuning **0.132768**. Its paired interval also includes zero. No budget or method is selected from this test plot.
 
-## 10. Threshold methods and operating-point behavior
+## 10. Real empirical classification operating points
+
+The [complete authentic collection](../results/haalsi_mhas_real_threshold_analysis) contains **510 real matrices** across all six model families, every original draw and the ten fixed cutoffs. Release followed the researcher's explicit attestation of completed review/clearance; no separate documentary record or independent legal certification is claimed. All original bytes and model identities were verified against the recorded source-output hashes. These are not the 300 invented-run matrices elsewhere in the archive.
+
+Primary calibrated-logical, **draw 0**, on the same 283 MHAS test participants:
+
+| Cutoff | TP | TN | FP | FN | Interpretation |
+|---|---:|---:|---:|---:|---|
+| [0.50](../results/haalsi_mhas_real_threshold_analysis/confusion_matrices/calibrated_logical/draw_0__fixed_0.50.svg) | 0 | 262 | 0 | 21 | All negative; precision undefined and recall zero |
+| [0.10](../results/haalsi_mhas_real_threshold_analysis/confusion_matrices/calibrated_logical/draw_0__fixed_0.10.svg) | 4 | 238 | 24 | 17 | Some positive reports detected, with false positives |
+| [0.05](../results/haalsi_mhas_real_threshold_analysis/confusion_matrices/calibrated_logical/draw_0__fixed_0.05.svg) | 21 | 0 | 262 | 0 | All positive; recall 100% but specificity zero |
+
+![Authentic real calibrated-logical draw-0 confusion matrix at fixed cutoff 0.10](../results/haalsi_mhas_real_threshold_analysis/confusion_matrices/calibrated_logical/draw_0__fixed_0.10.svg)
+
+The points are descriptive illustrations, not a validated optimal cutoff. Fixed-cutoff classification changes while AP/AUROC/Brier remain unchanged. The original ten-draw primary result and its inconclusive paired comparison are preserved.
+
+![Authentic real calibrated-logical response, ten fitted vectors on one shared test population](../results/haalsi_mhas_real_threshold_analysis/summary_plots/calibrated_logical_threshold_response.svg)
+
+This six-panel plot summarizes **ten fitted score vectors**, not draw 0. Shading is one sample SD across correlated fits, **not a confidence interval**. Source-only has one vector. Browse [all six real response families and cross-method plots](../results/haalsi_mhas_real_threshold_analysis#browse-every-authentic-family), [all original metric rows](../results/haalsi_mhas_real_threshold_analysis/threshold_metrics_per_draw.csv) and [the release evidence/limitations](phase1/threshold-publication-status.md). Original PRIVATE/post-hoc labels remain as generation-time wording; they were not erased to imply approval.
+
+`ORIGINAL_VALIDATION_OPTIMAL_THRESHOLD_NOT_ESTABLISHED` remains explicit. No raw predictions, participant records, fitted models, operational receipts or report/LaTeX files are published.
+
+### Synthetic software demonstration — separate from empirical evidence
 
 ![INVENTED synthetic confusion-matrix demonstration; not MHAS results](../figures/synthetic_threshold_confusion.svg)
 
-**Synthetic illustration only.** This image demonstrates matrix orientation and undefined precision using invented observations. It must not be cited as MHAS evidence. The [public example](../examples/threshold_demo.py) generates its own data and accepts no clinical input. The grid is fixed at 0.05–0.50; changing a binary cutoff leaves AP, AUROC and Brier unchanged for fixed scores.
-
-Real confusion matrices, selected-threshold metric plots and ten-draw threshold-response figures exist according to independent operator reports but remain [publication-gated](phase1/threshold-publication-status.md). A completed integrity check does not clear small cells or cross-threshold differencing. Draw-0 matrices and ten-model descriptive means are different summaries; sample SD across fits is not a clinical confidence interval. `ORIGINAL_VALIDATION_OPTIMAL_THRESHOLD_NOT_ESTABLISHED` remains explicit. No test-optimal cutoff is published.
+**Synthetic illustration only.** This image and the retained 300 original invented-run matrices test software behavior. They must not be cited as real MHAS evidence or substituted for the empirical collection above.
 
 ## 11. Execution history and limitations
 

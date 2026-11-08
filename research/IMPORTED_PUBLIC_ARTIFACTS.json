@@ -2,7 +2,7 @@
   "schema": "public-artifact-import-bindings-v1",
   "scope": "PUBLIC_SOURCE_AND_ORIGINAL_INVENTED_OUTPUTS_ONLY_NO_REAL_THRESHOLD_DISCLOSURE",
   "academic_documents": "EXCLUDED_BY_USER",
-  "clinical_threshold_collection": "UNINSPECTED_AND_NOT_PUBLISHED_PENDING_DISCLOSURE",
+  "clinical_threshold_collection": "SEPARATELY_RELEASED_IN_results/haalsi_mhas_real_threshold_analysis_ON_RESEARCHER_ATTESTATION; NOT_COUNTED_AS_INVENTED_IMPORTS",
   "packages": [
     {
       "path": "results/haalsi_mhas_threshold_sweep_20261107/RELEASE_MANIFEST.json",

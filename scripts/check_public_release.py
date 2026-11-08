@@ -70,9 +70,21 @@ def check_file(root, relative):
         import_record = json.loads(registry.read_text())["files"].get(relative)
     if import_record and hashlib.sha256(path.read_bytes()).hexdigest() != import_record["sha256"]:
         raise ValueError("Imported original artifact changed")
+    real_record = None
+    real_prefix = "results/haalsi_mhas_real_threshold_analysis/"
+    real_manifest = root / real_prefix / "RELEASE_MANIFEST.json"
+    if relative.startswith(real_prefix) and real_manifest.is_file():
+        real = json.loads(real_manifest.read_text())
+        if real.get("schema") != "real-frozen-mhas-aggregate-public-release-v1":
+            raise ValueError("Unrecognized empirical release")
+        real_record = (real["files"] | real.get("additional_aggregate_files", {})).get(
+            relative.removeprefix(real_prefix)
+        )
+        if real_record and hashlib.sha256(path.read_bytes()).hexdigest() != real_record["sha256"]:
+            raise ValueError("Original empirical release artifact changed")
     synthetic_output = bool(import_record and import_record["kind"] == "ORIGINAL_SYNTHETIC_OUTPUT")
     if path.suffix.lower() == ".png":
-        if not import_record or not path.read_bytes().startswith(b"\x89PNG\r\n\x1a\n"):
+        if not (import_record or real_record) or not path.read_bytes().startswith(b"\x89PNG\r\n\x1a\n"):
             raise ValueError("Unreviewed binary artwork")
         return ""
     lower = relative.lower()
@@ -87,6 +99,7 @@ def check_file(root, relative):
     if (
         path.suffix == ".csv"
         and not import_record
+        and not real_record
         and not relative.startswith("results/synthetic_validation/20260924T222643Z-da0fe9b3/")
     ):
         raise ValueError("Unreviewed table")

@@ -37,13 +37,22 @@ def verify(tree, root=ROOT):
     for name, record in registry["files"].items():
         kind = category(name, record)
         counts[kind] = counts.get(kind, 0) + 1
+    real_release = root / "results/haalsi_mhas_real_threshold_analysis"
+    real_report = None
+    if (real_release / "RELEASE_MANIFEST.json").is_file():
+        from validate_real_threshold_release import validate
+
+        real_report = validate(real_release)
     return {
         "commit": local_head,
         "tracked_files_verified_against_remote_blobs": len(files),
         "imported_files_verified": len(registry["files"]),
         "imported_categories": counts,
         "report_or_latex_uploaded": False,
-        "real_threshold_outputs_uploaded": 0,
+        "real_threshold_outputs_uploaded": real_report["total_released_aggregate_files"]
+        if real_report
+        else 0,
+        "real_threshold_validation": real_report,
     }
 
 
