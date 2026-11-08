@@ -33,9 +33,11 @@ jobs:
       - name: Public file, preservation, link and SVG checks
         run: python scripts/check_public_release.py
       - name: Lint additions (frozen models unchanged)
-        run: python -m ruff check scripts examples src/dmv_mat_cvd/thresholds.py tests/test_thresholds.py tests/test_public_checks.py tests/test_public_results.py tests/test_selector_json.py tests/test_supervisor_handoff.py
+        run: python -m ruff check scripts examples src/dmv_mat_cvd/thresholds.py tests/test_thresholds.py tests/test_public_checks.py tests/test_public_results.py tests/test_selector_json.py tests/test_supervisor_handoff.py tests/test_portfolio_consistency.py
       - name: Formatting of additions
-        run: python -m ruff format --check scripts examples src/dmv_mat_cvd/thresholds.py tests/test_thresholds.py tests/test_public_checks.py tests/test_public_results.py tests/test_selector_json.py tests/test_supervisor_handoff.py
+        run: python -m ruff format --check scripts examples src/dmv_mat_cvd/thresholds.py tests/test_thresholds.py tests/test_public_checks.py tests/test_public_results.py tests/test_selector_json.py tests/test_supervisor_handoff.py tests/test_portfolio_consistency.py
+      - name: Frozen result and reporting consistency
+        run: python scripts/check_result_consistency.py
       - name: Package import
         run: python -c "import dmv_mat_cvd; import dmv_mat_cvd.thresholds"
       - name: Synthetic tests only
@@ -46,3 +48,7 @@ jobs:
         run: python examples/threshold_demo.py --output results/runs/ci-threshold-synthetic
       - name: Replot approved aggregate contrasts (no clinical inputs)
         run: python examples/plot_primary_paired_ap.py --output results/runs/ci-primary-paired.svg
+      - name: Replot additional approved comparisons
+        run: |
+          python examples/plot_public_comparisons.py --kind auroc --output results/runs/ci-all13-auroc.svg
+          python examples/plot_public_comparisons.py --kind budgets --output results/runs/ci-two-budgets.svg

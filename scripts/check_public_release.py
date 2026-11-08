@@ -35,7 +35,9 @@ PRIVATE_SUFFIXES = {
     ".sqlite",
     ".tsv",
 }
-HOME_PATH = re.compile(r"/(?:Users|home)/[^/\s]+")
+# A public URL such as domain.example/home/policy is not a filesystem path.
+# Bare, quoted, Markdown and file:// home paths still match at this boundary.
+HOME_PATH = re.compile(r"(?<![A-Za-z0-9._-])/(?:Users|home)/[^/\s]+")
 SECRET = re.compile(
     r"(?:gh[pousr]_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{30,}|AKIA[0-9A-Z]{16}|-----BEGIN [A-Z ]*PRIVATE KEY-----)"
 )

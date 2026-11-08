@@ -44,3 +44,25 @@ def test_symlink_refused(tmp_path):
     (tmp_path / "link.md").symlink_to(tmp_path / "invented.md")
     with pytest.raises(ValueError):
         CHECK.check_file(tmp_path, "link.md")
+
+
+def test_official_public_home_url_is_not_a_private_filesystem_path(tmp_path):
+    p = tmp_path / "policy.md"
+    p.write_text("[Official policy](https://mhasweb.org/home/AI-llm-use-policy.html)")
+    assert CHECK.check_file(tmp_path, p.name)
+
+
+@pytest.mark.parametrize(
+    "body",
+    [
+        "/" + "home" + "/INVENTED/example",
+        "`/" + "Users" + "/INVENTED/example`",
+        "[file](/" + "Users" + "/INVENTED/example)",
+        "file:///" + "Users" + "/INVENTED/example",
+    ],
+)
+def test_filesystem_home_paths_remain_rejected(tmp_path, body):
+    p = tmp_path / "invented.md"
+    p.write_text(body)
+    with pytest.raises(ValueError, match="Private path"):
+        CHECK.check_file(tmp_path, p.name)

@@ -45,3 +45,25 @@ Primary validation AP means for logical/full/head-only/random were 0.1840/0.1878
 ![Frozen held-out AP intervals; see text for the paired contrast](../../figures/04_final_test_ap.svg)
 
 ![Frozen parameter fraction versus AP, descriptive rather than a superiority claim](../../figures/05_parameters_vs_test_ap.svg)
+
+## Secondary 10+30: all registered methods
+
+These are the same frozen test participants and nested enriched draws, not a new independent evaluation. Source-only controls reuse their single checkpoint. Values are rounded from the original JSON; all target stopping labels remain additional.
+
+| Registered model identifier | AP | AUROC | Brier |
+|---|---:|---:|---:|
+| source_logistic | 0.094645 | 0.588513 | 0.069547 |
+| source_xgboost | 0.130948 | 0.607779 | 0.069282 |
+| source_flat_mlp | 0.117730 | 0.665213 | 0.069780 |
+| source_multiview | 0.135493 | 0.688659 | 0.069207 |
+| head_only | 0.140056 | 0.697928 | 0.067794 |
+| full_finetune | 0.132768 | 0.668866 | 0.067764 |
+| target_logistic | 0.119387 | 0.552999 | 0.132610 |
+| target_multiview | 0.121475 | 0.577445 | 0.099862 |
+| fixed_mask | 0.133521 | 0.671719 | 0.067697 |
+| random_calibrated_logical | 0.140706 | 0.697346 | 0.067738 |
+| legacy_topk | 0.132999 | 0.669557 | 0.067705 |
+| calibrated_threshold | 0.141262 | 0.697837 | 0.067722 |
+| calibrated_logical | 0.140706 | 0.697346 | 0.067738 |
+
+[Compare the two budgets visually](../PHASE1_RESULTS_GALLERY.md#9-primary-versus-secondary-label-budgets). Separate method intervals are not paired significance tests.

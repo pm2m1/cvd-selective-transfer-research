@@ -4,10 +4,12 @@ Research code and approved aggregates for a closed **HAALSI (South Africa) → M
 
 The implementation is inspired by [Cui et al.'s EEG DMV-MAT](https://doi.org/10.1109/TNNLS.2024.3350085). It re-engineers clinical views and module-selection rules for survey data; it is not an exact reproduction or a demonstrated new algorithm. This is a research artifact, not a clinically validated prediction tool.
 
-## Start here: supervisor navigation
+## Explore the research portfolio
 
 | Review question | Entry point |
 |---|---|
+| What figures and results can I inspect? | [Scientific results gallery](docs/PHASE1_RESULTS_GALLERY.md) |
+| What exists, and what remains unpublished? | [Complete artifact inventory](docs/PHASE1_COMPLETE_ARTIFACT_INVENTORY.md) |
 | What did we develop and what did it show? | [Phase 1 supervisor guide](docs/SUPERVISOR_PHASE1_GUIDE.md) |
 | Where is the academic B.Tech PDF? | [Report publication status](reports/nitw-btech-phase1/README.md): PDF/LaTeX staged locally; separate authorship/identifier/form/public-distribution approval pending |
 | How does the report map to implementation? | [Exact report-to-code map and gaps](docs/PHASE1_REPORT_TO_CODE_MAP.md) |
@@ -65,11 +67,15 @@ The primary paired logical-minus-full AP difference is **+0.001819**, descriptiv
 
 [All 13 baselines and parameter fractions](docs/phase1/baselines-and-results.md) · [Frozen supplement](docs/SUPPLEMENTARY_AGGREGATE_RESULTS.md) · [Approved aggregate JSON](results/aggregate_only_results.json) · [Manuscript draft](docs/FINAL_SUBMISSION_MANUSCRIPT.md)
 
+![Prespecified paired AP comparison; every descriptive interval includes zero](figures/08_primary_paired_ap_contrasts.svg)
+
+The [results gallery](docs/PHASE1_RESULTS_GALLERY.md) puts the cohort, architecture, validation, all-13 AUROC, two-budget AP, parameter economy and module-selection figures in scientific context. [The complete artifact inventory](docs/PHASE1_COMPLETE_ARTIFACT_INVENTORY.md) distinguishes implemented code, approved aggregates, synthetic demonstrations, restricted derivatives and unavailable clinical execution artifacts.
+
 ## Classification operating points
 
 The supplementary analysis describes fixed probability cutoffs **0.05 through 0.50**, in steps of 0.05, on unchanged retained scores. TP/TN/FP/FN, accuracy, precision, recall, specificity, F1 and balanced accuracy change with cutoff; AP, AUROC and Brier do not. Undefined precision remains N/A. A conventional 0.50 cutoff is not a proven optimal rule; a **0.05 probability cutoff is unrelated to selector p ≤ 0.05**.
 
-The independent operator reports private calculation completion and integrity verification. **No new empirical threshold tables, confusion figures or sensitive small cells are published in this update.** The sweep is retrospective descriptive analysis of an already examined test, not validated test-based optimization. `ORIGINAL_VALIDATION_OPTIMAL_THRESHOLD_NOT_ESTABLISHED` remains explicit. [Threshold methodology, formulas and disclosure status](docs/phase1/threshold-analysis.md) explain the public software and its limits.
+The independent operator reports private calculation completion and integrity verification. **No new empirical threshold tables, confusion figures or sensitive small cells are published in this update.** The sweep is retrospective descriptive analysis of an already examined test, not validated test-based optimization. `ORIGINAL_VALIDATION_OPTIMAL_THRESHOLD_NOT_ESTABLISHED` remains explicit. [Threshold methodology and formulas](docs/phase1/threshold-analysis.md) and [empirical publication status](docs/phase1/threshold-publication-status.md) explain the public software and its limits.
 
 ## Reproduce public synthetic behavior
 
@@ -83,6 +89,7 @@ python -m pytest -q
 python -m dmv_mat_cvd.experiment --config configs/synthetic_smoke.json --source-n 320 --target-n 160 --device cpu
 python examples/threshold_demo.py --output results/runs/threshold-demo-UNUSED
 python scripts/check_public_release.py
+python scripts/check_result_consistency.py
 ```
 
 These commands require no controlled data. The last demonstration generates invented probabilities internally; it cannot ingest clinical files. Generated artifacts stay ignored. [Reproducibility instructions](docs/phase1/reproducibility.md) distinguish software checks from unavailable historical real-data reconstruction. The generic synthetic schema's historical fasting-glucose slot differs from the real-study diabetes feature; the synthetic CLI is not a complete clinical replication.
@@ -95,7 +102,7 @@ These commands require no controlled data. The last demonstration generates inve
 | [docs](docs/PHASE1_METHOD_AND_REPRODUCIBILITY.md) | Preserved manuscript, supplement and historical release review |
 | [src/dmv_mat_cvd](src/dmv_mat_cvd) | Models, selector, synthetic framework and portable threshold arithmetic |
 | [tests](tests), [configs](configs), [examples](examples/README.md) | Invented fixtures and runnable public checks |
-| [figures](figures) | Seven original approved figures, the new approved-aggregate paired contrast and one labeled synthetic illustration |
+| [figures](figures) | Seven original approved figures, three approved-aggregate comparison figures and one labeled synthetic illustration |
 | [phase2](phase2/STATUS_20261107.md) | Dated update and unchanged historical feasibility documents |
 | [results](results/aggregate_only_results.json) | Approved ranking aggregates and historical synthetic benchmarks |
 

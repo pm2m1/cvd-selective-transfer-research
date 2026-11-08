@@ -17,3 +17,7 @@ The publication mechanism is a **separate reviewed results PR**, with an updated
 ## Licensing and author review
 
 No code license has been granted. Public visibility is not a substitute for an explicit reuse license. This update adds no license. Final manuscript wording, author attribution, institutional/data-use statements and product citations remain subject to author approval. The preservation and automated scans support review; they cannot certify legal or scientific acceptance.
+
+## Official policy recheck — 8 November 2026
+
+The [MHAS AI/LLM policy](https://mhasweb.org/home/AI-llm-use-policy.html), updated October 2026, permits public documentation, non-identifying aggregate estimates and code assistance; it prohibits supplying participant/household microdata to external AI tools. That distinction supports public-code and approved-aggregate work here, not automatic release of every small-cell derivative. The [data-products terms](https://www.mhasweb.org/DataProducts/Home.aspx) require registration, attribution and research-product notification; exact product citations and notification remain author-review items. The [HAALSI distributor record](https://www.icpsr.umich.edu/web/NACDA/studies/36633) confirms V4 and its citation, not permission to redistribute all local files. No terms were accepted, account created, private input opened or publication approval inferred.

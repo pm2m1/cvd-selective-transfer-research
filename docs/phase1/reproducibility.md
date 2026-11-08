@@ -52,3 +52,16 @@ python examples/plot_primary_paired_ap.py --output results/runs/paired-ap-UNUSED
 ```
 
 The [tracked figure](../../figures/08_primary_paired_ap_contrasts.svg) uses the stored primary-budget logical-minus-comparator estimates and descriptive joint participant-bootstrap intervals. The full-fine-tuning contrast is primary; the other three are secondary. All include zero. An aggregate visualization is reproducible here; original bootstrap recomputation is not. See the [supervisor implementation map](../PHASE1_REPORT_TO_CODE_MAP.md) for the exact boundary and [academic-report status](../../reports/nitw-btech-phase1/README.md) for why no report PDF/LaTeX is distributed.
+
+## Complete approved comparison figures and consistency checks
+
+The additional two comparisons visualize existing public aggregate records, not private test inference or a new bootstrap. Install the optional figure requirements, then use fresh outputs:
+
+```sh
+python -m pip install -r requirements-figures.txt
+python examples/plot_public_comparisons.py --kind auroc --output results/runs/public-auroc-UNUSED.svg
+python examples/plot_public_comparisons.py --kind budgets --output results/runs/public-budgets-UNUSED.svg
+python scripts/check_result_consistency.py
+```
+
+The checker reconciles all 13 methods at both budgets (78 metric summaries), 26 frozen supplement rows, 13 manuscript rows, README/guide/gallery summaries and 21 new figure points. It checks stored per-draw means, source/adaptation draw counts and bootstrap accounting, not the missing historical bootstrap executor. Actual academic PDF/LaTeX and protected threshold outputs remain outside this public check. [Artifact inventory](../PHASE1_COMPLETE_ARTIFACT_INVENTORY.md) records those limits.
