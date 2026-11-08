@@ -5,7 +5,7 @@
       "path": ".gitattributes",
       "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/.gitattributes",
       "source": "EXISTING_PUBLIC_REPOSITORY_OR_NEW_INTEGRATION_TOOL",
-      "sha256": "e14e47372b94a765f0c7f0ae3c8745ae0452e492fa4fb5c97a00592bcc180f2f",
+      "sha256": "9aa227c79b16bd39bb330ad3e3e44a7f3e816f8cb06c855bd7fbb7f7ad016e95",
       "original_bytes": null
     },
     {
@@ -26,14 +26,14 @@
       "path": ".public-files.json",
       "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/.public-files.json",
       "source": "EXISTING_PUBLIC_REPOSITORY_OR_NEW_INTEGRATION_TOOL",
-      "sha256": "2bc9ed31ed06e6345b3a3ad6141dfc45287d0e5c68ae90b21c09328c0032f9c0",
+      "sha256": "3cdbef003c602da3b0f29cb3b9a0b6a77d65599f730264a27d9674a518848007",
       "original_bytes": null
     },
     {
       "path": "README.md",
       "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/README.md",
       "source": "EXISTING_PUBLIC_REPOSITORY_OR_NEW_INTEGRATION_TOOL",
-      "sha256": "b51aecdeff6b3117ebfd9602083b93aa0b3a6d9bbaba1727d9efa9898113096a",
+      "sha256": "d6b398e45343066a86171b199b20f4ac98a833e46d5708e22e1a61ca13bec0e6",
       "original_bytes": null
     },
     {
@@ -383,7 +383,7 @@
       "path": "research/IMPORTED_PUBLIC_ARTIFACTS.json",
       "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/research/IMPORTED_PUBLIC_ARTIFACTS.json",
       "source": "EXISTING_PUBLIC_REPOSITORY_OR_NEW_INTEGRATION_TOOL",
-      "sha256": "defbfac3b3d8c929b6b7b32a6f36f7a2919fc6745b34e28b64fb49050813f7b5",
+      "sha256": "52e90203a78d798dd94dba2e9b47b72fa4f7b7a26706d4e66f45c11cb9fe4a28",
       "original_bytes": null
     },
     {
@@ -397,8 +397,274 @@
       "path": "research/README.md",
       "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/research/README.md",
       "source": "EXISTING_PUBLIC_REPOSITORY_OR_NEW_INTEGRATION_TOOL",
-      "sha256": "99598127e07504f700a61aee959314fa23d5aadd0b76cffd1d8b38e82990c73a",
+      "sha256": "08609251d45f8d58d90ccd92c96ce0e0a1cf63ea44b1a8a350fe748ba45d7fc0",
       "original_bytes": null
+    },
+    {
+      "path": "research/legacy_implementation_snapshot/phase2/phase2b_public/__init__.py",
+      "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/research/legacy_implementation_snapshot/phase2/phase2b_public/__init__.py",
+      "source": "phase2/phase2b_public/__init__.py",
+      "sha256": "c950c2c26fa5e677256d6ae6b6cb0352bd5c4e9bcbc7f0c809e2055c04435c62",
+      "original_bytes": true
+    },
+    {
+      "path": "research/legacy_implementation_snapshot/phase2/phase2b_public/baseline_models.py",
+      "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/research/legacy_implementation_snapshot/phase2/phase2b_public/baseline_models.py",
+      "source": "phase2/phase2b_public/baseline_models.py",
+      "sha256": "27317a84d6a16308fe491bb0c463aafed9627fd204f715b09a6a0bb3033dfe8a",
+      "original_bytes": true
+    },
+    {
+      "path": "research/legacy_implementation_snapshot/phase2/phase2b_public/contracts.py",
+      "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/research/legacy_implementation_snapshot/phase2/phase2b_public/contracts.py",
+      "source": "phase2/phase2b_public/contracts.py",
+      "sha256": "e1a0319f1220cfb3d95247d2b3776897c6b6efe10bd76a705cf6e12f2bbc51d5",
+      "original_bytes": true
+    },
+    {
+      "path": "research/legacy_implementation_snapshot/phase2/phase2b_public/feasibility_recovery.py",
+      "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/research/legacy_implementation_snapshot/phase2/phase2b_public/feasibility_recovery.py",
+      "source": "phase2/phase2b_public/feasibility_recovery.py",
+      "sha256": "b85fc888940340e0f18bed85a7130f8c8e5f60f81f084abe43f323d045d7a484",
+      "original_bytes": true
+    },
+    {
+      "path": "research/legacy_implementation_snapshot/phase2/phase2b_public/human_feasibility_redesign.py",
+      "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/research/legacy_implementation_snapshot/phase2/phase2b_public/human_feasibility_redesign.py",
+      "source": "phase2/phase2b_public/human_feasibility_redesign.py",
+      "sha256": "0a9bfcddd22ea646a8dca01350a12b6f94627c227f5127f0992ff3c8aecf1ac6",
+      "original_bytes": false
+    },
+    {
+      "path": "research/legacy_implementation_snapshot/phase2/phase2b_public/human_scientific_adjudication.py",
+      "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/research/legacy_implementation_snapshot/phase2/phase2b_public/human_scientific_adjudication.py",
+      "source": "phase2/phase2b_public/human_scientific_adjudication.py",
+      "sha256": "d33dc394abebeb39c4645fbb36ffa30ecd138d3d9366af20e8b951e53d009d8d",
+      "original_bytes": false
+    },
+    {
+      "path": "research/legacy_implementation_snapshot/phase2/phase2b_public/missing_predictor_candidate.py",
+      "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/research/legacy_implementation_snapshot/phase2/phase2b_public/missing_predictor_candidate.py",
+      "source": "phase2/phase2b_public/missing_predictor_candidate.py",
+      "sha256": "02ea6efb6bc7a8cb8c17ca0ee9c8a7ffd369a23ff9452a9149991d4d9221b967",
+      "original_bytes": true
+    },
+    {
+      "path": "research/legacy_implementation_snapshot/phase2/phase2b_public/precision_simulation.py",
+      "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/research/legacy_implementation_snapshot/phase2/phase2b_public/precision_simulation.py",
+      "source": "phase2/phase2b_public/precision_simulation.py",
+      "sha256": "02ceff9a323ffebc0942ff4b72bb2192933bfd9636f4bec79eb12a9bf8af42c5",
+      "original_bytes": true
+    },
+    {
+      "path": "research/legacy_implementation_snapshot/phase2/phase2b_public/source_shrinkage.py",
+      "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/research/legacy_implementation_snapshot/phase2/phase2b_public/source_shrinkage.py",
+      "source": "phase2/phase2b_public/source_shrinkage.py",
+      "sha256": "ec9bf53d3873b675e6a8edab18f962b4852d07add09c72873e386ca82825f6a4",
+      "original_bytes": true
+    },
+    {
+      "path": "research/legacy_implementation_snapshot/phase2/phase2b_public/tests/test_feasibility_recovery.py",
+      "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/research/legacy_implementation_snapshot/phase2/phase2b_public/tests/test_feasibility_recovery.py",
+      "source": "phase2/phase2b_public/tests/test_feasibility_recovery.py",
+      "sha256": "e778286edeb85669308c63bdd3b0c0f5f4806141783a09345e00f1b3c0e7cd05",
+      "original_bytes": true
+    },
+    {
+      "path": "research/legacy_implementation_snapshot/phase2/phase2b_public/tests/test_human_feasibility_redesign.py",
+      "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/research/legacy_implementation_snapshot/phase2/phase2b_public/tests/test_human_feasibility_redesign.py",
+      "source": "phase2/phase2b_public/tests/test_human_feasibility_redesign.py",
+      "sha256": "98cceb006bb80b5a0ab1387632c32214be184343b96eca6348e6a2b8165a3f0e",
+      "original_bytes": true
+    },
+    {
+      "path": "research/legacy_implementation_snapshot/phase2/phase2b_public/tests/test_missing_predictor_candidate.py",
+      "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/research/legacy_implementation_snapshot/phase2/phase2b_public/tests/test_missing_predictor_candidate.py",
+      "source": "phase2/phase2b_public/tests/test_missing_predictor_candidate.py",
+      "sha256": "6c421859d361720d597efaeea0496efdb7fb33e08a48b8629e026be94c7b062a",
+      "original_bytes": true
+    },
+    {
+      "path": "research/legacy_implementation_snapshot/phase2/phase2b_public/tests/test_precision_simulation.py",
+      "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/research/legacy_implementation_snapshot/phase2/phase2b_public/tests/test_precision_simulation.py",
+      "source": "phase2/phase2b_public/tests/test_precision_simulation.py",
+      "sha256": "b180ae47cea963c5d384983a997b19ffc1b6e38e48d174ca44c68f1904c63773",
+      "original_bytes": true
+    },
+    {
+      "path": "research/legacy_implementation_snapshot/phase2/phase2b_public/tests/test_public_prototypes.py",
+      "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/research/legacy_implementation_snapshot/phase2/phase2b_public/tests/test_public_prototypes.py",
+      "source": "phase2/phase2b_public/tests/test_public_prototypes.py",
+      "sha256": "1973e7bc808369c958895da3b86c71ca1bd9f3d66d5d8fbf8ad390325e84a1a2",
+      "original_bytes": true
+    },
+    {
+      "path": "research/legacy_implementation_snapshot/phase2/phase2b_public/tests/test_scientific_adjudication.py",
+      "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/research/legacy_implementation_snapshot/phase2/phase2b_public/tests/test_scientific_adjudication.py",
+      "source": "phase2/phase2b_public/tests/test_scientific_adjudication.py",
+      "sha256": "3ed74811da2c5de11ef0c367690e2840536e275cb8f0cdfd8b43ea3d9d982efb",
+      "original_bytes": false
+    },
+    {
+      "path": "research/legacy_implementation_snapshot/results/hrs_elsa_cvd_feasibility_20261105/build_public_matrices.py",
+      "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/research/legacy_implementation_snapshot/results/hrs_elsa_cvd_feasibility_20261105/build_public_matrices.py",
+      "source": "results/hrs_elsa_cvd_feasibility_20261105/build_public_matrices.py",
+      "sha256": "680c72d201c6518e58fd16cec035b69b94c9dfb0aef1bf7214bc24b24d5be00c",
+      "original_bytes": true
+    },
+    {
+      "path": "research/legacy_implementation_snapshot/results/hrs_elsa_cvd_feasibility_20261105/downloaded_source_audit.py",
+      "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/research/legacy_implementation_snapshot/results/hrs_elsa_cvd_feasibility_20261105/downloaded_source_audit.py",
+      "source": "results/hrs_elsa_cvd_feasibility_20261105/downloaded_source_audit.py",
+      "sha256": "ec6798ccbfc83f181d4977721b7159106e1ebaa351658daf46c204de1214d0af",
+      "original_bytes": true
+    },
+    {
+      "path": "research/legacy_implementation_snapshot/results/hrs_elsa_cvd_feasibility_20261105/feasibility.py",
+      "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/research/legacy_implementation_snapshot/results/hrs_elsa_cvd_feasibility_20261105/feasibility.py",
+      "source": "results/hrs_elsa_cvd_feasibility_20261105/feasibility.py",
+      "sha256": "2cbaf6ee8de5b954f6141a5c298ac7fa5f2cdf79f14e9ff5c2e6d343706b6c5c",
+      "original_bytes": true
+    },
+    {
+      "path": "research/legacy_implementation_snapshot/results/hrs_elsa_cvd_feasibility_20261105/planning_calculations.py",
+      "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/research/legacy_implementation_snapshot/results/hrs_elsa_cvd_feasibility_20261105/planning_calculations.py",
+      "source": "results/hrs_elsa_cvd_feasibility_20261105/planning_calculations.py",
+      "sha256": "49d447df14079f20d03a76029ce16aa9648a0ff216219ed4399311a443e858f5",
+      "original_bytes": true
+    },
+    {
+      "path": "research/legacy_implementation_snapshot/results/hrs_elsa_cvd_feasibility_20261105/target_ceiling.py",
+      "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/research/legacy_implementation_snapshot/results/hrs_elsa_cvd_feasibility_20261105/target_ceiling.py",
+      "source": "results/hrs_elsa_cvd_feasibility_20261105/target_ceiling.py",
+      "sha256": "c9adb0866bb65ad63478a9487b24a13bdf75eec7708879d0bf1a067ec97ad034",
+      "original_bytes": true
+    },
+    {
+      "path": "research/legacy_implementation_snapshot/results/hrs_elsa_cvd_feasibility_20261105/tests/test_feasibility.py",
+      "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/research/legacy_implementation_snapshot/results/hrs_elsa_cvd_feasibility_20261105/tests/test_feasibility.py",
+      "source": "results/hrs_elsa_cvd_feasibility_20261105/tests/test_feasibility.py",
+      "sha256": "57b4b5bf01f442f25ca49beae34a4fee1d4b180fdab26bf38ba0f7954a32ab53",
+      "original_bytes": true
+    },
+    {
+      "path": "research/legacy_implementation_snapshot/results/hrs_elsa_eligibility_reassessment_20261105/count_reassessment.py",
+      "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/research/legacy_implementation_snapshot/results/hrs_elsa_eligibility_reassessment_20261105/count_reassessment.py",
+      "source": "results/hrs_elsa_eligibility_reassessment_20261105/count_reassessment.py",
+      "sha256": "ccab09c3ea28977adb2b998e0177f3f8bbe42d8a21e1ea7b275bd2026fd9f9ce",
+      "original_bytes": true
+    },
+    {
+      "path": "research/legacy_implementation_snapshot/results/hrs_elsa_eligibility_reassessment_20261105/eligibility.py",
+      "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/research/legacy_implementation_snapshot/results/hrs_elsa_eligibility_reassessment_20261105/eligibility.py",
+      "source": "results/hrs_elsa_eligibility_reassessment_20261105/eligibility.py",
+      "sha256": "71429877061c1d2126c644ae231aaf6738d47d978afa1fc046b55f7fc750bdcc",
+      "original_bytes": true
+    },
+    {
+      "path": "research/legacy_implementation_snapshot/results/hrs_elsa_eligibility_reassessment_20261105/tests/test_reassessment.py",
+      "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/research/legacy_implementation_snapshot/results/hrs_elsa_eligibility_reassessment_20261105/tests/test_reassessment.py",
+      "source": "results/hrs_elsa_eligibility_reassessment_20261105/tests/test_reassessment.py",
+      "sha256": "6672248734f85c0a5959c1347fd5d31e3ac2f726f99d081ecd61ca5e0acc3eef",
+      "original_bytes": true
+    },
+    {
+      "path": "research/legacy_implementation_snapshot/results/supervisor_metrics_and_improvement_20261104/prepare_development_inputs.py",
+      "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/research/legacy_implementation_snapshot/results/supervisor_metrics_and_improvement_20261104/prepare_development_inputs.py",
+      "source": "results/supervisor_metrics_and_improvement_20261104/prepare_development_inputs.py",
+      "sha256": "1f8e3bb08d96b8da1521d994d88a2f855fbe9aa2aaf7ad522163a295b574fdf7",
+      "original_bytes": true
+    },
+    {
+      "path": "research/legacy_implementation_snapshot/results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/experiment_tools/tests/test_metrics.py",
+      "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/research/legacy_implementation_snapshot/results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/experiment_tools/tests/test_metrics.py",
+      "source": "results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/experiment_tools/tests/test_metrics.py",
+      "sha256": "d1ccc3d835f4ab7f26a7a85bc300784eb358894218bfc80f2997d918eda7c61f",
+      "original_bytes": true
+    },
+    {
+      "path": "research/legacy_implementation_snapshot/results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/experiment_tools/tests/test_training.py",
+      "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/research/legacy_implementation_snapshot/results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/experiment_tools/tests/test_training.py",
+      "source": "results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/experiment_tools/tests/test_training.py",
+      "sha256": "0977d5ebd93b2872f91f6b1f039a5fbf834a4199b9c70427ab8ff189f6b63ec4",
+      "original_bytes": true
+    },
+    {
+      "path": "research/legacy_implementation_snapshot/results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/helpers/configure_export_local.py",
+      "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/research/legacy_implementation_snapshot/results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/helpers/configure_export_local.py",
+      "source": "results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/helpers/configure_export_local.py",
+      "sha256": "d343bf842b279df516ced0923d68accc53704c6ae6f94f197120f7f98eb1f0f0",
+      "original_bytes": false
+    },
+    {
+      "path": "research/legacy_implementation_snapshot/results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/helpers/repair_public_installation_metadata.py",
+      "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/research/legacy_implementation_snapshot/results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/helpers/repair_public_installation_metadata.py",
+      "source": "results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/helpers/repair_public_installation_metadata.py",
+      "sha256": "747a917ae6e2b58bbfcdcbee2260ef6314b0ce121dd1f1756d62ed943b321149",
+      "original_bytes": false
+    },
+    {
+      "path": "research/legacy_implementation_snapshot/results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/helpers/review_development_results_local.py",
+      "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/research/legacy_implementation_snapshot/results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/helpers/review_development_results_local.py",
+      "source": "results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/helpers/review_development_results_local.py",
+      "sha256": "0c4eb78fb02cf621eded338edfb06b25066e76e6aebf0e8efae667757d020fb5",
+      "original_bytes": true
+    },
+    {
+      "path": "research/legacy_implementation_snapshot/results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/helpers/run_development_workflow.py",
+      "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/research/legacy_implementation_snapshot/results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/helpers/run_development_workflow.py",
+      "source": "results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/helpers/run_development_workflow.py",
+      "sha256": "48b8e260705f5a9af5df494630dd6f6ca1a32e0004a992af739cdf8e0e66f5a8",
+      "original_bytes": false
+    },
+    {
+      "path": "research/legacy_implementation_snapshot/results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/helpers/tests/test_configure_export_local.py",
+      "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/research/legacy_implementation_snapshot/results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/helpers/tests/test_configure_export_local.py",
+      "source": "results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/helpers/tests/test_configure_export_local.py",
+      "sha256": "36a7198f421f2b3ea7311f23b2b60cfd1340c9b074b675e03a24734d33f83ba3",
+      "original_bytes": true
+    },
+    {
+      "path": "research/legacy_implementation_snapshot/results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/helpers/tests/test_development_workflow.py",
+      "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/research/legacy_implementation_snapshot/results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/helpers/tests/test_development_workflow.py",
+      "source": "results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/helpers/tests/test_development_workflow.py",
+      "sha256": "e8870497022d545d41345154889e62c9408bef4654914aa5aa2606b230846909",
+      "original_bytes": true
+    },
+    {
+      "path": "research/legacy_implementation_snapshot/results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/helpers/tests/test_public_metadata_repair.py",
+      "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/research/legacy_implementation_snapshot/results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/helpers/tests/test_public_metadata_repair.py",
+      "source": "results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/helpers/tests/test_public_metadata_repair.py",
+      "sha256": "c1f88232a8505f5ff8d63b887fba57c39b60cacfe7d03fb9d46c9274ebee67f0",
+      "original_bytes": true
+    },
+    {
+      "path": "research/legacy_implementation_snapshot/results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/public_project/src/dmv_mat_cvd/final_eval_execute.py",
+      "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/research/legacy_implementation_snapshot/results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/public_project/src/dmv_mat_cvd/final_eval_execute.py",
+      "source": "results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/public_project/src/dmv_mat_cvd/final_eval_execute.py",
+      "sha256": "1e4618cff0c220e09730dbe2e6cee1984cbb630bcad8f09520ba3659e06e02e2",
+      "original_bytes": false
+    },
+    {
+      "path": "research/legacy_implementation_snapshot/results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/public_project/src/dmv_mat_cvd/final_eval_recovery_execute.py",
+      "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/research/legacy_implementation_snapshot/results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/public_project/src/dmv_mat_cvd/final_eval_recovery_execute.py",
+      "source": "results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/public_project/src/dmv_mat_cvd/final_eval_recovery_execute.py",
+      "sha256": "dbf64b89893fd0dc16b609f7712a743560c631063982afa26288f659a34c98e6",
+      "original_bytes": false
+    },
+    {
+      "path": "research/legacy_implementation_snapshot/results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/public_project/src/dmv_mat_cvd/real_baselines.py",
+      "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/research/legacy_implementation_snapshot/results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/public_project/src/dmv_mat_cvd/real_baselines.py",
+      "source": "results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/public_project/src/dmv_mat_cvd/real_baselines.py",
+      "sha256": "9264c935380c8c09fff8409cdf7b80557a7cff98a00d463dd5cff2f87aae5c4d",
+      "original_bytes": false
+    },
+    {
+      "path": "research/legacy_implementation_snapshot/results/supervisor_metrics_and_improvement_20261104/render_metrics_report.py",
+      "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/research/legacy_implementation_snapshot/results/supervisor_metrics_and_improvement_20261104/render_metrics_report.py",
+      "source": "results/supervisor_metrics_and_improvement_20261104/render_metrics_report.py",
+      "sha256": "1737e65058f968e65786cc45189a105d109b50ebb79f7ab82ff76348f1a5ae84",
+      "original_bytes": true
     },
     {
       "path": "research/phase1_implementation_snapshot/scripts/audit_selector_calibration.py",
@@ -6032,7 +6298,7 @@
       "path": "tests/test_imported_artifacts.py",
       "github_url": "https://github.com/pm2m1/cvd-selective-transfer-research/blob/docs/phase1-threshold-analysis-20261107/tests/test_imported_artifacts.py",
       "source": "EXISTING_PUBLIC_REPOSITORY_OR_NEW_INTEGRATION_TOOL",
-      "sha256": "62cfa410d4bc08f0fc80a3a8d21e2c6781acde615ec1171ebbc5aa122e551aeb",
+      "sha256": "db348f492691d45a4c93818929d3f804678ae45062964be417d49043cb178f34",
       "original_bytes": null
     },
     {

@@ -6,7 +6,7 @@ The implementation is inspired by [Cui et al.'s EEG DMV-MAT](https://doi.org/10.
 
 ## Original implementation and complete public artifact packages
 
-The [research archive](research/README.md) now includes **13 original experiment/tool packages**, the historical Phase 1 implementation snapshot, and the original three retained **invented-data** threshold runs (300 matrix SVGs) with per-draw/summary metrics and SVG/PNG plots. These are actual source/output files, preserved and hash-checked, rather than documentation-only descriptions. They are not the protected real MHAS confusion collection. 7 historical source files explicitly project private bindings/paths; the remaining archived code retains original bytes. Academic reports, LaTeX and bibliographies are excluded by author instruction.
+The [research archive](research/README.md) now includes **13 original experiment/tool packages**, the historical Phase 1 implementation snapshot, and the original three retained **invented-data** threshold runs (300 matrix SVGs) with per-draw/summary metrics and SVG/PNG plots. These are actual source/output files, preserved and hash-checked, rather than documentation-only descriptions. They are not the protected real MHAS confusion collection. 16 historical source files explicitly project private bindings/paths; the remaining archived code retains original bytes. Academic reports, LaTeX and bibliographies are excluded by author instruction.
 
 ```sh
 python scripts/verify_imported_artifacts.py

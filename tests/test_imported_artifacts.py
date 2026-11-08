@@ -26,7 +26,7 @@ def test_imported_original_packages_are_intact_and_real_results_not_substituted(
     assert counts["categories"]["synthetic_confusion_matrix"] == 300
     assert counts["real_confusion_matrices_published"] == 0
     assert counts["real_threshold_plots_published"] == 0
-    assert counts["privacy_projected_source_files"] == 7
+    assert counts["privacy_projected_source_files"] == 16
 
 
 def test_inventory_reads_no_input_payloads_and_retains_exact_names(tmp_path, monkeypatch):
