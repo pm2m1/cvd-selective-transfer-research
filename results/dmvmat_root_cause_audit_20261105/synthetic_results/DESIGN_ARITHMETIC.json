@@ -1,0 +1,56 @@
+{
+  "meaning": "design arithmetic using supplied public historical counts, NOT observed private results",
+  "outer_training_n": 452,
+  "rows": [
+    {
+      "fraction": 0.1,
+      "budget": 45,
+      "fit": 27,
+      "stop": 9,
+      "calibration": 9,
+      "expected_stopping_positives": 0.6494845360824743,
+      "probability_zero_stopping_positives": 0.5074933916861619,
+      "probability_calibration_5_each": 0.0
+    },
+    {
+      "fraction": 0.25,
+      "budget": 113,
+      "fit": 69,
+      "stop": 22,
+      "calibration": 22,
+      "expected_stopping_positives": 1.5876288659793814,
+      "probability_zero_stopping_positives": 0.18732986111245792,
+      "probability_calibration_5_each": 0.01643945676614961
+    },
+    {
+      "fraction": 0.5,
+      "budget": 226,
+      "fit": 136,
+      "stop": 45,
+      "calibration": 45,
+      "expected_stopping_positives": 3.247422680412371,
+      "probability_zero_stopping_positives": 0.03051959076867461,
+      "probability_calibration_5_each": 0.2172612491396928
+    },
+    {
+      "fraction": 0.75,
+      "budget": 339,
+      "fit": 204,
+      "stop": 68,
+      "calibration": 67,
+      "expected_stopping_positives": 4.907216494845361,
+      "probability_zero_stopping_positives": 0.00463688520036644,
+      "probability_calibration_5_each": 0.5432664519729595
+    },
+    {
+      "fraction": 1.0,
+      "budget": 452,
+      "fit": 272,
+      "stop": 90,
+      "calibration": 90,
+      "expected_stopping_positives": 6.494845360824742,
+      "probability_zero_stopping_positives": 0.0007125945058647866,
+      "probability_calibration_5_each": 0.8055674341498968
+    }
+  ]
+}

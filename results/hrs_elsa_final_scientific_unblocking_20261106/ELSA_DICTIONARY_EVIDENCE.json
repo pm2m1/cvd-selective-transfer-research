@@ -1,0 +1,4509 @@
+{
+  "schema": "public-elsa-field-evidence-subset-v1",
+  "scope": "PUBLIC_DICTIONARIES_NOT_PARTICIPANT_DATA",
+  "dictionary_url": "https://doc.ukdataservice.ac.uk/doc/5050/mrdoc/ukda_data_dictionaries.zip",
+  "dictionary_zip_sha256": "32161c5b497f5ae3df03cc81169b018548967e429eaaf0299bfd6b0f1c1082ae",
+  "source_mapping_sha256": "158822fb918835c34b79d7deae5050bcc9832eaadbfce570da91542372a40c61",
+  "archive_edition_authenticated": false,
+  "waves": {
+    "1": {
+      "dataset_basename": "wave_1_core_data_v3.dta",
+      "dictionary_member": "wave_1_core_data_v3_ukda_data_dictionary.rtf",
+      "dictionary_member_sha256": "2aafb2b49706a38f0b113751dfd25d17d4cfa5450130c24bc2015faac2e33c0d",
+      "fields": {
+        "indoc": {
+          "archived_name": "indoc",
+          "position": 6,
+          "label": "final individual outcome code",
+          "values": {
+            "11": "Full interview in person",
+            "13": "Full proxy interview",
+            "21": "Partial interview in person",
+            "23": "Partial interview by proxy"
+          },
+          "section_sha256": "f8d6272cf3e7266dfd3105221ec2ea64a426f0b4a0f0e7db36d15edef0582b10",
+          "missing_range_metadata": null
+        },
+        "hedim01": {
+          "archived_name": "hedim01",
+          "position": 228,
+          "label": "MERGED - Has a doctor ever told you that you [have/have had] any of the conditions in this card? heart conditions",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't Know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack (including myocardial infarction or coronary",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "85": "Other answer - not codeable 01 to 08",
+            "86": "Irrelevant response - not codeable 01 to 08",
+            "95": "Any other heart trouble (SPECIFY)",
+            "96": "None of these"
+          },
+          "section_sha256": "b437c328935d0c189cac12035cf284dada0ac8558328ec52265c6c4678da6d55",
+          "missing_range_metadata": null
+        },
+        "hedim02": {
+          "archived_name": "hedim02",
+          "position": 229,
+          "label": "MERGED - Has a doctor ever told you that you [have/have had] any of the conditions in this card? heart conditions",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't Know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack (including myocardial infarction or coronary",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "85": "Other answer - not codeable 01 to 08",
+            "86": "Irrelevant response - not codeable 01 to 08",
+            "95": "Any other heart trouble (SPECIFY)",
+            "96": "None of these"
+          },
+          "section_sha256": "8b0571374eb0ac4dea3a917a888806a55084fa2e9b627adc7d8adb33ec40d5b2",
+          "missing_range_metadata": null
+        },
+        "hedim03": {
+          "archived_name": "hedim03",
+          "position": 230,
+          "label": "MERGED - Has a doctor ever told you that you [have/have had] any of the conditions in this card? heart conditions",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't Know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack (including myocardial infarction or coronary",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "85": "Other answer - not codeable 01 to 08",
+            "86": "Irrelevant response - not codeable 01 to 08",
+            "95": "Any other heart trouble (SPECIFY)",
+            "96": "None of these"
+          },
+          "section_sha256": "91d432d09000388b4a88e120bb5a8a2af726fa29a102c5d5747628ff23cf0237",
+          "missing_range_metadata": null
+        },
+        "hedim04": {
+          "archived_name": "hedim04",
+          "position": 231,
+          "label": "MERGED - Has a doctor ever told you that you [have/have had] any of the conditions in this card? heart conditions",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't Know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack (including myocardial infarction or coronary",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "85": "Other answer - not codeable 01 to 08",
+            "86": "Irrelevant response - not codeable 01 to 08",
+            "95": "Any other heart trouble (SPECIFY)",
+            "96": "None of these"
+          },
+          "section_sha256": "09954a848573442543042dc41232796ebe26ecedcb8bf0a455937bd82c1500cb",
+          "missing_range_metadata": null
+        },
+        "hedim05": {
+          "archived_name": "hedim05",
+          "position": 232,
+          "label": "MERGED - Has a doctor ever told you that you [have/have had] any of the conditions in this card? heart conditions",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't Know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack (including myocardial infarction or coronary",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "85": "Other answer - not codeable 01 to 08",
+            "86": "Irrelevant response - not codeable 01 to 08",
+            "95": "Any other heart trouble (SPECIFY)",
+            "96": "None of these"
+          },
+          "section_sha256": "a41ecd2418c8319dc83f99e999b82bd7bd198d57c3175f7716880535c604b40b",
+          "missing_range_metadata": null
+        },
+        "hedim06": {
+          "archived_name": "hedim06",
+          "position": 233,
+          "label": "MERGED - Has a doctor ever told you that you [have/have had] any of the conditions in this card? heart conditions",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't Know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack (including myocardial infarction or coronary",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "85": "Other answer - not codeable 01 to 08",
+            "86": "Irrelevant response - not codeable 01 to 08",
+            "95": "Any other heart trouble (SPECIFY)",
+            "96": "None of these"
+          },
+          "section_sha256": "24e8d20d5b95c4a9147d55263663a81a86a3f8e6b2757966110f28e84b3a2d31",
+          "missing_range_metadata": null
+        },
+        "hedim07": {
+          "archived_name": "hedim07",
+          "position": 234,
+          "label": "MERGED - Has a doctor ever told you that you [have/have had] any of the conditions in this card? heart conditions",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't Know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack (including myocardial infarction or coronary",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "85": "Other answer - not codeable 01 to 08",
+            "86": "Irrelevant response - not codeable 01 to 08",
+            "95": "Any other heart trouble (SPECIFY)",
+            "96": "None of these"
+          },
+          "section_sha256": "a523d10bf899933b25850b62aabfe6fa31bf7467673b74f9e3d6a6a4c6231e05",
+          "missing_range_metadata": null
+        },
+        "iintdtm": {
+          "archived_name": "iintdtm",
+          "position": 4386,
+          "label": "Month of Individual Interview: Month of date: TODAY~S DATE",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't Know",
+            "-1": "Not applicable"
+          },
+          "section_sha256": "a4829f93e42de54fa03bce3fae941fba01878c5f50cf0ee1e0cf4b756ea9941e",
+          "missing_range_metadata": null
+        },
+        "iintdty": {
+          "archived_name": "iintdty",
+          "position": 4387,
+          "label": "Year of Individual Interview: Year of date: TODAY~S DATE",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't Know",
+            "-1": "Not applicable"
+          },
+          "section_sha256": "a096da8394d3457b2e7a748e8d5dd0abfce1784a258cb8d91361d48b3bfb6d7f",
+          "missing_range_metadata": null
+        },
+        "askpx1": {
+          "archived_name": "askpx1",
+          "position": 4404,
+          "label": "Whether interviewed by proxy",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't Know",
+            "-1": "Not applicable",
+            "1": "Yes",
+            "2": "No"
+          },
+          "section_sha256": "7e2c2cef479f4160606f26d14b6a095f1238363acba56f247813efc55aa2ecf7",
+          "missing_range_metadata": null
+        },
+        "indsex": {
+          "archived_name": "indsex",
+          "position": 4411,
+          "label": "Sex - Priority: DiSex, DhSex",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't Know",
+            "-1": "Not applicable",
+            "1": "Male",
+            "2": "Female"
+          },
+          "section_sha256": "5b29b98e6b506f7e0d6abec5791a0a5fea22a1db9dad14ce0527e67db0561b13",
+          "missing_range_metadata": null
+        },
+        "indager": {
+          "archived_name": "indager",
+          "position": 4413,
+          "label": "Age variable combined info from HH grid and individual demographics collapsed at 90 plus",
+          "values": {
+            "99": "Age in years on or before 29/02/1912 collapsed to avoid disc"
+          },
+          "section_sha256": "6b285ea1b344300acf68881cb74fd66d0d072ff14a35270e08cc532a1745d855",
+          "missing_range_metadata": null
+        }
+      }
+    },
+    "2": {
+      "dataset_basename": "wave_2_core_data_v4.dta",
+      "dictionary_member": "wave_2_core_data_v4_ukda_data_dictionary.rtf",
+      "dictionary_member_sha256": "8d27f6c684ba8e0c26224c346099ba88c9383ed6d05fa8e59910fdc92f7ca3fa",
+      "fields": {
+        "w2indout": {
+          "archived_name": "w2indout",
+          "position": 17,
+          "label": "Individual outcome code",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "11": "Full interview in person",
+            "13": "Full proxy interview",
+            "21": "Partial interview in person",
+            "23": "Partial interview by proxy",
+            "31": "No contact",
+            "43": "Refusal before interview",
+            "44": "Refusal during interview",
+            "45": "Broken appointment",
+            "46": "Office refusal",
+            "51": "Ill at home during survey period",
+            "52": "Away/in hospital during survey period",
+            "53": "Physically or mentally incompetent",
+            "54": "Language difficulties",
+            "56": "Other unproductive",
+            "60": "Untraced",
+            "71": "in an institution",
+            "78": "Out of Britain",
+            "79": "Outcome unknown",
+            "95": "Died and eligible for exit",
+            "96": "Died and not eligible for exit",
+            "97": "Died and eligibility for exit unknown"
+          },
+          "section_sha256": "b669c19734f6062f42322e3f76de9e7696a8a785d3b110c2a29b458a0a69e039",
+          "missing_range_metadata": null
+        },
+        "hedim01": {
+          "archived_name": "hedim01",
+          "position": 425,
+          "label": "Diagnosed cardiovascular condit. newly reported at W2 (1st mention) (merged var)",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack (incl myocardial infarc. or coronary thromb.)",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "51": "Valvular heart disease",
+            "52": "Ischaemic heart disease (incl. Bypass grafts)",
+            "85": "Other answer - not codeable 01 to 08",
+            "86": "Irrelevant response - not codeable 01 to 08",
+            "95": "Any other heart trouble (SPECIFY)",
+            "96": "None of these"
+          },
+          "section_sha256": "3d7c1358f2fc4ab9682abbfac0138eea6e5b7c5d7d1dffc64fec7de9d4604502",
+          "missing_range_metadata": null
+        },
+        "hedim02": {
+          "archived_name": "hedim02",
+          "position": 426,
+          "label": "Diagnosed cardiovascular condit. newly reported at W2 (2nd mention) (merged var)",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack (incl myocardial infarc. or coronary thromb.)",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "51": "Valvular heart disease",
+            "52": "Ischaemic heart disease (incl. Bypass grafts)",
+            "85": "Other answer - not codeable 01 to 08",
+            "86": "Irrelevant response - not codeable 01 to 08",
+            "95": "Any other heart trouble (SPECIFY)",
+            "96": "None of these"
+          },
+          "section_sha256": "63f2bb1c7caf63be12f534892d91c3b1f250689fb8d312c17dfdd44545b55a07",
+          "missing_range_metadata": null
+        },
+        "hedim03": {
+          "archived_name": "hedim03",
+          "position": 427,
+          "label": "Diagnosed cardiovascular condit. newly reported at W2 (3rd mention) (merged var)",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack (incl myocardial infarc. or coronary thromb.)",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "51": "Valvular heart disease",
+            "52": "Ischaemic heart disease (incl. Bypass grafts)",
+            "85": "Other answer - not codeable 01 to 08",
+            "86": "Irrelevant response - not codeable 01 to 08",
+            "95": "Any other heart trouble (SPECIFY)",
+            "96": "None of these"
+          },
+          "section_sha256": "84c2d79dad2d49652e2829764f9ee8f3b69842117103c16f86daf8f81c288264",
+          "missing_range_metadata": null
+        },
+        "hedim04": {
+          "archived_name": "hedim04",
+          "position": 428,
+          "label": "Diagnosed cardiovascular condit. newly reported at W2 (4th mention) (merged var)",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack (incl myocardial infarc. or coronary thromb.)",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "51": "Valvular heart disease",
+            "52": "Ischaemic heart disease (incl. Bypass grafts)",
+            "85": "Other answer - not codeable 01 to 08",
+            "86": "Irrelevant response - not codeable 01 to 08",
+            "95": "Any other heart trouble (SPECIFY)",
+            "96": "None of these"
+          },
+          "section_sha256": "64363176d215bc8b6fd2abf3cfd5c39220f94d61b7c885a218e317b0165f20b5",
+          "missing_range_metadata": null
+        },
+        "hedim05": {
+          "archived_name": "hedim05",
+          "position": 429,
+          "label": "Diagnosed cardiovascular condit. newly reported at W2 (5th mention) (merged var)",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack (incl myocardial infarc. or coronary thromb.)",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "51": "Valvular heart disease",
+            "52": "Ischaemic heart disease (incl. Bypass grafts)",
+            "85": "Other answer - not codeable 01 to 08",
+            "86": "Irrelevant response - not codeable 01 to 08",
+            "95": "Any other heart trouble (SPECIFY)",
+            "96": "None of these"
+          },
+          "section_sha256": "a963732e462ba98341d683775dc6340e63ed4ba5ade8206fe28e7d5db44dc096",
+          "missing_range_metadata": null
+        },
+        "hedim06": {
+          "archived_name": "hedim06",
+          "position": 430,
+          "label": "Diagnosed cardiovascular condit. newly reported at W2 (6th mention) (merged var)",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack (incl myocardial infarc. or coronary thromb.)",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "51": "Valvular heart disease",
+            "52": "Ischaemic heart disease (incl. Bypass grafts)",
+            "85": "Other answer - not codeable 01 to 08",
+            "86": "Irrelevant response - not codeable 01 to 08",
+            "95": "Any other heart trouble (SPECIFY)",
+            "96": "None of these"
+          },
+          "section_sha256": "66fe225f3c779a0c8f369ce2b3e3b60c5674963e5351419462bda3772329ce43",
+          "missing_range_metadata": null
+        },
+        "hedim07": {
+          "archived_name": "hedim07",
+          "position": 431,
+          "label": "Diagnosed cardiovascular condit. newly reported at W2 (7th mention) (merged var)",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack (incl myocardial infarc. or coronary thromb.)",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "51": "Valvular heart disease",
+            "52": "Ischaemic heart disease (incl. Bypass grafts)",
+            "85": "Other answer - not codeable 01 to 08",
+            "86": "Irrelevant response - not codeable 01 to 08",
+            "95": "Any other heart trouble (SPECIFY)",
+            "96": "None of these"
+          },
+          "section_sha256": "68272d9b7f5353b1dd364ff69eaa628dfd898185ff92c68eccf11a00a9325729",
+          "missing_range_metadata": null
+        },
+        "hedim08": {
+          "archived_name": "hedim08",
+          "position": 432,
+          "label": "Diagnosed cardiovascular condit. newly reported at W2 (8th mention) (merged var)",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack (incl myocardial infarc. or coronary thromb.)",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "51": "Valvular heart disease",
+            "52": "Ischaemic heart disease (incl. Bypass grafts)",
+            "85": "Other answer - not codeable 01 to 08",
+            "86": "Irrelevant response - not codeable 01 to 08",
+            "95": "Any other heart trouble (SPECIFY)",
+            "96": "None of these"
+          },
+          "section_sha256": "28f2df6e3168ab9c8bdc619b789705425938000552bf0d694a2640de460a99d0",
+          "missing_range_metadata": null
+        },
+        "askpx1": {
+          "archived_name": "askpx1",
+          "position": 6572,
+          "label": "Whether interviewed by proxy",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "0": "No",
+            "1": "Yes"
+          },
+          "section_sha256": "7279565db01c8406d48e58439a6ba22dc6ade68c7614a19f8b625ab8f2c3f984",
+          "missing_range_metadata": null
+        },
+        "iintdtm": {
+          "archived_name": "iintdtm",
+          "position": 6576,
+          "label": "Month of Individual Interview",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable"
+          },
+          "section_sha256": "3181c12b51655fe4f5331966514f113a10da7c8858f87d353a0cca2a14d249f6",
+          "missing_range_metadata": null
+        },
+        "iintdty": {
+          "archived_name": "iintdty",
+          "position": 6577,
+          "label": "Year of Individual Interview",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable"
+          },
+          "section_sha256": "7cb229db76b9f14281f2cf13de173e92d1e1d3325fa3c86f9b353a3a2c35190e",
+          "missing_range_metadata": null
+        },
+        "indsex": {
+          "archived_name": "indsex",
+          "position": 6578,
+          "label": "Definitive sex variable. Priority: Disex, Dhsex",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "Male",
+            "2": "Female"
+          },
+          "section_sha256": "32e12a785cb543a8eac9cdaf838327297e36b4da7bf26f7a22110123446a1175",
+          "missing_range_metadata": null
+        },
+        "indager": {
+          "archived_name": "indager",
+          "position": 6580,
+          "label": "Definitive age variable collapsed at 90 plus. Priority: Diag, Dhage",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "99": "Age on or before 29/02/1914 collapsed"
+          },
+          "section_sha256": "92c7837e7b1c4b1056286e0fa1475a7e40ad80f296768a6433611bd936148b5c",
+          "missing_range_metadata": null
+        }
+      }
+    },
+    "3": {
+      "dataset_basename": "wave_3_elsa_data_v4.dta",
+      "dictionary_member": "wave_3_elsa_data_v4_ukda_data_dictionary.rtf",
+      "dictionary_member_sha256": "ebc88c9aae47ecf30bb802c86d0cfbd18d3dfb9305a8423bf2ab0e5b0e5beb34",
+      "fields": {
+        "w3indout": {
+          "archived_name": "w3indout",
+          "position": 6,
+          "label": "Cleaned individual outcome code",
+          "values": {
+            "-9": "Individual outcome missing",
+            "11": "Full interview in person",
+            "13": "Full interview by proxy",
+            "21": "Partial interview in person",
+            "23": "Partial interview by proxy",
+            "24": "Institutional interview in person",
+            "25": "Institutional interview by proxy",
+            "26": "Partial institutional interview",
+            "27": "Partial proxy institutional interview",
+            "31": "No contact",
+            "43": "Refusal before interview",
+            "44": "Refusal during interview (computed)",
+            "45": "Broken appointment - no re-contact",
+            "46": "Office refusal",
+            "51": "Ill at home during survey period",
+            "52": "Away/ill in hospital during survey period",
+            "53": "Physically or mentally unable/incompetent",
+            "54": "Language difficulties",
+            "55": "Data deleted",
+            "56": "Other unproductive",
+            "60": "Untraced",
+            "71": "In a institution, unproductive",
+            "78": "Out of Britain",
+            "79": "Ineligible (issued in error)",
+            "95": "Died",
+            "99": "NODK,NORF"
+          },
+          "section_sha256": "050fc04fcfd8d7e4178017b914b0a2796bc8b36e5d100216e1db400c7ec8f761",
+          "missing_range_metadata": null
+        },
+        "hedawbp": {
+          "archived_name": "hedawbp",
+          "position": 350,
+          "label": "Diagnosed high blood pressure fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-2": "Schedule not applicable",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "db274bd303f597e9ee6ded889c2df4e8e64ce81fb188421366b38d40578b0853",
+          "missing_range_metadata": null
+        },
+        "hedawan": {
+          "archived_name": "hedawan",
+          "position": 351,
+          "label": "Diagnosed angina fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-2": "Schedule not applicable",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "0eb2aedcfec09cc1a00970b6a451c7899d9179c7bf8ce04e18be829afb1fe2e7",
+          "missing_range_metadata": null
+        },
+        "hedawmi": {
+          "archived_name": "hedawmi",
+          "position": 352,
+          "label": "Diagnosed heart attack fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-2": "Schedule not applicable",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "e378775a1e86dd346fca295a1e83758214e41a3d16df31a8156dd50685c4b70c",
+          "missing_range_metadata": null
+        },
+        "hedawhf": {
+          "archived_name": "hedawhf",
+          "position": 353,
+          "label": "Diagnosed congestive heart failure fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-2": "Schedule not applicable",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "50a2284c785b2d0ce5ab6a4a2c605baa69d8e9cfb99aa76a0cf2557d74baf800",
+          "missing_range_metadata": null
+        },
+        "hedawhm": {
+          "archived_name": "hedawhm",
+          "position": 354,
+          "label": "Diagnosed heart murmur fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-2": "Schedule not applicable",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "7ea6b7e4462928b49e733ddc5b8b05dce2a90240dfd1e195e4a8eade4c615f0b",
+          "missing_range_metadata": null
+        },
+        "hedawar": {
+          "archived_name": "hedawar",
+          "position": 355,
+          "label": "Diagnosed abnormal heart rhythm fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-2": "Schedule not applicable",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "9cf9a402a8c3683fa35c80a0a4401e0c6fda6defb2ed2b39d79a4c4d02edd5b9",
+          "missing_range_metadata": null
+        },
+        "hedawdi": {
+          "archived_name": "hedawdi",
+          "position": 356,
+          "label": "Diagnosed diabetes or high blood sugar fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-2": "Schedule not applicable",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "ebcf4a46df411d6e7fbbb9b30937f9f572c8ba6bb20a54ae51deb833d293030e",
+          "missing_range_metadata": null
+        },
+        "hedawst": {
+          "archived_name": "hedawst",
+          "position": 357,
+          "label": "Diagnosed stroke fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-2": "Schedule not applicable",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "7817968a8cb7418e1b7674fc11abab7ce92e079c82546b92f2440305e3c007bd",
+          "missing_range_metadata": null
+        },
+        "hedawch": {
+          "archived_name": "hedawch",
+          "position": 358,
+          "label": "Diagnosed high cholesterol fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-2": "Schedule not applicable",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "75bbb8b252909a996926760b2f00812efaece4423d7abb5213a9d80e1c252a66",
+          "missing_range_metadata": null
+        },
+        "hedawot": {
+          "archived_name": "hedawot",
+          "position": 359,
+          "label": "Diagnosed other heart disease fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-2": "Schedule not applicable",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "0a015bb77c0d0abc63289000737a63af8ecfd7cbce4e0a6bc65b9f457147b766",
+          "missing_range_metadata": null
+        },
+        "hedacmi": {
+          "archived_name": "hedacmi",
+          "position": 362,
+          "label": "Whether confirms heart attack diagnosis",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-2": "Schedule not applicable",
+            "-1": "Not applicable",
+            "1": "Yes",
+            "2": "No",
+            "3": "Not read out as didn t make sense"
+          },
+          "section_sha256": "2040e0cd99ee3724d78f2cced662a8dff6c33973d7c8d93936f4d09459d5b707",
+          "missing_range_metadata": null
+        },
+        "hedacst": {
+          "archived_name": "hedacst",
+          "position": 367,
+          "label": "Whether confirms stroke diagnosis",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-2": "Schedule not applicable",
+            "-1": "Not applicable",
+            "1": "Yes",
+            "2": "No",
+            "3": "Not read out as didn t make sense"
+          },
+          "section_sha256": "e48d48d3a7660159ada1d70d99f2ca1156fb89fb72031193ff2b05dd0908e885",
+          "missing_range_metadata": null
+        },
+        "hedanmi": {
+          "archived_name": "hedanmi",
+          "position": 372,
+          "label": "Reason disputed heart attack diagnosis fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-2": "Schedule not applicable",
+            "-1": "Not applicable",
+            "1": "Never had",
+            "2": "No longer has",
+            "3": "Did not have previously, but has now",
+            "4": "Misdiagnosed"
+          },
+          "section_sha256": "0bf44920cc45bb77bc648dd5dbce8d9825f38e9aba11373d0fa156dc957c6af2",
+          "missing_range_metadata": null
+        },
+        "hedanst": {
+          "archived_name": "hedanst",
+          "position": 377,
+          "label": "Reason disputed stroke diagnosis fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-2": "Schedule not applicable",
+            "-1": "Not applicable",
+            "1": "Never had",
+            "2": "No longer has",
+            "3": "Did not have previously, but has now",
+            "4": "Misdiagnosed"
+          },
+          "section_sha256": "ff6e4c7461900722e407d2753d3d3dfcca071c5497b2145294773a3464ebf7ff",
+          "missing_range_metadata": null
+        },
+        "hedim96": {
+          "archived_name": "hedim96",
+          "position": 409,
+          "label": "CVD: no new diagnosis reported",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-2": "Schedule not applicable",
+            "-1": "Not applicable",
+            "0": "Not mentioned",
+            "1": "Mentioned"
+          },
+          "section_sha256": "30bd0d6c16f8ecd94eb4e138200af9b881482d859a5bacc02df1a2d6a934e5c6",
+          "missing_range_metadata": null
+        },
+        "askpx": {
+          "archived_name": "askpx",
+          "position": 5965,
+          "label": "Whether respondent had a proxy interview",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "0": "No",
+            "1": "Yes"
+          },
+          "section_sha256": "c3b4a00f26bd402759cbf7a3f9e180739fed12999f7a2597ea0de80af1ec1be7",
+          "missing_range_metadata": null
+        },
+        "iintdatm": {
+          "archived_name": "iintdatm",
+          "position": 5972,
+          "label": "Month of Individual Interview",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable"
+          },
+          "section_sha256": "e0e14e5a1b15b8f8712ec6866937bd74d17cd7a45c7e0fba2e55a94ca7303624",
+          "missing_range_metadata": null
+        },
+        "iintdaty": {
+          "archived_name": "iintdaty",
+          "position": 5973,
+          "label": "Year of Individual Interview",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable"
+          },
+          "section_sha256": "f9b748e6c1c30ef02dab594ea03af28a78a48887d35d7743b38693b7235fbe2b",
+          "missing_range_metadata": null
+        },
+        "indsex": {
+          "archived_name": "indsex",
+          "position": 5974,
+          "label": "Definitive sex variable. Priority: Disex, Dhsex",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "Male",
+            "2": "Female"
+          },
+          "section_sha256": "879cffc72e10caae7b4e9dc19715eaf13c56251959c371b27e3eec0d983edb2d",
+          "missing_range_metadata": null
+        },
+        "indager": {
+          "archived_name": "indager",
+          "position": 5976,
+          "label": "Definitive age variable collapsed at 90 plus. Priority: Diag, Dhage",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "99": "Age collapsed as born on or before 29/02/1916"
+          },
+          "section_sha256": "5d7d625dcfdb02ab57dbc8e6fe3aa4ff8543313100f5c4091d93cbde858851af",
+          "missing_range_metadata": null
+        },
+        "hedimmi": {
+          "archived_name": "hedimmi",
+          "position": 6046,
+          "label": "(D) Ever reported myocardial infarction (diagnosed)",
+          "values": {
+            "-3": "In Wave 3 only and did not report",
+            "-2": "In Wave 2 only and did not report",
+            "-1": "In Wave 1 only and did not report",
+            "0": "Not in any wave",
+            "1": "By Wave 1",
+            "2": "By Wave 2",
+            "3": "By Wave 3"
+          },
+          "section_sha256": "1747eb21fc086a7617f9e01d2f03db393d96e30eb3953f5a910344072334e7b4",
+          "missing_range_metadata": null
+        },
+        "hedimdi": {
+          "archived_name": "hedimdi",
+          "position": 6050,
+          "label": "(D) Ever reported diabetes or high blood sugar (diagnosed)",
+          "values": {
+            "-3": "In Wave 3 only and did not report",
+            "-2": "In Wave 2 only and did not report",
+            "-1": "In Wave 1 only and did not report",
+            "0": "Not in any wave",
+            "1": "By Wave 1",
+            "2": "By Wave 2",
+            "3": "By Wave 3"
+          },
+          "section_sha256": "c9d2770f6ee74220b884a17eb48fa6cfef007230790b491e0a38aaa6cb4ad09e",
+          "missing_range_metadata": null
+        },
+        "hedimst": {
+          "archived_name": "hedimst",
+          "position": 6052,
+          "label": "(D) Ever reported stroke",
+          "values": {
+            "-3": "In Wave 3 only and did not report",
+            "-2": "In Wave 2 only and did not report",
+            "-1": "In Wave 1 only and did not report",
+            "0": "Not in any wave",
+            "1": "By Wave 1",
+            "2": "By Wave 2",
+            "3": "By Wave 3"
+          },
+          "section_sha256": "d6c3601d90d7158a66a3c63b3aced9e877fea0abd2c2ea561708d92bf3b91823",
+          "missing_range_metadata": null
+        },
+        "hedacdi": {
+          "archived_name": "hedacdi",
+          "position": 366,
+          "label": "Whether confirms diabetes or high blood sugar diagnosis",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-2": "Schedule not applicable",
+            "-1": "Not applicable",
+            "1": "Yes",
+            "2": "No",
+            "3": "Not read out as didn t make sense"
+          },
+          "section_sha256": "3264232a1aa4cc698858b0b556d3acdcdbc972b66287d567275b76af7314739f",
+          "missing_range_metadata": null
+        },
+        "hedandi": {
+          "archived_name": "hedandi",
+          "position": 376,
+          "label": "Reason disputed diabetes or high blood sugar diagnosis fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-2": "Schedule not applicable",
+            "-1": "Not applicable",
+            "1": "Never had",
+            "2": "No longer has",
+            "3": "Did not have previously, but has now",
+            "4": "Misdiagnosed"
+          },
+          "section_sha256": "183b1c5d10c0d6fbf0d34d9ebee1461d82e71867aa38f5fc76ca1838d47b7087",
+          "missing_range_metadata": null
+        },
+        "hedimbp": {
+          "archived_name": "hedimbp",
+          "position": 6044,
+          "label": "(D) Ever reported high blood pressure (diagnosed)",
+          "values": {
+            "-3": "In Wave 3 only and did not report",
+            "-2": "In Wave 2 only and did not report",
+            "-1": "In Wave 1 only and did not report",
+            "0": "Not in any wave",
+            "1": "By Wave 1",
+            "2": "By Wave 2",
+            "3": "By Wave 3"
+          },
+          "section_sha256": "83a9cb5ac854ac4f401e43a73326bf778c8ccd54b079781268efefc75ad1b571",
+          "missing_range_metadata": null
+        }
+      }
+    },
+    "4": {
+      "dataset_basename": "wave_4_elsa_data_eul.dta",
+      "dictionary_member": "wave_4_elsa_data_eul_ukda_data_dictionary.rtf",
+      "dictionary_member_sha256": "4d24512ee1a11408131e9411bca116bcd3a518c007cea0def778f9fbed9cbacd",
+      "fields": {
+        "w4indout": {
+          "archived_name": "w4indout",
+          "position": 6,
+          "label": "Wave 4 individual outcome code",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "11": "Full interview in person",
+            "13": "Full interview by proxy",
+            "21": "Partial interview in person",
+            "23": "Partial interview by proxy",
+            "24": "Institutional interview in person",
+            "25": "Institutional interview by proxy"
+          },
+          "section_sha256": "4e235ecf6810f23ca50972cba24553a53395f9460c59ec351310534a4374601e",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "iintdatm": {
+          "archived_name": "iintdatm",
+          "position": 9,
+          "label": "Month of Individual Interview",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "January",
+            "2": "February",
+            "3": "March",
+            "4": "April",
+            "5": "May",
+            "6": "June",
+            "7": "July",
+            "8": "August",
+            "9": "September",
+            "10": "October",
+            "11": "November",
+            "12": "December"
+          },
+          "section_sha256": "30a6a7d0e3dde32ee8a3e08ea7135c88931742d7e8094ea54f351da68752b8f9",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "iintdaty": {
+          "archived_name": "iintdaty",
+          "position": 10,
+          "label": "Year of Individual Interview",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable"
+          },
+          "section_sha256": "ea60558e74d9af0be9c9e129c73fb2393204e9975cf02edffd8e9f0047d8fd15",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "askpx": {
+          "archived_name": "askpx",
+          "position": 25,
+          "label": "Whether respondent had an interview by proxy",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "0": "Respondent did not have interview by proxy",
+            "1": "Respondent did have interview by proxy"
+          },
+          "section_sha256": "7fd5041614ae847186bd9d9864c854b9cdbb1c1b1df3e34ac7bb2cb809ddd06b",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedawbp": {
+          "archived_name": "hedawbp",
+          "position": 473,
+          "label": "Diagnosed high blood pressure fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-2": "Capi/Interview Error",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "29e3d79aeb40940ede4976a16c80f34e9f5ff78b2d4f22bc0bfa57b9344e3256",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedawan": {
+          "archived_name": "hedawan",
+          "position": 477,
+          "label": "Diagnosed angina fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-2": "Capi/Interview Error",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "bc032b028cd3c77398d09da7f3afee04356c415ff5131b4a4615b99a8d75ae74",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedawmi": {
+          "archived_name": "hedawmi",
+          "position": 482,
+          "label": "Diagnosed heart attack fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-2": "Capi/Interview Error",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "13a528e56a066ab43b459551a0b8b62bbcc30fe4173e7ed3aaa4171921b9e3ba",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedacmi": {
+          "archived_name": "hedacmi",
+          "position": 483,
+          "label": "Whether confirms heart attack diagnosis",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-2": "Capi/Interview Error",
+            "-1": "Not applicable",
+            "1": "Yes",
+            "2": "No",
+            "3": "Not read out as didn't make sense"
+          },
+          "section_sha256": "5b3ead445e1223b120e285315ce8ad15184babb23f9232d36cb47d5046ad90e6",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedanmi": {
+          "archived_name": "hedanmi",
+          "position": 484,
+          "label": "Reason disputed heart attack diagnosis fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-2": "Capi/Interview Error",
+            "-1": "Not applicable",
+            "1": "Never had",
+            "2": "No longer has",
+            "3": "Did not have previously, but has now",
+            "4": "Misdiagnosed"
+          },
+          "section_sha256": "e0f08a9492af57ca9475922269031947eb7c37b30a53f2223aeaf9ada58b819b",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedawhf": {
+          "archived_name": "hedawhf",
+          "position": 486,
+          "label": "Diagnosed congestive heart failure fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-2": "Capi/Interview Error",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "b873655a3095077c81047343219fb03b96cc72a1b8a01afd36249135b53a2577",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedawhm": {
+          "archived_name": "hedawhm",
+          "position": 490,
+          "label": "Diagnosed heart murmur fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-2": "Capi/Interview Error",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "12ef208b74afbcd1451e418a50a4e5cb5358a376694319036d0ed94bbd4adc48",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedawar": {
+          "archived_name": "hedawar",
+          "position": 494,
+          "label": "Diagnosed abnormal heart rhythm fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-2": "Capi/Interview Error",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "146dc7c8a00bf30b68539348709fb44d810493e611290645ebd5ba7294d954fc",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedawdi": {
+          "archived_name": "hedawdi",
+          "position": 498,
+          "label": "Diagnosed diabetes or high blood sugar fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-2": "Capi/Interview Error",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "a45f631e3fc20c87e6a002bde2480ff07d76d0c021a391abfdfdabf8f98d77bb",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedawst": {
+          "archived_name": "hedawst",
+          "position": 501,
+          "label": "Diagnosed stroke fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-2": "Capi/Interview Error",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "d13b82953565c326486fc1e3426c6ad0501fca456175c52021a33885b3267b1a",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedacst": {
+          "archived_name": "hedacst",
+          "position": 502,
+          "label": "Whether confirms stroke diagnosis",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-2": "Capi/Interview Error",
+            "-1": "Not applicable",
+            "1": "Yes",
+            "2": "No",
+            "3": "Not read out as didn t make sense"
+          },
+          "section_sha256": "36a539d992c869960250ab40c7c231c5f60dd17b769a02e4ac3ee9181bb46287",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedanst": {
+          "archived_name": "hedanst",
+          "position": 503,
+          "label": "Reason disputed stroke diagnosis fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-2": "Capi/Interview Error",
+            "-1": "Not applicable",
+            "1": "Never had",
+            "2": "No longer has",
+            "3": "Did not have previously, but has now",
+            "4": "Misdiagnosed"
+          },
+          "section_sha256": "69dd9435fcb623946cb604921516e05efaab2c462dfb9e070cb33c62890deb7e",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedawch": {
+          "archived_name": "hedawch",
+          "position": 504,
+          "label": "Diagnosed high cholesterol fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-2": "Capi/Interview Error",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "ac2a843ec61897a123a537ecbc30ba5c2a710a160e54cfe358df0055f48d8fb5",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedawot": {
+          "archived_name": "hedawot",
+          "position": 508,
+          "label": "Diagnosed other heart disease fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-2": "Capi/Interview Error",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "148c69dd7dbcc5fffc2efa1794944be70fedc1447627a777e1af075a694340b6",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedimmi": {
+          "archived_name": "hedimmi",
+          "position": 525,
+          "label": "CVD: heart attack diagnosis newly reported (merged)",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "0": "Not mentioned",
+            "1": "Mentioned"
+          },
+          "section_sha256": "533d990a98b022e0631bfff8a571c610313e25273395020258d912dc6698dba0",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedimdi": {
+          "archived_name": "hedimdi",
+          "position": 529,
+          "label": "CVD: diabetes or high blood sugar diagnosis newly reported (merged)",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "0": "Not mentioned",
+            "1": "Mentioned"
+          },
+          "section_sha256": "d173442eb8468e6225525b6e59b3098540889ec36a4323d68ffad41cb8543862",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedimst": {
+          "archived_name": "hedimst",
+          "position": 530,
+          "label": "CVD: stroke diagnosis newly reported  (merged)",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "0": "Not mentioned",
+            "1": "Mentioned"
+          },
+          "section_sha256": "6c76a3a46db772b9a1b1e2dd108e6c9122a6a54c08becd243a8e208e7fdd04ae",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedim96": {
+          "archived_name": "hedim96",
+          "position": 536,
+          "label": "CVD: no new diagnosis reported",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "0": "Not mentioned",
+            "1": "Mentioned"
+          },
+          "section_sha256": "2cfecb811aaf52699370b96da4c4740fa1ac3cc65a4dbf00906a032eeed1abdf",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hediagmi": {
+          "archived_name": "hediagmi",
+          "position": 6471,
+          "label": "(D) Wave when diagnosis of myocardial infarction was first reported",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "0": "Never reported",
+            "1": "Wave 1",
+            "2": "Wave 2",
+            "3": "Wave 3",
+            "4": "Wave 4"
+          },
+          "section_sha256": "2e43fb804945569cf124739425953be479a1776d2d2754b596073cdee91acbce",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hediagst": {
+          "archived_name": "hediagst",
+          "position": 6477,
+          "label": "(D) Wave when diagnosis of a stroke was first reported",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "0": "Never reported",
+            "1": "Wave 1",
+            "2": "Wave 2",
+            "3": "Wave 3",
+            "4": "Wave 4"
+          },
+          "section_sha256": "0047a30ea01fd4af894e49c919e358bd25645ca4c2a6bfac37e257c757f914d7",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "indager": {
+          "archived_name": "indager",
+          "position": 6518,
+          "label": "Definitive age variable collapsed at 90 plus. Priority: Diag, Dhage",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-7": "Age collapsed if aged 90 or over at interview",
+            "-1": "Not applicable"
+          },
+          "section_sha256": "8920f19a777660c2a1ad3bb1f84d99f1752193620aaccdb4e8b7a9956446a1ab",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "indsex": {
+          "archived_name": "indsex",
+          "position": 6519,
+          "label": "Definitive sex variable. Priority: Disex, Dhsex",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "Male",
+            "2": "Female"
+          },
+          "section_sha256": "34edf03f4bfba544391eba158b8dce80c4db856e9bdfe930df383b1feb271790",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedacdi": {
+          "archived_name": "hedacdi",
+          "position": 499,
+          "label": "Whether confirms diabetes or high blood sugar diagnosis",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-2": "Capi/Interview Error",
+            "-1": "Not applicable",
+            "1": "Yes",
+            "2": "No",
+            "3": "Not read out as didn t make sense"
+          },
+          "section_sha256": "2b7c02a511ef8f2d7ae0bc247e90b15a8390f69095196f00c75e0ed077364eb0",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedandi": {
+          "archived_name": "hedandi",
+          "position": 500,
+          "label": "Reason disputed diabetes or high blood sugar diagnosis fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-2": "Capi/Interview Error",
+            "-1": "Not applicable",
+            "1": "Never had",
+            "2": "No longer has",
+            "3": "Did not have previously, but has now",
+            "4": "Misdiagnosed"
+          },
+          "section_sha256": "54d761ea9e0e9f12d94b7408771157875a24d95961262902b6f87f94be46b639",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedimbp": {
+          "archived_name": "hedimbp",
+          "position": 523,
+          "label": "CVD: high blood pressure diagnosis newly reported (merged)",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "0": "Not mentioned",
+            "1": "Mentioned"
+          },
+          "section_sha256": "ba251f2bfd3d12b8bb3dcd20a63ec1a654a8d8f3a50abac477390ef9527711d8",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        }
+      }
+    },
+    "5": {
+      "dataset_basename": "wave_5_elsa_data_eul.dta",
+      "dictionary_member": "wave_5_elsa_data_eul_ukda_data_dictionary.rtf",
+      "dictionary_member_sha256": "1dad9c993247b7660d89ee951c5aec1d37a16ee6349716941e5d5e91b3b1008b",
+      "fields": {
+        "w5indout": {
+          "archived_name": "w5indout",
+          "position": 6,
+          "label": "Wave 5 individual outcome codes",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "11": "Full interview in person",
+            "13": "Full interview by proxy",
+            "21": "Partial interview in person",
+            "23": "Partial interview by proxy",
+            "24": "Institutional interview in person",
+            "25": "Institutional interview by proxy",
+            "26": "Partial institutional interview",
+            "27": "Partial proxy institutional interview",
+            "31": "No contact",
+            "43": "Refusal to interviewer",
+            "44": "Refusal during interview",
+            "45": "Broken appointment",
+            "46": "Office refusal",
+            "51": "Ill at home during survey period",
+            "52": "Away/ill in hospital during survey period",
+            "53": "Physically or mentally unable/incompetent",
+            "54": "Language difficulties",
+            "57": "In a institution, unproductive",
+            "59": "Other unproductive",
+            "60": "Untraced",
+            "77": "Ineligible - partner now not living with CM",
+            "78": "Out of Britain",
+            "79": "Ineligible (issued in error)",
+            "88": "Split household: person is now in a different household",
+            "92": "Allocated to another interviewer (moved out of area)",
+            "95": "Died",
+            "99": "NODK,NORF"
+          },
+          "section_sha256": "473aaf9414123827247f5ea2a1eda482be438cebdacdb6a1f3cce1a8e599c5d4",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "iintdatm": {
+          "archived_name": "iintdatm",
+          "position": 9,
+          "label": "Month of Individual Interview",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "January",
+            "2": "February",
+            "3": "March",
+            "4": "April",
+            "5": "May",
+            "6": "June",
+            "7": "July",
+            "8": "August",
+            "9": "September",
+            "10": "October",
+            "11": "November",
+            "12": "December"
+          },
+          "section_sha256": "30a6a7d0e3dde32ee8a3e08ea7135c88931742d7e8094ea54f351da68752b8f9",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "iintdaty": {
+          "archived_name": "iintdaty",
+          "position": 10,
+          "label": "Year of Individual Interview",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable"
+          },
+          "section_sha256": "ea60558e74d9af0be9c9e129c73fb2393204e9975cf02edffd8e9f0047d8fd15",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "askpx": {
+          "archived_name": "askpx",
+          "position": 25,
+          "label": "Whether respondent had an interview by proxy",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "0": "Respondent did not have interview by proxy",
+            "1": "Respondent did have interview by proxy"
+          },
+          "section_sha256": "7fd5041614ae847186bd9d9864c854b9cdbb1c1b1df3e34ac7bb2cb809ddd06b",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedawbp": {
+          "archived_name": "hedawbp",
+          "position": 447,
+          "label": "Diagnosed high blood pressure fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "51a2c19158879dd9d855126d41627952b8d62bb18e042a392634171bcedc63a8",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedawan": {
+          "archived_name": "hedawan",
+          "position": 451,
+          "label": "Diagnosed angina fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "5450f999becc937f90e3f61d2005e5c930c44b0fefdb4c94647019dc3ed5eb75",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedawmi": {
+          "archived_name": "hedawmi",
+          "position": 456,
+          "label": "Diagnosed heart attack fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "233082fb9fe1263975cfd66794e1dc84746192ab8fe8d07aac4f2e3dc17bd640",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedacmi": {
+          "archived_name": "hedacmi",
+          "position": 457,
+          "label": "Whether confirms heart attack diagnosis",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "Yes",
+            "2": "No",
+            "3": "Not read out as didn t make sense"
+          },
+          "section_sha256": "2900d008aaf332d5236f3f7c8dbdd2df96f416382c9fa1c4d91cc8875e5e51f8",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedanmi": {
+          "archived_name": "hedanmi",
+          "position": 458,
+          "label": "Reason disputed heart attack diagnosis fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "Never had",
+            "2": "No longer has",
+            "3": "Did not have previously, but has now",
+            "4": "Misdiagnosed"
+          },
+          "section_sha256": "723b56cda08e7c3f15ef983c2f502451f9f573edd06a466fe7cafbe0ef4fdaaa",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedawhf": {
+          "archived_name": "hedawhf",
+          "position": 460,
+          "label": "Diagnosed congestive heart failure fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "58a73f325aa5f8a7c0ccdac5c28825f6c50558ba7ff135fec8c91b09c8a256c8",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedawhm": {
+          "archived_name": "hedawhm",
+          "position": 464,
+          "label": "Diagnosed heart murmur fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "261e87b66b18bc0ff5840d20a4521f6f626c8cab69e5f6c60eabcfdf23e1d8cc",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedawar": {
+          "archived_name": "hedawar",
+          "position": 468,
+          "label": "Diagnosed abnormal heart rhythm fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "547a020bdec258f14ce20ea4b5e495b08242023fcec5fb71688d9251ff83f073",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedawdi": {
+          "archived_name": "hedawdi",
+          "position": 472,
+          "label": "Diagnosed diabetes or high blood sugar fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "826dce95ef3daac155ac79e4452c33188557ff6b40668ab7c7f6e654ed74ad4b",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedawst": {
+          "archived_name": "hedawst",
+          "position": 475,
+          "label": "Diagnosed stroke fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "7b70c401b3505a02a53e8a123e2ab425c6ef7bf063599adfed4712298912eae5",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedacst": {
+          "archived_name": "hedacst",
+          "position": 476,
+          "label": "Whether confirms stroke diagnosis",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "Yes",
+            "2": "No",
+            "3": "Not read out as didn t make sense"
+          },
+          "section_sha256": "ac7b73e6aa0b836951629dd49f9820cc590d0c9d042f9a4d23f443a349554e7b",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedanst": {
+          "archived_name": "hedanst",
+          "position": 477,
+          "label": "Reason disputed stroke diagnosis fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "Never had",
+            "2": "No longer has",
+            "3": "Did not have previously, but has now",
+            "4": "Misdiagnosed"
+          },
+          "section_sha256": "f2acd97ef0cb0b50e0f522e663d3edd4a8e7eac054ce546db318a8a1d043a380",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedawch": {
+          "archived_name": "hedawch",
+          "position": 478,
+          "label": "Diagnosed high cholesterol fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "901cc30cc5b2fdaed80afbffb7b2427ed4a125b34c73574eb93ee42999297eac",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedawot": {
+          "archived_name": "hedawot",
+          "position": 482,
+          "label": "Diagnosed other heart disease fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "675a20a10942b2811cd24e7292ae6dc7534f76d8687098c6041ff98dec2a3342",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedimmi": {
+          "archived_name": "hedimmi",
+          "position": 499,
+          "label": "CVD: heart attack diagnosis newly reported (merged)",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "0": "Not mentioned",
+            "1": "Mentioned"
+          },
+          "section_sha256": "d789a15393908a6e42c98fd585249085d1f303a737a1cc4a8931ab0b7518aa13",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedimdi": {
+          "archived_name": "hedimdi",
+          "position": 503,
+          "label": "CVD: diabetes or high blood sugar diagnosis newly reported (merged)",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "0": "Not mentioned",
+            "1": "Mentioned"
+          },
+          "section_sha256": "d285763bcaa50e1d2b469f8bc20240fea8a135400726e31b34e6125526f605f2",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedimst": {
+          "archived_name": "hedimst",
+          "position": 504,
+          "label": "CVD: stroke diagnosis newly reported  (merged)",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "0": "Not mentioned",
+            "1": "Mentioned"
+          },
+          "section_sha256": "dd3e0eb59cad79611d7f4d353fda8d766709368d0ceb9906758a13811c4a4cfb",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedim96": {
+          "archived_name": "hedim96",
+          "position": 508,
+          "label": "CVD: no new diagnosis reported",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "0": "Not mentioned",
+            "1": "Mentioned"
+          },
+          "section_sha256": "76368d72629bc2080d3001fd15a73bf30690a6f212529b5454b0ca7e9796185d",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hediagmi": {
+          "archived_name": "hediagmi",
+          "position": 5458,
+          "label": "(D) Wave when diagnosis of myocardial infarction was first reported",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "0": "Never reported",
+            "1": "Wave 1",
+            "2": "Wave 2",
+            "3": "Wave 3",
+            "4": "Wave 4",
+            "5": "Wave 5"
+          },
+          "section_sha256": "7428376edccfb2005e9e9d2a87822a6f27ee3fecaa6517d406903db17f8f1775",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hediagst": {
+          "archived_name": "hediagst",
+          "position": 5464,
+          "label": "(D) Wave when diagnosis of a stroke was first reported",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "0": "Never reported",
+            "1": "Wave 1",
+            "2": "Wave 2",
+            "3": "Wave 3",
+            "4": "Wave 4",
+            "5": "Wave 5"
+          },
+          "section_sha256": "46746a88cdb58364c70efb73bf5ca3f6ce01dbd9fcba9985059a5781c6e54048",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "indager": {
+          "archived_name": "indager",
+          "position": 5511,
+          "label": "Definitive age variable collapsed at 90 plus. Priority: Diag, Dhage",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-7": "Age of 90 or over collapsed to avoid disclosure",
+            "-1": "Not applicable"
+          },
+          "section_sha256": "4c5d0b65e2d7525c75c640c7de6e9408719e7523c810cc03493fe0355792197a",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "indsex": {
+          "archived_name": "indsex",
+          "position": 5512,
+          "label": "Definitive sex variable",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "Male",
+            "2": "Female"
+          },
+          "section_sha256": "16f03336714685914748501490c5e4a8c73d5060ff2c808ef81ef8dacb19e03c",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedacdi": {
+          "archived_name": "hedacdi",
+          "position": 473,
+          "label": "Whether confirms diabetes or high blood sugar diagnosis",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "Yes",
+            "2": "No",
+            "3": "Not read out as didn t make sense"
+          },
+          "section_sha256": "9333d01487f0bcced07c0e555ece6600af9f5482f8b890e3eea2dede56210b01",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedandi": {
+          "archived_name": "hedandi",
+          "position": 474,
+          "label": "Reason disputed diabetes or high blood sugar diagnosis fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "Never had",
+            "2": "No longer has",
+            "3": "Did not have previously, but has now",
+            "4": "Misdiagnosed"
+          },
+          "section_sha256": "cf64859efc1dfa91e0daec01fdee5d36b7a7958ba5a95b07adff3e8e716114d8",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedimbp": {
+          "archived_name": "hedimbp",
+          "position": 497,
+          "label": "CVD: high blood pressure diagnosis newly reported (merged)",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "0": "Not mentioned",
+            "1": "Mentioned"
+          },
+          "section_sha256": "6bf226063f7516031b943fbefc373ab10c8c4aa7a3277baeb37e5060e3827570",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        }
+      }
+    },
+    "6": {
+      "dataset_basename": "wave_6_elsa_data_eul.dta",
+      "dictionary_member": "wave_6_elsa_data_eul_ukda_data_dictionary.rtf",
+      "dictionary_member_sha256": "dc3e865517c21d4ebf851bbe505cc7fa8689d610ffe29a484501c1bb3a33392f",
+      "fields": {
+        "w6indout": {
+          "archived_name": "w6indout",
+          "position": 6,
+          "label": "Individual outcome code",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "11": "Full interview in person",
+            "13": "Full interview by Proxy/ consultee",
+            "21": "Partial interview in person",
+            "23": "Partial interview by Proxy/ consultee",
+            "24": "Institutional interview in person",
+            "25": "Institutional interview by Proxy/ consultee",
+            "31": "No contact",
+            "43": "Refusal before interview",
+            "44": "Refusal during interview (computed)",
+            "45": "Broken appointment - no re-contact",
+            "46": "Office refusal",
+            "51": "Ill at home during survey period",
+            "52": "Away/ill in hospital during survey period",
+            "53": "Physically or mentally unable/incompetent",
+            "54": "Language difficulties",
+            "57": "In a institution, unproductive",
+            "59": "Other unproductive",
+            "60": "Untraced",
+            "71": "In an institution (@Irefreshment sample only@I)",
+            "77": "Ineligible - partner who is now not living with Core Member",
+            "78": "Out of Britain (@Ior England for refreshment sample@I)",
+            "79": "Ineligible (issued in error)",
+            "88": "Split household: person is now in a different household",
+            "92": "Allocated to another interviewer (moved out of area)",
+            "95": "Died",
+            "99": "c99"
+          },
+          "section_sha256": "031399bc8d7b32778ca628382ec5f9dfc3d95059238460a04d69e36c7a1256c6",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "iintdatm": {
+          "archived_name": "iintdatm",
+          "position": 10,
+          "label": "Interview month",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "January",
+            "2": "February",
+            "3": "March",
+            "4": "April",
+            "5": "May",
+            "6": "June",
+            "7": "July",
+            "8": "August",
+            "9": "September",
+            "10": "October",
+            "11": "November",
+            "12": "December"
+          },
+          "section_sha256": "945612735b81df4ad12535633a0f2fce701f0077b8866fc48cbb0b14812fd979",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "iintdaty": {
+          "archived_name": "iintdaty",
+          "position": 11,
+          "label": "Interview year",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable"
+          },
+          "section_sha256": "75dd46f42bbc68d6fc768851b15907809ab5dfea7377913b35f25cda8b26857a",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "askpx": {
+          "archived_name": "askpx",
+          "position": 26,
+          "label": "Whether respondent had an interview by proxy",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "0": "Respondent did not have interview by proxy",
+            "1": "Respondent did have interview by proxy"
+          },
+          "section_sha256": "1bea75438c90002c7cb384492506048460d28cb393c6160ed8228d8d1615d96d",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedawbp": {
+          "archived_name": "hedawbp",
+          "position": 458,
+          "label": "Diagnosed high blood pressure fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "5007d53f8735392abab17c36929edbf7ef8212238bfd81d932cf3fe5ee311fe7",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedawan": {
+          "archived_name": "hedawan",
+          "position": 462,
+          "label": "Diagnosed angina fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "12bc872d20918cd5a001b0b753ef3ccef52fea6bbf7a860091f804dff08e6209",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedawmi": {
+          "archived_name": "hedawmi",
+          "position": 466,
+          "label": "Diagnosed heart attack fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "a41eb0b0097847007f9f552ad7c7204b3b31ac8a5c8c77900d2725e08f1a8663",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedacmi": {
+          "archived_name": "hedacmi",
+          "position": 467,
+          "label": "Whether confirms heart attack diagnosis",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "Yes",
+            "2": "No",
+            "3": "Not read out as didn t make sense"
+          },
+          "section_sha256": "a8600ab25f02cb648e5d4082a34c175e9643392bdc684de682472e52efcadb65",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedanmi": {
+          "archived_name": "hedanmi",
+          "position": 468,
+          "label": "Reason disputed heart attack diagnosis fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "Never had",
+            "2": "No longer has",
+            "3": "Did not have previously, but has now",
+            "4": "Misdiagnosed"
+          },
+          "section_sha256": "1f30c6919f444eb278cef4fb19a5ef5e6ffa245109b6aa59b46f2db6377c4377",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedawhf": {
+          "archived_name": "hedawhf",
+          "position": 469,
+          "label": "Diagnosed congestive heart failure fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "c0a33fa674fcbffbef0930038253de30d2847d4928941342d3e760465f6cb7f2",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedawhm": {
+          "archived_name": "hedawhm",
+          "position": 473,
+          "label": "Diagnosed heart murmur fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "92cefed8694179740532da6a5caceafb5facd2d2e26c1e274e2199ec5d863c6f",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedawar": {
+          "archived_name": "hedawar",
+          "position": 477,
+          "label": "Diagnosed abnormal heart rhythm fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "a5edd2474b47daa5c7a8d0c53a6831f40b289bf61b39f4201aaa70acd2d92ab5",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedawdi": {
+          "archived_name": "hedawdi",
+          "position": 481,
+          "label": "Diagnosed diabetes or high blood sugar fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "c624f235148bb4aeb921077f7e49d4e5150850c5d55313898fb6a523b7eb27f2",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedawst": {
+          "archived_name": "hedawst",
+          "position": 484,
+          "label": "Diagnosed stroke fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "47326987fa90346b04a9856f9f132cdba514de467ae7090d471c4db1d3720d3e",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedacst": {
+          "archived_name": "hedacst",
+          "position": 485,
+          "label": "Whether confirms stroke diagnosis",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "Yes",
+            "2": "No",
+            "3": "Not read out as didn t make sense"
+          },
+          "section_sha256": "3195cace9acafda048721112cd16153b691d1da47a1b42a803b30933e4bc7467",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedanst": {
+          "archived_name": "hedanst",
+          "position": 486,
+          "label": "Reason disputed stroke diagnosis fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "Never had",
+            "2": "No longer has",
+            "3": "Did not have previously, but has now",
+            "4": "Misdiagnosed"
+          },
+          "section_sha256": "2a4aa5607cf06e4228fd8358979d2e90cc2eeb6841a3ab0bbc83e1acd259a9cb",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedawch": {
+          "archived_name": "hedawch",
+          "position": 487,
+          "label": "Diagnosed high cholesterol fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "9aac39fd3c7337d6f2c116f03380cdb5321f78cca75155c34bb1574d8f331093",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedawot": {
+          "archived_name": "hedawot",
+          "position": 491,
+          "label": "Diagnosed other heart disease fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "165b32d0a60b8ed8ae3b5d5a98cb1ec25d2abb598a894f82d309f3512e362549",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedimmi": {
+          "archived_name": "hedimmi",
+          "position": 508,
+          "label": "CVD: heart attack diagnosis newly reported (merged)",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "0": "Not mentioned",
+            "1": "Mentioned"
+          },
+          "section_sha256": "eaf9ba1e6691748be4168a41dc98b8744107da22d1970374e90778c485681a79",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedimdi": {
+          "archived_name": "hedimdi",
+          "position": 512,
+          "label": "CVD: diabetes or high blood sugar diagnosis newly reported (merged)",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "0": "Not mentioned",
+            "1": "Mentioned"
+          },
+          "section_sha256": "22cd8c54d4d153f704a11905756e1be1cecfd4318f996fd29d716f0021d4c06e",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedimst": {
+          "archived_name": "hedimst",
+          "position": 513,
+          "label": "CVD: stroke diagnosis newly reported (merged)",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "0": "Not mentioned",
+            "1": "Mentioned"
+          },
+          "section_sha256": "e2d0c9c1c2a8bbb57cbfcc5a89364ff3bd2beac263118ebb4de9f9c78d111419",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedim96": {
+          "archived_name": "hedim96",
+          "position": 517,
+          "label": "CVD: no new diagnosis reported",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "0": "Not mentioned",
+            "1": "Mentioned"
+          },
+          "section_sha256": "c3ee9f18815e9691f08aec709e2f5f7b46ed3259763650b0ef1e94dd2aff35d4",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "indager": {
+          "archived_name": "indager",
+          "position": 6029,
+          "label": "Definitive age variable collapsed at 90+ to avoid disclosure",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-7": "Age of 90 or over collapsed to avoid disclosure",
+            "-1": "Not applicable"
+          },
+          "section_sha256": "1a807b1f7e28828850c911276f8fd633055f950e6fc7518abd760b1e580e18ca",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "indsex": {
+          "archived_name": "indsex",
+          "position": 6030,
+          "label": "Definitive sex variable: priority disex, dhsex",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "Male",
+            "2": "Female"
+          },
+          "section_sha256": "1bbe21cc7fb0c33a7a7c5f97c3e78274988e40e24427004c63e72a33210658d8",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedacdi": {
+          "archived_name": "hedacdi",
+          "position": 482,
+          "label": "Whether confirms diabetes or high blood sugar diagnosis",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "Yes",
+            "2": "No",
+            "3": "Not read out as didn t make sense"
+          },
+          "section_sha256": "ad8c002a9ee10c5b75ca2d76e2b18a3f91e9809b15fb136eb9973cf015d9cdfd",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedandi": {
+          "archived_name": "hedandi",
+          "position": 483,
+          "label": "Reason disputed diabetes or high blood sugar diagnosis fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "Never had",
+            "2": "No longer has",
+            "3": "Did not have previously, but has now",
+            "4": "Misdiagnosed"
+          },
+          "section_sha256": "6a78bd933ed292f47218bfae51d59e4a01701e010bcba1e60f690ccd957102cd",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedimbp": {
+          "archived_name": "hedimbp",
+          "position": 506,
+          "label": "CVD: high blood pressure diagnosis newly reported (merged)",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "0": "Not mentioned",
+            "1": "Mentioned"
+          },
+          "section_sha256": "4e130d185bf9c17a3524a8ded3056c97f1d6c99b5824f397d7f3a56bd85bb63f",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        }
+      }
+    },
+    "7": {
+      "dataset_basename": "wave_7_elsa_data_eul.dta",
+      "dictionary_member": "wave_7_elsa_data_eul_ukda_data_dictionary.rtf",
+      "dictionary_member_sha256": "bd8db365b06962b7f01e0e6f2ec559cdc9c5a264e262bf7a4add5f56dcbdbc42",
+      "fields": {
+        "w7indout": {
+          "archived_name": "w7indout",
+          "position": 6,
+          "label": "Individual outcome code",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "11": "Full interview in person",
+            "13": "Full interview by Proxy/ consultee",
+            "21": "Partial interview in person",
+            "23": "Partial interview by Proxy/ consultee",
+            "24": "Institutional interview in person",
+            "25": "Institutional interview by Proxy/ consultee",
+            "31": "No contact",
+            "43": "Refusal before interview",
+            "44": "Refusal during interview (computed)",
+            "45": "Broken appointment - no re-contact",
+            "46": "Office refusal",
+            "51": "Ill at home during survey period",
+            "52": "Away/ill in hospital during survey period",
+            "53": "Physically or mentally unable/incompetent",
+            "54": "Language difficulties",
+            "57": "In a institution, unproductive",
+            "59": "Other unproductive",
+            "60": "Untraced",
+            "71": "In an institution (refreshment sample only)",
+            "77": "Ineligible - partner who is now not living with Core Member",
+            "78": "Out of Britain (or England for refreshment sample)",
+            "79": "Ineligible (issued in error)",
+            "88": "Split household: person is now in a different household",
+            "92": "Allocated to another interviewer (moved out of area)",
+            "95": "Died",
+            "99": "c99"
+          },
+          "section_sha256": "1fbab619b5fc28cb1e91096705e14c3aa55537bf317e952ad24ef72d567115c3",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "iintdatm": {
+          "archived_name": "iintdatm",
+          "position": 9,
+          "label": "Interview month",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "January",
+            "2": "February",
+            "3": "March",
+            "4": "April",
+            "5": "May",
+            "6": "June",
+            "7": "July",
+            "8": "August",
+            "9": "September",
+            "10": "October",
+            "11": "November",
+            "12": "December"
+          },
+          "section_sha256": "34b6af538e4f82d110e7ff1092534d3e921b372e78ba1956d99d2992ffd6995e",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "iintdaty": {
+          "archived_name": "iintdaty",
+          "position": 10,
+          "label": "Interview year",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable"
+          },
+          "section_sha256": "469fbb671e78655b56d19191ed5cb53f5a41ce69d2343b19b45c246dde58a7ef",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "askpx": {
+          "archived_name": "askpx",
+          "position": 25,
+          "label": "Computed: whether respondent had an interview by proxy",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "0": "Respondent did not have interview by proxy",
+            "1": "Respondent did have interview by proxy"
+          },
+          "section_sha256": "b0a4f844ed1c42ce6e3973c4fa8f56866ee8834349a37b5ab17c9a5bed550cd8",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedawbp": {
+          "archived_name": "hedawbp",
+          "position": 470,
+          "label": "Diagnosed high blood pressure fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "f9f29c4df686701f30e7b1e9f296ce86a67609f17d8568719d3b8d5d6a7bed6e",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedawan": {
+          "archived_name": "hedawan",
+          "position": 474,
+          "label": "Diagnosed angina fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "077e28256fa57989b17d1cd8b912934edf06a77960978c6f1e711a2c7f8e8b20",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedawmi": {
+          "archived_name": "hedawmi",
+          "position": 478,
+          "label": "Diagnosed heart attack fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "c1934fb3d4366982aa07f5e4f1e4bbc47918bf4d2afd0dbe959ed790a9f70799",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedacmi": {
+          "archived_name": "hedacmi",
+          "position": 479,
+          "label": "Whether confirms heart attack diagnosis",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "Yes",
+            "2": "No",
+            "3": "Not read out as didn t make sense"
+          },
+          "section_sha256": "f02b4bfbaf6741b146447bab09e9cb6eb4e20105065771829fcce1fac7f76443",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedanmi": {
+          "archived_name": "hedanmi",
+          "position": 480,
+          "label": "Reason disputed heart attack diagnosis fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "Never had",
+            "2": "No longer has",
+            "3": "Did not have previously, but has now",
+            "4": "Misdiagnosed"
+          },
+          "section_sha256": "10c831b4420d5f2b81d1569611d01c95c3d773c9843585b5aacd83425fac31d8",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedawhf": {
+          "archived_name": "hedawhf",
+          "position": 481,
+          "label": "Diagnosed congestive heart failure fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "4dfa92d33b772bcb219b526b3cbde9a14dec22978f9a597fbd9c43ab52d15e18",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedawhm": {
+          "archived_name": "hedawhm",
+          "position": 485,
+          "label": "Diagnosed heart murmur fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "c347dd29b86d56e01dd17c7310dd861d65a7505120d6a9d842dfcb16a54a6e72",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedawar": {
+          "archived_name": "hedawar",
+          "position": 489,
+          "label": "Diagnosed abnormal heart rhythm fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "813089b55a2a0345600c4e989f628b6499ee8e524dfc9dd1d7635e5c3f719f7b",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedawdi": {
+          "archived_name": "hedawdi",
+          "position": 493,
+          "label": "Diagnosed diabetes or high blood sugar fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "9fcaa9149698f40b0c81c5020214520a19db4e51b5f10be69b0c60fcfe5ff86e",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedawst": {
+          "archived_name": "hedawst",
+          "position": 496,
+          "label": "Diagnosed stroke fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "ba4845ad542b210c1b3ea8b58775150b2a0935cbbde2919d78ba388cc5f8867e",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedacst": {
+          "archived_name": "hedacst",
+          "position": 497,
+          "label": "Whether confirms stroke diagnosis",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "Yes",
+            "2": "No",
+            "3": "Not read out as didn t make sense"
+          },
+          "section_sha256": "bb498e2194038a94b5622d5a39b39bd23df644d61533237d4d1d78a9112eb782",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedanst": {
+          "archived_name": "hedanst",
+          "position": 498,
+          "label": "Reason disputed stroke diagnosis fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "Never had",
+            "2": "No longer has",
+            "3": "Did not have previously, but has now",
+            "4": "Misdiagnosed"
+          },
+          "section_sha256": "38ede0a92cfedde480891bc46f609cc285ae7d6febffeea20a9886b5c1327a53",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedawch": {
+          "archived_name": "hedawch",
+          "position": 499,
+          "label": "Diagnosed high cholesterol fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "3ef9d3319a52b22bf04bd527bbf941bc4fd1c9785c23b3449fe836771717fb3a",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedawot": {
+          "archived_name": "hedawot",
+          "position": 503,
+          "label": "Diagnosed other heart disease fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "bc80aca0831710f83654a5c88e24960fe8cfcd768c227a58ab831d2720daac99",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedimmi": {
+          "archived_name": "hedimmi",
+          "position": 520,
+          "label": "CVD: heart attack diagnosis newly reported (merged)",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "0": "Not mentioned",
+            "1": "Mentioned"
+          },
+          "section_sha256": "b5f999e0e706d42f802261c8e62bb1e5442d9baf9842c5fe8cc4aa8e8ffe223d",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedimdi": {
+          "archived_name": "hedimdi",
+          "position": 524,
+          "label": "CVD: diabetes or high blood sugar diagnosis newly reported (merged)",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "0": "Not mentioned",
+            "1": "Mentioned"
+          },
+          "section_sha256": "7f5f4cda267d3d4fa9a3312102fa96b765026c02488e0d4b95725662c056f34b",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedimst": {
+          "archived_name": "hedimst",
+          "position": 525,
+          "label": "CVD: stroke diagnosis newly reported (merged)",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "0": "Not mentioned",
+            "1": "Mentioned"
+          },
+          "section_sha256": "26ec6666e1accd2950972dcb388f61f58af884ef26cfefa61ecdae354193a876",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedim96": {
+          "archived_name": "hedim96",
+          "position": 529,
+          "label": "CVD: no new diagnosis reported",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "0": "Not mentioned",
+            "1": "Mentioned"
+          },
+          "section_sha256": "d5579bd07f455ba24f708d48ee054c88151da056d59862c6eaaebb63d6d4bb89",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "indager": {
+          "archived_name": "indager",
+          "position": 6195,
+          "label": "(D) Definitive age variable collapsed at 90+: priority diag, dhage",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-7": "Age of 90 or over collapsed to avoid disclosure",
+            "-1": "Not applicable"
+          },
+          "section_sha256": "b89ec51bf91e5ed4e9e4f52231fde370c70c338c64763371ff0afd9b32a9cb36",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "indsex": {
+          "archived_name": "indsex",
+          "position": 6196,
+          "label": "(D) Definitive sex variable: priority disex, dhsex",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "Male",
+            "2": "Female"
+          },
+          "section_sha256": "c9c990fd080ed44678ebd012e58a3179e6853f38a8a98eab802a200a86795e0b",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedacdi": {
+          "archived_name": "hedacdi",
+          "position": 494,
+          "label": "Whether confirms diabetes or high blood sugar diagnosis",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "Yes",
+            "2": "No",
+            "3": "Not read out as didn t make sense"
+          },
+          "section_sha256": "24de834ff4d1fbf81bcdc02c3fc124312708f9d88efe8a17fc47aff446aaf4fd",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedandi": {
+          "archived_name": "hedandi",
+          "position": 495,
+          "label": "Reason disputed diabetes or high blood sugar diagnosis fed forward",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "Never had",
+            "2": "No longer has",
+            "3": "Did not have previously, but has now",
+            "4": "Misdiagnosed"
+          },
+          "section_sha256": "c11a6f96e62627110df415d3988b220ee507bcd3987467bd3c27e44740268efc",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "hedimbp": {
+          "archived_name": "hedimbp",
+          "position": 518,
+          "label": "CVD: high blood pressure diagnosis newly reported (merged)",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "0": "Not mentioned",
+            "1": "Mentioned"
+          },
+          "section_sha256": "f97aee477531e36d538011363bbfe27b0f3959022701969b257d803857924833",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        }
+      }
+    },
+    "8": {
+      "dataset_basename": "wave_8_elsa_data_eul_v2.dta",
+      "dictionary_member": "wave_8_elsa_data_eul_v2_ukda_data_dictionary.rtf",
+      "dictionary_member_sha256": "461a98d49ef9e4caaeadc724458600bb3bf7dd7ad1db161a4246b481ce8bcf80",
+      "fields": {
+        "w8indout": {
+          "archived_name": "w8indout",
+          "position": 6,
+          "label": "Individual outcome code",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't know",
+            "-4": "Missing by error",
+            "-3": "No valid answer",
+            "-2": "Self-completion instrument not completed",
+            "-1": "Not applicable",
+            "11": "Full interview in person",
+            "13": "Full interview by Proxy/ consultee",
+            "21": "Partial interview in person",
+            "23": "Partial interview by Proxy/ consultee",
+            "24": "Institutional interview in person",
+            "25": "Institutional interview by Proxy/ consultee",
+            "31": "No contact",
+            "43": "Refusal before interview",
+            "44": "Refusal during interview (computed)",
+            "45": "Broken appointment-no re-contact",
+            "46": "Office refusal",
+            "51": "Ill at home during survey period",
+            "52": "Away/ill in hospital during survey period",
+            "53": "Physically or mentally unable/incompetent",
+            "54": "Language difficulties",
+            "57": "In a institution, unproductive",
+            "59": "Other unproductive",
+            "60": "Untraced",
+            "78": "Out of Britain",
+            "79": "Ineligible (issued in error)",
+            "88": "Split household: person is now in a different household",
+            "92": "Allocated to another interviewer (moved out of area)",
+            "95": "Died"
+          },
+          "section_sha256": "27fe3a56d0312b27343e662690c2b35aab396d006ffce4f4b983deee43884fba",
+          "missing_range_metadata": null
+        },
+        "iintdatm": {
+          "archived_name": "iintdatm",
+          "position": 12,
+          "label": "Interview month",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't know",
+            "-4": "Missing by error",
+            "-3": "No valid answer",
+            "-2": "Self-completion instrument not completed",
+            "-1": "Not applicable",
+            "1": "January",
+            "2": "February",
+            "3": "March",
+            "4": "April",
+            "5": "May",
+            "6": "June",
+            "7": "July",
+            "8": "August",
+            "9": "September",
+            "10": "October",
+            "11": "November",
+            "12": "December"
+          },
+          "section_sha256": "b1998f08b49b5d14355a1f474db9d8b2285dc8c3d21dddebf75a25ca21c1ce50",
+          "missing_range_metadata": null
+        },
+        "iintdaty": {
+          "archived_name": "iintdaty",
+          "position": 13,
+          "label": "Interview year",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't know",
+            "-4": "Missing by error",
+            "-3": "No valid answer",
+            "-2": "Self-completion instrument not completed",
+            "-1": "Not applicable"
+          },
+          "section_sha256": "3c59916c86ee9ac8eb18d70c3db6639083f84f2413a7d351340601e9ac1c456a",
+          "missing_range_metadata": null
+        },
+        "askpx": {
+          "archived_name": "askpx",
+          "position": 29,
+          "label": "Computed: whether respondent had an interview by proxy",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't know",
+            "-4": "Missing by error",
+            "-3": "No valid answer",
+            "-2": "Self-completion instrument not completed",
+            "-1": "Not applicable",
+            "0": "No",
+            "1": "Yes"
+          },
+          "section_sha256": "26fc1482ef17e30be91698b1d5d0c3353fd9ab847358c2d1c1827c3df411ff39",
+          "missing_range_metadata": null
+        },
+        "hedawbp": {
+          "archived_name": "hedawbp",
+          "position": 475,
+          "label": "Diagnosed high blood pressure fed forward",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't know",
+            "-4": "Missing by error",
+            "-3": "No valid answer",
+            "-2": "Self-completion instrument not completed",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "debb671b4f585a274e4bb809b027eecd92673d4a2d5c50bd1b0bf65135181a2e",
+          "missing_range_metadata": null
+        },
+        "hedawan": {
+          "archived_name": "hedawan",
+          "position": 479,
+          "label": "Diagnosed angina fed forward",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't know",
+            "-4": "Missing by error",
+            "-3": "No valid answer",
+            "-2": "Self-completion instrument not completed",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "6d54f01af9181e36b6b528770760eb476aaeb045b2d17d046fcda075a84f612f",
+          "missing_range_metadata": null
+        },
+        "hedawmi": {
+          "archived_name": "hedawmi",
+          "position": 483,
+          "label": "Diagnosed heart attack fed forward",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't know",
+            "-4": "Missing by error",
+            "-3": "No valid answer",
+            "-2": "Self-completion instrument not completed",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "6e7301c306afe40866a911e9c6549af3864dfba6e4556848f43d5cea81e35ac3",
+          "missing_range_metadata": null
+        },
+        "hedacmi": {
+          "archived_name": "hedacmi",
+          "position": 484,
+          "label": "Whether confirms heart attack diagnosis",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't know",
+            "-4": "Missing by error",
+            "-3": "No valid answer",
+            "-2": "Self-completion instrument not completed",
+            "-1": "Not applicable",
+            "1": "Yes",
+            "2": "No",
+            "3": "Not read out as didn't make sense"
+          },
+          "section_sha256": "4524d965988b78f1e2566b131ba6c1829aa5942fd2b4f6e532431ad4dc1192f8",
+          "missing_range_metadata": null
+        },
+        "hedanmi": {
+          "archived_name": "hedanmi",
+          "position": 485,
+          "label": "Reason disputed heart attack diagnosis fed forward",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't know",
+            "-4": "Missing by error",
+            "-3": "No valid answer",
+            "-2": "Self-completion instrument not completed",
+            "-1": "Not applicable",
+            "1": "Never had",
+            "2": "No longer has",
+            "3": "Did not have previously but has now",
+            "4": "Misdiagnosed"
+          },
+          "section_sha256": "655fdcdc6db206c24b0503d7e41925d0e5b18e9050f99ec9331da4ad6a72719e",
+          "missing_range_metadata": null
+        },
+        "hedawhf": {
+          "archived_name": "hedawhf",
+          "position": 486,
+          "label": "Diagnosed congestive heart failure fed forward",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't know",
+            "-4": "Missing by error",
+            "-3": "No valid answer",
+            "-2": "Self-completion instrument not completed",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "a7f24c52f240e6abc7451464f7c325d27baeca94c0e25b75e66e3f7b6bfed1be",
+          "missing_range_metadata": null
+        },
+        "hedawhm": {
+          "archived_name": "hedawhm",
+          "position": 490,
+          "label": "Diagnosed heart murmur fed forward",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't know",
+            "-4": "Missing by error",
+            "-3": "No valid answer",
+            "-2": "Self-completion instrument not completed",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "3e826e1efe616923f04589ab3bb5b714807098333b083e03b5f0fe8e9ed0b0d7",
+          "missing_range_metadata": null
+        },
+        "hedawar": {
+          "archived_name": "hedawar",
+          "position": 494,
+          "label": "Diagnosed abnormal heart rhythm fed forward",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't know",
+            "-4": "Missing by error",
+            "-3": "No valid answer",
+            "-2": "Self-completion instrument not completed",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "f464a247f2bc725a0a636656a1afaa6254532bd8f798c1d218d80285ab0fe26b",
+          "missing_range_metadata": null
+        },
+        "hedawdi": {
+          "archived_name": "hedawdi",
+          "position": 498,
+          "label": "Diagnosed diabetes or high blood sugar fed forward",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't know",
+            "-4": "Missing by error",
+            "-3": "No valid answer",
+            "-2": "Self-completion instrument not completed",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "e61a67f97728cd79babffb72b5e664548652b93126612459b601028a43c13a9f",
+          "missing_range_metadata": null
+        },
+        "hedawst": {
+          "archived_name": "hedawst",
+          "position": 501,
+          "label": "Diagnosed stroke fed forward",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't know",
+            "-4": "Missing by error",
+            "-3": "No valid answer",
+            "-2": "Self-completion instrument not completed",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "bc90e4115b9413a40cb7916a2067db45d46b982664bc161b9c4af823b6370136",
+          "missing_range_metadata": null
+        },
+        "hedacst": {
+          "archived_name": "hedacst",
+          "position": 502,
+          "label": "Whether confirms stroke diagnosis",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't know",
+            "-4": "Missing by error",
+            "-3": "No valid answer",
+            "-2": "Self-completion instrument not completed",
+            "-1": "Not applicable",
+            "1": "Yes",
+            "2": "No",
+            "3": "Not read out as didn't make sense"
+          },
+          "section_sha256": "bed7ce6894afdb224242a4464442a3cd82b2d236c6e84dff3fbe8258d9bad88a",
+          "missing_range_metadata": null
+        },
+        "hedanst": {
+          "archived_name": "hedanst",
+          "position": 503,
+          "label": "Reason disputed stroke diagnosis fed forward",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't know",
+            "-4": "Missing by error",
+            "-3": "No valid answer",
+            "-2": "Self-completion instrument not completed",
+            "-1": "Not applicable",
+            "1": "Never had",
+            "2": "No longer has",
+            "3": "Did not have previously but has now",
+            "4": "Misdiagnosed"
+          },
+          "section_sha256": "5eee199e6529248b305d08bc61ea7f3177bd8049dd4d96fead8dbf4c8c5d9546",
+          "missing_range_metadata": null
+        },
+        "hedawch": {
+          "archived_name": "hedawch",
+          "position": 504,
+          "label": "Diagnosed high cholesterol fed forward",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't know",
+            "-4": "Missing by error",
+            "-3": "No valid answer",
+            "-2": "Self-completion instrument not completed",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "27a657e53207501cebe0ac033b826bcce28231a3f9c9822ff5f55f234d4e7507",
+          "missing_range_metadata": null
+        },
+        "hedaw95": {
+          "archived_name": "hedaw95",
+          "position": 508,
+          "label": "Diagnosed other heart disease fed forward",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't know",
+            "-4": "Missing by error",
+            "-3": "No valid answer",
+            "-2": "Self-completion instrument not completed",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "7845c0cb70d7148cc3ae99330beb9e56d1a4af07e34220f496dfb57c9fdc62e4",
+          "missing_range_metadata": null
+        },
+        "hedimmi": {
+          "archived_name": "hedimmi",
+          "position": 525,
+          "label": "Cardiovascular disease: heart attack diagnosis newly reported (merged)",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't know",
+            "-4": "Missing by error",
+            "-3": "No valid answer",
+            "-2": "Self-completion instrument not completed",
+            "-1": "Not applicable",
+            "0": "Not mentioned",
+            "1": "Mentioned"
+          },
+          "section_sha256": "b47e09d495a4b2f1e2f313662105beddf7fa253a777b6a416712cb53c1f89288",
+          "missing_range_metadata": null
+        },
+        "hedimdi": {
+          "archived_name": "hedimdi",
+          "position": 529,
+          "label": "Cardiovascular disease: diabetes or high blood sugar diagnosis newly reported (merged)",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't know",
+            "-4": "Missing by error",
+            "-3": "No valid answer",
+            "-2": "Self-completion instrument not completed",
+            "-1": "Not applicable",
+            "0": "Not mentioned",
+            "1": "Mentioned"
+          },
+          "section_sha256": "7ef0b131b8677e4363cca31fe9e7d2b61bc5c0b0d0aa0238d296d3f3fe5781f5",
+          "missing_range_metadata": null
+        },
+        "hedimst": {
+          "archived_name": "hedimst",
+          "position": 530,
+          "label": "Cardiovascular disease: stroke diagnosis newly reported  (merged)",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't know",
+            "-4": "Missing by error",
+            "-3": "No valid answer",
+            "-2": "Self-completion instrument not completed",
+            "-1": "Not applicable",
+            "0": "Not mentioned",
+            "1": "Mentioned"
+          },
+          "section_sha256": "bf89fcd39acbf1707674c83cf39a173121a56689d8bb69960c05e344407a942a",
+          "missing_range_metadata": null
+        },
+        "hedim96": {
+          "archived_name": "hedim96",
+          "position": 534,
+          "label": "Cardiovascular disease: no new diagnosis reported (merged)",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't know",
+            "-4": "Missing by error",
+            "-3": "No valid answer",
+            "-2": "Self-completion instrument not completed",
+            "-1": "Not applicable",
+            "0": "Not mentioned",
+            "1": "Mentioned"
+          },
+          "section_sha256": "1ff0b76eafc7ef32f7af04529f98596cb871e32751e205e066637fb4d209f9ec",
+          "missing_range_metadata": null
+        },
+        "indager": {
+          "archived_name": "indager",
+          "position": 6365,
+          "label": "(D) Definitive age variable collapsed at 90+: priority diag, dhage",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't know",
+            "-7": "Age of 90 or over collapsed to avoid disclosure",
+            "-4": "Missing by error",
+            "-3": "No valid answer",
+            "-2": "Self-completion instrument not completed",
+            "-1": "Not applicable"
+          },
+          "section_sha256": "8173b6fc9a2edcebef08128be5b437c08d836aabaaed382953941e6bbb04a595",
+          "missing_range_metadata": null
+        },
+        "indsex": {
+          "archived_name": "indsex",
+          "position": 6366,
+          "label": "(D) Definitive sex variable: priority disex, dhsex",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't know",
+            "-4": "Missing by error",
+            "-3": "No valid answer",
+            "-2": "Self-completion instrument not completed",
+            "-1": "Not applicable",
+            "1": "Male",
+            "2": "Female"
+          },
+          "section_sha256": "afa8655881d72c9876c408a5c055f12ffb594ba158be0e707297d89000b88e8b",
+          "missing_range_metadata": null
+        },
+        "hedacdi": {
+          "archived_name": "hedacdi",
+          "position": 499,
+          "label": "Whether confirms diabetes or high blood sugar diagnosis",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't know",
+            "-4": "Missing by error",
+            "-3": "No valid answer",
+            "-2": "Self-completion instrument not completed",
+            "-1": "Not applicable",
+            "1": "Yes",
+            "2": "No",
+            "3": "Not read out as didn't make sense"
+          },
+          "section_sha256": "7195bf6d2f9551306c595e483724f37ad4994d8d7df77501d8b52e0d5a82c70f",
+          "missing_range_metadata": null
+        },
+        "hedandi": {
+          "archived_name": "hedandi",
+          "position": 500,
+          "label": "Reason disputed diabetes or high blood sugar diagnosis fed forward",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't know",
+            "-4": "Missing by error",
+            "-3": "No valid answer",
+            "-2": "Self-completion instrument not completed",
+            "-1": "Not applicable",
+            "1": "Never had",
+            "2": "No longer has",
+            "3": "Did not have previously but has now",
+            "4": "Misdiagnosed"
+          },
+          "section_sha256": "4a8a86856bd86442c5c0f033ac28489250e46546a31b6064462fd2598243346d",
+          "missing_range_metadata": null
+        },
+        "hedimbp": {
+          "archived_name": "hedimbp",
+          "position": 523,
+          "label": "Cardiovascular disease: high blood pressure diagnosis newly reported (merged)",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't know",
+            "-4": "Missing by error",
+            "-3": "No valid answer",
+            "-2": "Self-completion instrument not completed",
+            "-1": "Not applicable",
+            "0": "Not mentioned",
+            "1": "Mentioned"
+          },
+          "section_sha256": "dc81db4ce5d159a98daea15f6bd8d9f7b0755229a4e41fc55b8f1e1915f12d9c",
+          "missing_range_metadata": null
+        }
+      }
+    },
+    "9": {
+      "dataset_basename": "wave_9_elsa_data_eul_v2.dta",
+      "dictionary_member": "wave_9_elsa_data_eul_v2_ukda_data_dictionary.rtf",
+      "dictionary_member_sha256": "1666adc20ee3bf48c08194ba950dc6c76774a02cf776b4cc37cee8c2a309598e",
+      "fields": {
+        "w9indout": {
+          "archived_name": "w9indout",
+          "position": 6,
+          "label": "Individual outcome code",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't Know",
+            "-1": "Item not applicable",
+            "11": "Full interview in person",
+            "13": "Full interview by Proxy/ consultee",
+            "21": "Partial interview in person",
+            "23": "Partial interview by Proxy/ consultee",
+            "24": "Institutional interview in person",
+            "25": "Institutional interview by Proxy/ consultee",
+            "31": "No contact",
+            "43": "Refusal before interview",
+            "44": "Refusal during interview (computed)",
+            "45": "Broken appointment - no re-contact",
+            "46": "Office refusal",
+            "51": "Ill at home during survey period",
+            "52": "Away/ill in hospital during survey period",
+            "53": "Physically or mentally unable/incompetent",
+            "54": "Language difficulties",
+            "57": "In a institution, unproductive",
+            "59": "Other unproductive",
+            "60": "Untraced",
+            "71": "In an institution (refreshment sample only)",
+            "77": "Ineligible - partner who is now not living with Core Member",
+            "78": "Out of Britain",
+            "79": "Other ineligible - OFFICE APPROVAL ONLY",
+            "88": "Split household: person is now in a different household",
+            "92": "Allocated to another interviewer (moved out of area)",
+            "95": "Died",
+            "99": "c99"
+          },
+          "section_sha256": "a5fd8ee1d53b998a429bd0fc502f716feb2414238ec27e0322a8eef1b0bea837",
+          "missing_range_metadata": "SPSS user missing values = -1.7976931348623155e+308 thru -1.0"
+        },
+        "iintdatm": {
+          "archived_name": "iintdatm",
+          "position": 11,
+          "label": "Interview month",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "January",
+            "2": "February",
+            "3": "March",
+            "4": "April",
+            "5": "May",
+            "6": "June",
+            "7": "July",
+            "8": "August",
+            "9": "September",
+            "10": "October",
+            "11": "November",
+            "12": "December"
+          },
+          "section_sha256": "54c966ff1ae316ece4abe154a8553149fd66c2dfb448ee8934fb116e1db74d15",
+          "missing_range_metadata": "SPSS user missing values = -1.7976931348623155e+308 thru -1.0"
+        },
+        "iintdaty": {
+          "archived_name": "iintdaty",
+          "position": 12,
+          "label": "Interview year",
+          "values": {},
+          "section_sha256": "211691830736b3ee6c35a43d2a0e2be307db444b50f4e5f844d0a359f11009bc",
+          "missing_range_metadata": "SPSS user missing values = -1.7976931348623155e+308 thru -1.0"
+        },
+        "askpx": {
+          "archived_name": "askpx",
+          "position": 27,
+          "label": "Computed: whether respondent had an interview by proxy",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "0": "No",
+            "1": "Yes"
+          },
+          "section_sha256": "86f5f744d253463746c7069d8fb3aa84113c5aa8a3b810fc4294c106e1786e81",
+          "missing_range_metadata": "SPSS user missing values = -1.7976931348623155e+308 thru -1.0"
+        },
+        "hedawbp": {
+          "archived_name": "hedawbp",
+          "position": 466,
+          "label": "Diagnosed high blood pressure fed forward",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't Know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "27cb8353c9fe74d6a1bcb27e31b02ac2c100afa35c2ffb9e8075aac958d70162",
+          "missing_range_metadata": "SPSS user missing values = -1.7976931348623155e+308 thru -1.0"
+        },
+        "hedawan": {
+          "archived_name": "hedawan",
+          "position": 470,
+          "label": "Diagnosed angina fed forward",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't Know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "62249e6553ba4de874df6200829d8385894a92639f370634a3923def39c1f71c",
+          "missing_range_metadata": "SPSS user missing values = -1.7976931348623155e+308 thru -1.0"
+        },
+        "hedawmi": {
+          "archived_name": "hedawmi",
+          "position": 472,
+          "label": "Diagnosed heart attack fed forward",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't Know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "214e633736bf3ee1a2fde1b78805ba6c6d4c762a78e856e03178558139264f9b",
+          "missing_range_metadata": "SPSS user missing values = -1.7976931348623155e+308 thru -1.0"
+        },
+        "hedanmi": {
+          "archived_name": "hedanmi",
+          "position": 473,
+          "label": "Reason disputed heart attack diagnosis fed forward",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't Know",
+            "-1": "Not applicable",
+            "1": "Never had",
+            "2": "No longer has",
+            "3": "Did not have previously but has now",
+            "4": "Misdiagnosed"
+          },
+          "section_sha256": "c38ea741247207a91afb9b85825facfe4656fc21c861c7e37b511589751f887f",
+          "missing_range_metadata": "SPSS user missing values = -1.7976931348623155e+308 thru -1.0"
+        },
+        "hedawhf": {
+          "archived_name": "hedawhf",
+          "position": 474,
+          "label": "Diagnosed congestive heart failure fed forward",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't Know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "48e827ff727988e86ebcd49edd86a8149dc4fd68201a9e05048bbf5f99a7b9d2",
+          "missing_range_metadata": "SPSS user missing values = -1.7976931348623155e+308 thru -1.0"
+        },
+        "hedawhm": {
+          "archived_name": "hedawhm",
+          "position": 478,
+          "label": "Diagnosed heart murmur fed forward",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't Know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "f448adda084fe22564ed056e0b298ca9d02345c8769841010ae539953ef754dc",
+          "missing_range_metadata": "SPSS user missing values = -1.7976931348623155e+308 thru -1.0"
+        },
+        "hedawar": {
+          "archived_name": "hedawar",
+          "position": 482,
+          "label": "Diagnosed abnormal heart rhythm fed forward",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't Know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "3cdec40f5f16ec8d7d02ae5210c76ce0eceaf3d5369fe60e105346f05fb6a828",
+          "missing_range_metadata": "SPSS user missing values = -1.7976931348623155e+308 thru -1.0"
+        },
+        "hedawdi": {
+          "archived_name": "hedawdi",
+          "position": 486,
+          "label": "Diagnosed diabetes or high blood sugar fed forward",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't Know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "8639c207a7b47afad2e5af9d61dc6109a5e1fc90a9fcd3ad47228893e89999cf",
+          "missing_range_metadata": "SPSS user missing values = -1.7976931348623155e+308 thru -1.0"
+        },
+        "hedawst": {
+          "archived_name": "hedawst",
+          "position": 489,
+          "label": "Diagnosed stroke fed forward",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't Know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "ec43bd080a39517c492e4222b0dd66fa082ab4a6151fef85e6d73a7736a01b40",
+          "missing_range_metadata": "SPSS user missing values = -1.7976931348623155e+308 thru -1.0"
+        },
+        "hedacst": {
+          "archived_name": "hedacst",
+          "position": 490,
+          "label": "Whether confirms stroke diagnosis",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't Know",
+            "-1": "Not applicable",
+            "1": "Yes",
+            "2": "No",
+            "3": "Not read out as didn't make sense"
+          },
+          "section_sha256": "44da7d5b0670aa512f59874dcd23324508c084998f92a98bc8e2cfb02f905119",
+          "missing_range_metadata": "SPSS user missing values = -1.7976931348623155e+308 thru -1.0"
+        },
+        "hedanst": {
+          "archived_name": "hedanst",
+          "position": 491,
+          "label": "Reason disputed stroke diagnosis fed forward",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't Know",
+            "-1": "Not applicable",
+            "1": "Never had",
+            "2": "No longer has",
+            "3": "Did not have previously but has now",
+            "4": "Misdiagnosed"
+          },
+          "section_sha256": "8a6a3f5667d900f032afc7b22cd9effad6aea5b7108034f6d3b4c15396782c84",
+          "missing_range_metadata": "SPSS user missing values = -1.7976931348623155e+308 thru -1.0"
+        },
+        "hedawch": {
+          "archived_name": "hedawch",
+          "position": 492,
+          "label": "Diagnosed high cholesterol fed forward",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't Know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "e7bb887e808a5701b096c9127eeb80bd58840b9f3104bbad993e2035093a3486",
+          "missing_range_metadata": "SPSS user missing values = -1.7976931348623155e+308 thru -1.0"
+        },
+        "hedaw95": {
+          "archived_name": "hedaw95",
+          "position": 496,
+          "label": "Diagnosed other heart disease fed forward",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't Know",
+            "-1": "Not applicable",
+            "1": "High blood pressure or hypertension",
+            "2": "Angina",
+            "3": "A heart attack",
+            "4": "Congestive heart failure",
+            "5": "A heart murmur",
+            "6": "An abnormal heart rhythm",
+            "7": "Diabetes or high blood sugar",
+            "8": "A stroke (cerebral vascular disease)",
+            "9": "High cholesterol",
+            "95": "Any other heart trouble"
+          },
+          "section_sha256": "8385a2d86481367564db4e983eddbf069d6da5e14ef9db66912e45fe2ac4f6bb",
+          "missing_range_metadata": "SPSS user missing values = -1.7976931348623155e+308 thru -1.0"
+        },
+        "hedimmi": {
+          "archived_name": "hedimmi",
+          "position": 513,
+          "label": "Cardiovascular disease: heart attack diagnosis newly reported (merged)",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't Know",
+            "-1": "Not applicable",
+            "0": "Not mentioned",
+            "1": "Mentioned"
+          },
+          "section_sha256": "6dddf94c72a9840dd2d8018bdafd8ec3c56e7794f5773efc55a47042a8f7da94",
+          "missing_range_metadata": "SPSS user missing values = -1.7976931348623155e+308 thru -1.0"
+        },
+        "hedimdi": {
+          "archived_name": "hedimdi",
+          "position": 517,
+          "label": "Cardiovascular disease: diabetes or high blood sugar diagnosis newly reported (merged)",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't Know",
+            "-1": "Not applicable",
+            "0": "Not mentioned",
+            "1": "Mentioned"
+          },
+          "section_sha256": "296fed7cb00bc1a1567ea6e348924608721865d286a72a85878c5dee92031a2b",
+          "missing_range_metadata": "SPSS user missing values = -1.7976931348623155e+308 thru -1.0"
+        },
+        "hedimst": {
+          "archived_name": "hedimst",
+          "position": 518,
+          "label": "Cardiovascular disease: stroke diagnosis newly reported  (merged)",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't Know",
+            "-1": "Not applicable",
+            "0": "Not mentioned",
+            "1": "Mentioned"
+          },
+          "section_sha256": "348c8fbc28c79643e6e33eb0698e1086055db2b1b29c93687510712375bcd749",
+          "missing_range_metadata": "SPSS user missing values = -1.7976931348623155e+308 thru -1.0"
+        },
+        "hedim96": {
+          "archived_name": "hedim96",
+          "position": 522,
+          "label": "Cardiovascular disease: no new diagnosis reported (merged)",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't Know",
+            "-1": "Not applicable",
+            "0": "Not mentioned",
+            "1": "Mentioned"
+          },
+          "section_sha256": "b5aa5a14948fb265a8eca88f94583bd3a0e7f4cf1bfd1388bec135f8369088b8",
+          "missing_range_metadata": "SPSS user missing values = -1.7976931348623155e+308 thru -1.0"
+        },
+        "indager": {
+          "archived_name": "indager",
+          "position": 6336,
+          "label": "(D) Definitive age variable collapsed at 90+: priority diag, dhage",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't know",
+            "-7": "Age of 90 or over collapsed to avoid disclosure",
+            "-1": "Not applicable"
+          },
+          "section_sha256": "5c88cd37f77f0a633b6c8840899b2ee235c08f9768ca355e081b392fe3f0ea79",
+          "missing_range_metadata": "SPSS user missing values = -1.7976931348623155e+308 thru -1.0"
+        },
+        "indsex": {
+          "archived_name": "indsex",
+          "position": 6337,
+          "label": "(D) Definitive sex variable: priority disex, dhsex",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't know",
+            "-1": "Not applicable",
+            "1": "Male",
+            "2": "Female"
+          },
+          "section_sha256": "19f6fa7f99ab757c0f172253925acc0fbd1d6915c0d37df3f736f404faea22d2",
+          "missing_range_metadata": "SPSS user missing values = -1.7976931348623155e+308 thru -1.0"
+        },
+        "hedacdi": {
+          "archived_name": "hedacdi",
+          "position": 487,
+          "label": "Whether confirms diabetes or high blood sugar diagnosis",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't Know",
+            "-1": "Not applicable",
+            "1": "Yes",
+            "2": "No",
+            "3": "Not read out as didn't make sense"
+          },
+          "section_sha256": "244c1fa358b11a132d144133ac62c6a92c2d56b03030364de5fcd17b893e29c6",
+          "missing_range_metadata": "SPSS user missing values = -1.7976931348623155e+308 thru -1.0"
+        },
+        "hedandi": {
+          "archived_name": "hedandi",
+          "position": 488,
+          "label": "Reason disputed diabetes or high blood sugar diagnosis fed forward",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't Know",
+            "-1": "Not applicable",
+            "1": "Never had",
+            "2": "No longer has",
+            "3": "Did not have previously but has now",
+            "4": "Misdiagnosed"
+          },
+          "section_sha256": "4b48a12c413b1d9dca2bb56e30ac5c4f95a646e27314f0b1f0444cb1446f7bb2",
+          "missing_range_metadata": "SPSS user missing values = -1.7976931348623155e+308 thru -1.0"
+        },
+        "hedimbp": {
+          "archived_name": "hedimbp",
+          "position": 511,
+          "label": "Cardiovascular disease: high blood pressure diagnosis newly reported (merged)",
+          "values": {
+            "-9": "Refused",
+            "-8": "Don't Know",
+            "-1": "Not applicable",
+            "0": "Not mentioned",
+            "1": "Mentioned"
+          },
+          "section_sha256": "b4f6eb3718b81813b083d11b4c0095f55b9382d2e8e83ac64e90468447c377e3",
+          "missing_range_metadata": "SPSS user missing values = -1.7976931348623155e+308 thru -1.0"
+        }
+      }
+    }
+  },
+  "nurse": {
+    "4": {
+      "dataset_basename": "wave_4_nurse_data.dta",
+      "dictionary_member": "wave_4_nurse_data_ukda_data_dictionary.rtf",
+      "dictionary_member_sha256": "c527ee0549214bb65e1971151ca5257d1e8243f80705e47158b22c813bf7239a",
+      "fields": {
+        "idauniq": {
+          "archived_name": "idauniq",
+          "position": 1,
+          "label": "Unique individual serial number",
+          "values": {},
+          "section_sha256": "97886af07fcb1410a4f17185bc663b0a2c238a90d2ffe38c169ef8e9f4b23e93",
+          "missing_range_metadata": null
+        },
+        "vismon": {
+          "archived_name": "vismon",
+          "position": 7,
+          "label": "Month of nurse visit",
+          "values": {},
+          "section_sha256": "397f6ba70efbbab16175ec3fae55d4f217a1052c1cf322586517859f90272164",
+          "missing_range_metadata": null
+        },
+        "visyear": {
+          "archived_name": "visyear",
+          "position": 8,
+          "label": "Year of nurse visit",
+          "values": {},
+          "section_sha256": "0ee1848ea0521b32f3435c606676d32e73c5b1a97983682bbb6d406437a7f559",
+          "missing_range_metadata": null
+        },
+        "sysval": {
+          "archived_name": "sysval",
+          "position": 35,
+          "label": "(D) Valid Mean Systolic BP",
+          "values": {
+            "-1": "Either invalid or incomplete set of BP readings obtained"
+          },
+          "section_sha256": "d7e84190663e874b53931d7bfb96ee3256e6d0ec9e34c15ba4dd979a2a19d456",
+          "missing_range_metadata": null
+        },
+        "diaval": {
+          "archived_name": "diaval",
+          "position": 36,
+          "label": "(D) Valid Mean Diastolic BP",
+          "values": {
+            "-1": "Either invalid or incomplete set of BP readings obtained"
+          },
+          "section_sha256": "fcf82694afb61d6f5e8f98e0b7d7b7e27e262a9ce4dfdc3a48a961655d5fff58",
+          "missing_range_metadata": null
+        },
+        "bmival": {
+          "archived_name": "bmival",
+          "position": 153,
+          "label": "(D) Valid BMI - inc estimated>130kg",
+          "values": {
+            "-1": "Not applicable"
+          },
+          "section_sha256": "29a0d162ade4e9eba5d8fbcee914a4204bc57b5334f20ebb5b4586faa69afa00",
+          "missing_range_metadata": null
+        },
+        "bmiok": {
+          "archived_name": "bmiok",
+          "position": 154,
+          "label": "(D) Whether BMI measure is valid",
+          "values": {
+            "1": "Valid (according to nurse)",
+            "2": "Height/weight not usable (not valid according to nurse)",
+            "3": "Height/weight refused",
+            "4": "Height/weight attempted but not obtained",
+            "5": "Height/weight not attempted"
+          },
+          "section_sha256": "9afe14779220dbb5f76a2d889e8d18da42eeaddfac70907d033aed5a49289832",
+          "missing_range_metadata": null
+        },
+        "height": {
+          "archived_name": "height",
+          "position": 110,
+          "label": "Standing height: Standing height (cm) including unreliable measurements",
+          "values": {
+            "-1": "Not applicable"
+          },
+          "section_sha256": "a68fa34a3cd6e8fced011f4b11fee38657ccdb911e91d36151014bd33ac74f6e",
+          "missing_range_metadata": null
+        },
+        "weight": {
+          "archived_name": "weight",
+          "position": 132,
+          "label": "Weight (kg) including unreliable measures",
+          "values": {
+            "-1": "Not applicable"
+          },
+          "section_sha256": "5f604656b69c8c2c6f68dcc11178cbc6be5338e63d495503d4a25d19207d674f",
+          "missing_range_metadata": null
+        },
+        "relhite": {
+          "archived_name": "relhite",
+          "position": 127,
+          "label": "Standing height: Reliability of standing height measurement according to nurse",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't Know",
+            "-2": "Schedule not applicable",
+            "-1": "Item not applicable",
+            "1": "No problems experienced, reliable height measurement obtaine",
+            "2": "Reliable",
+            "3": "Unreliable"
+          },
+          "section_sha256": "383d2a9c9b55ca1c3d62ba8285122f9587ca2928c34701c5c79c9dcc7d1254ce",
+          "missing_range_metadata": null
+        },
+        "relwait": {
+          "archived_name": "relwait",
+          "position": 151,
+          "label": "Weight: Reliability of weight measurement",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't Know",
+            "-2": "Schedule not applicable",
+            "-1": "Item not applicable",
+            "1": "No problems experienced, reliable weight measurement obtained",
+            "2": "Reliable",
+            "3": "Unreliable"
+          },
+          "section_sha256": "8f19ccb36f238020bb0c7faa35adbb61972be0e98ed0d3f08dd42223453cbac0",
+          "missing_range_metadata": null
+        }
+      }
+    },
+    "6": {
+      "dataset_basename": "wave_6_elsa_nurse_data_v2.dta",
+      "dictionary_member": "wave_6_elsa_nurse_data_v2_ukda_data_dictionary.rtf",
+      "dictionary_member_sha256": "24ca56829a700bd9c81d0ecfc82aca71d77e7132955346c808d244614d6abe4a",
+      "fields": {
+        "idauniq": {
+          "archived_name": "idauniq",
+          "position": 1,
+          "label": "ADMIN: Unique individual serial number",
+          "values": {},
+          "section_sha256": "afd6af6696a38fdb14ff9920b76d09478d6ab0aa6aa50ccf283676a30920f27c",
+          "missing_range_metadata": null
+        },
+        "vismon": {
+          "archived_name": "vismon",
+          "position": 415,
+          "label": "Month of nurse visit",
+          "values": {},
+          "section_sha256": "b9e1791848c3047a40017cc949a62063afebd8ec5097fa83571ecc90332e78ac",
+          "missing_range_metadata": null
+        },
+        "visyear": {
+          "archived_name": "visyear",
+          "position": 416,
+          "label": "Year of nurse visit",
+          "values": {},
+          "section_sha256": "e2f99156f2ad0a84d605e490fe0bcc7a425d2317472778a53859e1c51ba584da",
+          "missing_range_metadata": null
+        },
+        "sysval": {
+          "archived_name": "SYSVAL",
+          "position": 393,
+          "label": "(D) Valid Mean Systolic BP",
+          "values": {
+            "-1": "Either invalid or incomplete set of BP readings obtained"
+          },
+          "section_sha256": "addf79129ef211645034322ce7a1f7648d9814945dea9540611dc4c01c4a1634",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "diaval": {
+          "archived_name": "DIAVAL",
+          "position": 394,
+          "label": "(D) Valid Mean Diastolic BP",
+          "values": {
+            "-1": "Either invalid or incomplete set of BP readings obtained"
+          },
+          "section_sha256": "38c7dbc0ad6805d1e45583062b250e2c419c51c0ea5712b40d5a8134d99130d5",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "bmival": {
+          "archived_name": "BMIVAL",
+          "position": 404,
+          "label": "(D) Valid BMI - inc estimated>130kg",
+          "values": {
+            "-1": "Not applicable"
+          },
+          "section_sha256": "aa1f59f8d71ff9d30f683320bcc60b7a334db898c4f55eefd8a43fe9c6b90e86",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "bmiok": {
+          "archived_name": "BMIOK",
+          "position": 403,
+          "label": "(D) Whether BMI measure is valid",
+          "values": {
+            "1": "Valid (according to nurse)",
+            "2": "Height/weight not usable (not valid according to nurse)",
+            "3": "Height/weight refused",
+            "4": "Height/weight attempted but not obtained",
+            "5": "Height/weight not attempted"
+          },
+          "section_sha256": "045c3836c3bd95f437cbad785f9ecaf46bdbf9ac6da09c4f27d1a187af857d3f",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "height": {
+          "archived_name": "height",
+          "position": 268,
+          "label": "HEIGHT: Standing height (cm) incl unreliable measurements",
+          "values": {
+            "-1": "Not applicable"
+          },
+          "section_sha256": "a4771d25760c71852981638c028c60233a81426fd4d98da9b55ab980031997a5",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "weight": {
+          "archived_name": "weight",
+          "position": 286,
+          "label": "WEIGHT: Weight (kg)",
+          "values": {
+            "-1": "Not applicable"
+          },
+          "section_sha256": "40b309fad94316b0e6159b1cd67dd84ff905baa0553c85e42abf33ae8e11150c",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "relhite": {
+          "archived_name": "relhite",
+          "position": 283,
+          "label": "HEIGHT: Reliability of standing height measurement according to nurse",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't Know",
+            "-2": "Schedule not applicable",
+            "-1": "Item not applicable",
+            "1": "No problems experienced, reliable height measurement obtaine",
+            "2": "Reliable",
+            "3": "Unreliable"
+          },
+          "section_sha256": "95be815a6af87fe444a1a2ae9a95cbff21e93def568ea5cc01fd15c1d733efda",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        },
+        "relwait": {
+          "archived_name": "relwait",
+          "position": 303,
+          "label": "WEIGHT: Reliability of weight measurement",
+          "values": {
+            "-9": "Refusal",
+            "-8": "Don't Know",
+            "-2": "Schedule not applicable",
+            "-1": "Item not applicable",
+            "1": "No problems experienced, reliable weight measurement obtained",
+            "2": "Reliable",
+            "3": "Unreliable"
+          },
+          "section_sha256": "495966007ce24f84cf5b9159ff1ad1d156bdadf8ec64b13e45d184163230a2d3",
+          "missing_range_metadata": "SPSS user missing values = -9.0 thru -1.0"
+        }
+      }
+    }
+  },
+  "wave9_MI_confirmation_field_present": false
+}

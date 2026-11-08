@@ -1,0 +1,15 @@
+{
+  "scope": "INVENTED_SYNTHETIC_ONLY_NOT_CLINICAL_RESULTS",
+  "conditions": 45,
+  "adapted_fits": 90,
+  "source_fits": 1,
+  "epoch_zero_selections": 5,
+  "paired_prefix_checks_passed": 45,
+  "source_only_equivalence_checks_passed": true,
+  "primary_budget_comparisons": 5,
+  "seconds": 1.7556710420176387,
+  "runtime": {
+    "python": "3.12.14"
+  },
+  "real_data_accessed": false
+}

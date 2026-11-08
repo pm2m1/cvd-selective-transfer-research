@@ -1,0 +1,76 @@
+{
+  "schema": "elsa-status-diagnostic-local-config-v1",
+  "mode": "independent_local_only",
+  "source_use_review": "UNRESOLVED_NOT_AUTHORIZED",
+  "reviewed_scope": [],
+  "no_models": true,
+  "no_event_counts": true,
+  "protocol_sha256": "7fd3c4abecc89280e93f092620c3a82d284d30418b540a2949b53508c3746c74",
+  "mapping_sha256": "158822fb918835c34b79d7deae5050bcc9832eaadbfce570da91542372a40c61",
+  "source_registration": {
+    "path": "SET_ABSOLUTE_PRIVATE_REGISTRATION_MANIFEST_LOCALLY",
+    "sha256": null
+  },
+  "sources": {
+    "harmonized": {
+      "path": "SET_ABSOLUTE_REGISTERED_LOOSE_SOURCE_LOCALLY",
+      "sha256": null,
+      "dataset_basename": "gh_elsa_h.dta",
+      "claimed_archive_edition": "UNRESOLVED"
+    },
+    "core1": {
+      "path": "SET_ABSOLUTE_REGISTERED_LOOSE_SOURCE_LOCALLY",
+      "sha256": null,
+      "dataset_basename": "wave_1_core_data_v3.dta",
+      "claimed_archive_edition": "UNRESOLVED"
+    },
+    "core2": {
+      "path": "SET_ABSOLUTE_REGISTERED_LOOSE_SOURCE_LOCALLY",
+      "sha256": null,
+      "dataset_basename": "wave_2_core_data_v4.dta",
+      "claimed_archive_edition": "UNRESOLVED"
+    },
+    "core3": {
+      "path": "SET_ABSOLUTE_REGISTERED_LOOSE_SOURCE_LOCALLY",
+      "sha256": null,
+      "dataset_basename": "wave_3_elsa_data_v4.dta",
+      "claimed_archive_edition": "UNRESOLVED"
+    },
+    "core4": {
+      "path": "SET_ABSOLUTE_REGISTERED_LOOSE_SOURCE_LOCALLY",
+      "sha256": null,
+      "dataset_basename": "wave_4_elsa_data_eul.dta",
+      "claimed_archive_edition": "UNRESOLVED"
+    },
+    "core5": {
+      "path": "SET_ABSOLUTE_REGISTERED_LOOSE_SOURCE_LOCALLY",
+      "sha256": null,
+      "dataset_basename": "wave_5_elsa_data_eul.dta",
+      "claimed_archive_edition": "UNRESOLVED"
+    },
+    "core6": {
+      "path": "SET_ABSOLUTE_REGISTERED_LOOSE_SOURCE_LOCALLY",
+      "sha256": null,
+      "dataset_basename": "wave_6_elsa_data_eul.dta",
+      "claimed_archive_edition": "UNRESOLVED"
+    },
+    "core7": {
+      "path": "SET_ABSOLUTE_REGISTERED_LOOSE_SOURCE_LOCALLY",
+      "sha256": null,
+      "dataset_basename": "wave_7_elsa_data_eul.dta",
+      "claimed_archive_edition": "UNRESOLVED"
+    },
+    "core8": {
+      "path": "SET_ABSOLUTE_REGISTERED_LOOSE_SOURCE_LOCALLY",
+      "sha256": null,
+      "dataset_basename": "wave_8_elsa_data_eul_v2.dta",
+      "claimed_archive_edition": "UNRESOLVED"
+    },
+    "core9": {
+      "path": "SET_ABSOLUTE_REGISTERED_LOOSE_SOURCE_LOCALLY",
+      "sha256": null,
+      "dataset_basename": "wave_9_elsa_data_eul_v2.dta",
+      "claimed_archive_edition": "UNRESOLVED"
+    }
+  }
+}

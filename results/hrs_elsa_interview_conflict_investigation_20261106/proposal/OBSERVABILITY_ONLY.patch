@@ -1,0 +1,13 @@
+--- frozen/count_engine.py
++++ proposal/count_engine_observability_v1.py
+@@ -253,7 +253,9 @@
+             need(not (death_seen and kind=='personal'),'PERSONAL_AFTER_RECORDED_DEATH')
+             if kind=='death_status':death_seen=True
+             if kind in ('personal','partial','proxy','institutional'):
+-                need(code(p['participation'][str(w)])==1,'PARTICIPATION_INTERVIEW_CONFLICT')
++                flag=code(p['participation'][str(w)])
++                need(flag is not None,'PARTICIPATION_INTERVIEW_STATUS_UNRESOLVED')
++                need(flag==1,'PARTICIPATION_INTERVIEW_CONFLICT')
+ 
+ def analyze(people,mapping,protocol):
+     validate_people(people,mapping)

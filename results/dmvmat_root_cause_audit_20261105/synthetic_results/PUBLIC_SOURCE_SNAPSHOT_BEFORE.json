@@ -1,0 +1,20 @@
+{
+  "results/label_efficiency_followup_20261105/experiment.py": "8fbf25067a5fdde5294588af5174bd25e16faaa68b5c86e84c3ce3b0802f5dfd",
+  "results/label_efficiency_followup_20261105/design.py": "4c056d76dd8764f527c85d0150dda14f8591a5276193534adb9ee02b5e34184e",
+  "results/label_efficiency_followup_20261105/results_report.py": "f613d1426ec864fcfe79417d61b223be09e7b30da026f09e76e1b91c2241ce47",
+  "results/label_efficiency_followup_20261105/package_runtime.py": "56f0e9ac0ea9f4624dbbc6887dc45cab021afc37b0ac626f59235d427f2f1300",
+  "results/label_efficiency_followup_20261105/protocol_v1.json": "2a31bb52011c6018f373eacec24fbb4868bc9a54f9695912c24b8e968495dfd5",
+  "results/label_efficiency_followup_20261105/local_execution.py": "d1227f629eaaf727c3ca41195c7ab1dccd1da3a15040168752b1f2cbbc3b2e02",
+  "results/label_efficiency_followup_20261105/PUBLIC_PACKAGE_MANIFEST.json": "2acc4ca973a6a4fae2882151cd83268c34e8e2a9ca806614e5e9b08e215e56cd",
+  "results/label_efficiency_followup_20261105/VENDOR_BINDINGS.json": "1d736dc1dc19300f6a4ff7f3fd30de0bf7bb47b3fb97048e823f5a825d9af59c",
+  "results/label_efficiency_followup_20261105/vendor/train_exploratory_candidates.py": "b7176e30876c5801781f06abe37db7edd61ef5c6775d43b3c24160c9c1a32fb1",
+  "results/label_efficiency_followup_20261105/vendor/compute_classification_metrics.py": "daf996ad519450d672137f512019506e232a5dfb49e515848517ff5078ac7efc",
+  "results/label_efficiency_followup_20261105/vendor/frozen_public/models/multiview_mlp.py": "3ab16d2501033f86e0c6a9b87d24f2bcafe38b020e2a4340caa9e1067ebef38a",
+  "results/label_efficiency_followup_20261105/vendor/frozen_public/transfer/adapt.py": "d60ebd2be954818c8706df4eafd74fcd257408702be8b01259b3baf1eb30da95",
+  "results/label_efficiency_followup_20261105/vendor/frozen_public/transfer/calibration.py": "4652970653ac43881506b265ed36decbdd7a6c6e28e7b5e7b3b7cdb0ae6b1745",
+  "results/label_efficiency_followup_20261105/vendor/frozen_public/transfer/scores.py": "a7dcd3d7e2ff4bbfa28392a2ea07bd38867babf84e92340d1e8ea944de05cca7",
+  "results/label_efficiency_followup_20261105/vendor/frozen_public/evaluation.py": "e1a5f8c9d52ba9ea779b9a4f3a5594ceb5caef57086140cff8533401e4549621",
+  "results/label_efficiency_followup_20261105/vendor/frozen_public/safeguards.py": "16a5dfcfe8fe4866e278ca1df1249392c0fc7375a7cc47bc12321c7183716f00",
+  "results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/experiment_tools/train_exploratory_candidates.py": "b7176e30876c5801781f06abe37db7edd61ef5c6775d43b3c24160c9c1a32fb1",
+  "results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/experiment_tools/compute_classification_metrics.py": "daf996ad519450d672137f512019506e232a5dfb49e515848517ff5078ac7efc"
+}

@@ -1,0 +1,14 @@
+{
+  "HRS": {
+    "invented_total": 480,
+    "prior_report_excluded": 22,
+    "unknown_followup_excluded_after_prior": 14,
+    "retained": 444
+  },
+  "ELSA": {
+    "invented_total": 800,
+    "prior_report_excluded": 33,
+    "unknown_followup_excluded_after_prior": 23,
+    "retained": 744
+  }
+}

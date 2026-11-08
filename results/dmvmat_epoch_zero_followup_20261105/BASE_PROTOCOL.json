@@ -1,0 +1,56 @@
+{
+  "schema": "label-efficiency-protocol-v1",
+  "methods": [
+    "matched_control",
+    "head_only",
+    "logical",
+    "compact_full"
+  ],
+  "budget_fractions": [
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "budget_rounding": "floor_of_outer_training_size",
+  "repeat_seeds": [
+    20261105,
+    20261106,
+    20261107
+  ],
+  "primary_outer_folds": 3,
+  "registered_extension_outer_folds": 5,
+  "allocation_cycle": [
+    "fit",
+    "fit",
+    "fit",
+    "stop",
+    "calibration"
+  ],
+  "outer_partition": "label_blind_shuffled_participant_ids",
+  "source_seed": 20261025,
+  "target_seed_rule": "repeat_seed+1000*fold+budget_count",
+  "primary_metric": "average_precision",
+  "threshold_objective": "calibration_F1_highest_threshold_tie",
+  "calibration_min_positive": 5,
+  "calibration_min_negative": 5,
+  "include_source_only": true,
+  "performance_target_ap": null,
+  "bootstrap_repetitions": 1000,
+  "bootstrap_seed": 20261108,
+  "label_accounting": "Incremental fitting+stopping+calibration; report historical exposure and evaluation-label costs separately",
+  "previously_selected_architecture": true,
+  "external_validation_claim": false,
+  "normalization": "unchanged_source_training_fitted_export",
+  "source_epochs": 30,
+  "target_epochs": 20,
+  "source_lr": 0.001,
+  "target_lr": 0.001,
+  "patience": 5,
+  "loss": "bce",
+  "weight_decay": 0.0001,
+  "batch_size": 64,
+  "selector_permutations": 199,
+  "selector_bootstraps": 199
+}

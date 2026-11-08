@@ -1,0 +1,70 @@
+{
+  "plan": {
+    "scope": "INVENTED_SYNTHETIC_ONLY_NOT_CLINICAL_EVIDENCE",
+    "seeds": [
+      101,
+      202,
+      303
+    ],
+    "source_train_n": 1536,
+    "source_validation_n": 384,
+    "evaluation_n": 1536,
+    "source_epochs": 30,
+    "target_epochs": 20,
+    "patience": 5,
+    "lr": 0.001,
+    "selector_permutations": 19,
+    "selector_bootstraps": 39,
+    "selector_precision": "reduced_for_mechanism_demo_not_registered_real_run"
+  },
+  "scenarios": [
+    {
+      "name": "aligned",
+      "prevalence": 0.2,
+      "shift": 0.0,
+      "reverse": false,
+      "fit_n": 128,
+      "stop_n": 64
+    },
+    {
+      "name": "covariate_translation",
+      "prevalence": 0.2,
+      "shift": 1.0,
+      "reverse": false,
+      "fit_n": 128,
+      "stop_n": 64
+    },
+    {
+      "name": "relationship_reversal",
+      "prevalence": 0.2,
+      "shift": 0.0,
+      "reverse": true,
+      "fit_n": 128,
+      "stop_n": 64
+    },
+    {
+      "name": "scarce_positives",
+      "prevalence": 0.01,
+      "shift": 0.0,
+      "reverse": false,
+      "fit_n": 32,
+      "stop_n": 16
+    },
+    {
+      "name": "pure_prior_shift",
+      "prevalence": 0.05,
+      "shift": 0.0,
+      "reverse": false,
+      "fit_n": 128,
+      "stop_n": 64
+    },
+    {
+      "name": "aligned_tiny_fit",
+      "prevalence": 0.2,
+      "shift": 0.0,
+      "reverse": false,
+      "fit_n": 16,
+      "stop_n": 8
+    }
+  ]
+}

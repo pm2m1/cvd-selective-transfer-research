@@ -1,0 +1,66 @@
+{
+  "budget_fractions": [
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "repeat_seeds": [
+    20261105,
+    20261106,
+    20261107
+  ],
+  "primary_outer_folds": 3,
+  "allocation_cycle": [
+    "fit",
+    "fit",
+    "fit",
+    "stop",
+    "calibration"
+  ],
+  "outer_partition": "label_blind_shuffled_participant_ids",
+  "source_seed": 20261025,
+  "target_seed_rule": "repeat_seed+1000*fold+budget_count",
+  "calibration_min_positive": 5,
+  "calibration_min_negative": 5,
+  "bootstrap_repetitions": 1000,
+  "bootstrap_seed": 20261108,
+  "source_epochs": 30,
+  "target_epochs": 20,
+  "source_lr": 0.001,
+  "target_lr": 0.001,
+  "patience": 5,
+  "loss": "bce",
+  "weight_decay": 0.0001,
+  "batch_size": 64,
+  "schema": "epoch-zero-scientific-protocol-v1",
+  "arms": [
+    "A",
+    "B",
+    "C"
+  ],
+  "architecture": "original_8033_only",
+  "primary_endpoint": "equal_weight_mean_of_nine_paired_outer_fold_AP_B_minus_A_per_budget",
+  "primary_requires_all_nine_defined_cells": true,
+  "primary_budget_family": [
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "bootstrap": "global_participant_cluster_resample_shared_all_repeats_folds_arms",
+  "bootstrap_min_defined_fraction": 0.95,
+  "descriptive_family_interval_quantiles": [
+    0.005,
+    0.995
+  ],
+  "min_delta": 1e-05,
+  "threshold_objective": "calibration_F1_highest_threshold_tie",
+  "epoch_zero_patience": "bad_starts_zero; later_nonimprovements_increment; no_initial_increment",
+  "source_only_calibration": false,
+  "no_prior_validation_outcomes": true,
+  "no_locked_test": true,
+  "independent_test_status": "INDEPENDENT_TEST_NOT_AVAILABLE"
+}

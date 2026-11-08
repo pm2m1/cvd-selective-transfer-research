@@ -1,0 +1,35 @@
+test_all_128_masks_counts_optimizer_and_bitwise_frozen (test_audit.ParameterTests.test_all_128_masks_counts_optimizer_and_bitwise_frozen) ... ok
+test_exact_architecture_counts (test_audit.ParameterTests.test_exact_architecture_counts) ... ok
+test_incomplete_mask_defaults_share_head_always_trainable (test_audit.ParameterTests.test_incomplete_mask_defaults_share_head_always_trainable) ... ok
+test_unknown_mask_and_nonbool_rejected (test_audit.ParameterTests.test_unknown_mask_and_nonbool_rejected) ... ok
+test_abstention_does_not_fallback_full (test_audit.SelectorReferenceTests.test_abstention_does_not_fallback_full) ... ok
+test_geometry_matches_independent_numpy_reference (test_audit.SelectorReferenceTests.test_geometry_matches_independent_numpy_reference) ... ok
+test_mmd_matches_independent_partition_reference (test_audit.SelectorReferenceTests.test_mmd_matches_independent_partition_reference) ... ok
+test_nonfinite_valid_geometry_rejected (test_audit.SelectorReferenceTests.test_nonfinite_valid_geometry_rejected) ... ok
+test_outer_role_rejected_by_selector (test_audit.SelectorReferenceTests.test_outer_role_rejected_by_selector) ... ok
+test_reference_1000_random_and_boundary_cases (test_audit.SelectorReferenceTests.test_reference_1000_random_and_boundary_cases) ... ok
+test_same_seed_selector_reproducible (test_audit.SelectorReferenceTests.test_same_seed_selector_reproducible) ... ok
+test_strong_geometry_independent_of_domain_significance (test_audit.SelectorReferenceTests.test_strong_geometry_independent_of_domain_significance) ... ok
+test_10_percent_calibration_support_mathematically_impossible (test_audit.SmallSampleTests.test_10_percent_calibration_support_mathematically_impossible) ... ok
+test_all_negative_predictions_explicit_undefined_precision (test_audit.SmallSampleTests.test_all_negative_predictions_explicit_undefined_precision) ... ok
+test_calibration_support_0_1_4_5_6 (test_audit.SmallSampleTests.test_calibration_support_0_1_4_5_6) ... ok
+test_constant_probability_and_highest_threshold_tie (test_audit.SmallSampleTests.test_constant_probability_and_highest_threshold_tie) ... ok
+test_forced_epoch_counterexample (test_audit.SmallSampleTests.test_forced_epoch_counterexample) ... ok
+test_lower_threshold_changes_decisions_not_ranking_or_brier (test_audit.SmallSampleTests.test_lower_threshold_changes_decisions_not_ranking_or_brier) ... ok
+test_near_ties_and_skewed_probabilities (test_audit.SmallSampleTests.test_near_ties_and_skewed_probabilities) ... ok
+test_no_all_positive_or_single_class_fabrication (test_audit.SmallSampleTests.test_no_all_positive_or_single_class_fabrication) ... ok
+test_pooled_oof_counterexample (test_audit.SmallSampleTests.test_pooled_oof_counterexample) ... ok
+test_probability_normalization_no_target_refit_in_adapter (test_audit.SmallSampleTests.test_probability_normalization_no_target_refit_in_adapter) ... ok
+test_single_class_metrics (test_audit.SmallSampleTests.test_single_class_metrics) ... ok
+test_supported_threshold_comparison_uses_identical_subset (test_audit.SmallSampleTests.test_supported_threshold_comparison_uses_identical_subset) ... ok
+test_zero_one_positive_stopping_bce_remains_defined (test_audit.SmallSampleTests.test_zero_one_positive_stopping_bce_remains_defined) ... ok
+test_fold_cache_and_model_state_independent (test_audit.SplitIsolationTests.test_fold_cache_and_model_state_independent) ... ok
+test_nested_disjoint_role_counts (test_audit.SplitIsolationTests.test_nested_disjoint_role_counts) ... ok
+test_outcome_blind_splits (test_audit.SplitIsolationTests.test_outcome_blind_splits) ... ok
+test_outer_and_calibration_label_flips_cannot_change_predictions (test_audit.SplitIsolationTests.test_outer_and_calibration_label_flips_cannot_change_predictions) ... ok
+test_outer_overlap_rejected (test_audit.SplitIsolationTests.test_outer_overlap_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.901s
+
+OK

@@ -1,0 +1,47 @@
+# Scientific protocol v1 — retrospective label-budget sensitivity
+
+This AI-authored methodological implementation is a separate exploratory follow-up. The four methods are fixed in advance: matched_control, head_only, logical, compact_full. Compact was previously favored on development data; neither cross-validation nor a new random seed makes that prior selection disappear. The primary claim under investigation is conditional performance versus training-side labels for fixed methods, not a fresh external or clinical superiority claim.
+
+## Population and source protocol
+
+Use the unchanged completed retained export: source train 1,744/65 positive reports, source validation 581/21; target adaptation pool 679/49. The old 171/13 development validation set is previously examined and excluded from all new fitting, stopping, threshold selection and scoring. Its IDs are checked for disjointness; its outcomes/features are never decoded. No raw clinical loader, original assignment file or frozen-test array is opened by the follow-up. Existing export and completed-workflow hash bindings preserve the original membership/provenance chain; this is not independent distributor authentication.
+
+Five encoded views have dimensions 4/2/3/4/6, representing the original ten raw baseline predictors. The original source-training-fitted preprocessing is reused unchanged. No target/outer normalization, new feature selection, imputation fit or source-label redesign occurs. Original survey-report endpoints and baseline/follow-up eligibility remain inherited; these are not clinically adjudicated onset or deployment outcomes.
+
+Original and compact source networks are pretrained once each using the copied source algorithm: seed 20261025, maximum 30 epochs, LR .001, AdamW weight decay .0001, batch size 64, patience 5, best validation BCE (min-delta 1e-5). Source-only zero-target-label reference uses the actual original source network, fixed threshold .50, no target early stopping/calibration. Source training labels are not zero: only *target conditioning labels* are zero.
+
+Target methods keep the copied architecture/selection/freezing code, BCE, LR .001, max 20 epochs, batch 64 and patience 5. Compact has 2,225 parameters; original 8,033, head-only 33 target-trainable. Logical selection uses only source validation and target fitting labels/features (199 permutations/bootstrap replicates, original class support/abstention rules). Insufficient geometry remains SHARE; no unsupported class information is fabricated. Shared source-pretraining costs are separated from target fit/selector and prediction costs. No tier-2 search occurs.
+
+## Splits, budgets and full label costs
+
+Primary seeds: 20261105, 20261106, 20261107; three outer folds. Five folds are a separately registered extension, chosen before a fresh operation. Canonical sorted participant IDs are randomly permuted without outcomes; each person is outer-held-out exactly once per repeat. No stratification, positive enrichment, favorable redraw or event-count-driven stopping occurs. The target-acquisition order is independently randomized from each outer-training membership using seed + 1000*(fold+1).
+
+At fractions 10/25/50/75/100%, use floor(fraction × outer-training size) participants from nested prefixes. Assign successive prefix positions cyclically FIT,FIT,FIT,STOP,CALIBRATION. This makes both total budgets and each role nested and outcome blind. All target labels used for fitting, early stopping, selector supervision and threshold selection are included in those prefixes; there is no additional target-label hyperparameter search. Model minibatch seeds are repeat_seed + 1000*fold + budget_count, shared between methods. All methods use the same participants in each role.
+
+For the registered 679-person/three-fold population, total training-side counts are 45,113,226,339,452–453, including all reserved stopping/calibration labels. These are mathematical design counts, not newly measured private results. At 10%, calibration has nine labels, so the five-positive/five-negative support screen cannot pass; fixed-threshold ranking/decision metrics still run. No budget is increased to hide this limitation.
+
+Outer evaluation labels are **also paid** and counted separately (226–227 per split; all 679 distinct pool participants across a repeat). Choosing a method after seeing these curves consumes that full evaluation population, not just the fitting prefix. Earlier model selection used old adaptation draws and 171 validation labels; original label-informed pool allocation already involved all 679 pool labels. The private history ledger reports the original draw union and full previous development availability. Historical/current populations overlap: do not sum their counts or pretend they are fresh acquisitions. The percentage axis is an incremental *conditioning* budget, not total historical research-label cost. This design cannot demonstrate a zero-history prospective annotation saving.
+
+If fitting has fewer than two participants or stopping has none, the configured condition is retained as insufficient; no substitute sample or budget is used. Single-class fitting/stopping labels are not changed into two classes: BCE may still fit with those labels, selector uncertainty is retained and class-support diagnostics are reported.
+
+## Independent training-side operating thresholds
+
+Primary threshold objective: maximum F1 on the dedicated calibration subset using final fitted-model probabilities; ties choose the highest threshold, using the existing metric helper. Calibration labels never fit weights, select the stopping epoch or feed module geometry. Its minimum support screen is five positives and five negatives, prespecified as a conservative exploratory floor, **not** a precision guarantee. Missing support yields unavailable threshold metrics, with no fallback, redraw or post-hoc lower support requirement. No probability recalibration is fitted.
+
+For every supported fold, freeze its numerical threshold before opening outer outcomes for scoring. Report fixed .50 and calibration-selected threshold TP/TN/FP/FN, recall, precision, specificity, F1, positive/negative predictions and undefined metrics. All-negative predictions with positive outcomes have recall 0 and undefined precision; accuracy is not evidence of detecting events. Changing a threshold cannot alter ranking AP/AUROC or Brier for unchanged probabilities. Lower thresholds do not promise future sensitivity or clinical utility.
+
+Threshold comparisons use identical calibration-supported outer subsets for both operating points. Coverage and unsupported conditions are explicit. Population-wide fixed-.50 metrics are retained separately; do not compare a calibrated subset to a different full-population fixed-threshold denominator.
+
+## Aggregation and uncertainty
+
+Primary metric: average precision. Also retain AUROC/Brier and decision metrics. Within each repeat, concatenate participant-disjoint OOF predictions once per person at natural retained-pool prevalence; compute repeat-level metrics. Primary descriptive curve is the mean over the three repeat-level metrics, with descriptive SD (not independent-study error bars). Per-outer-split paired AP/AUROC/Brier differences use matched_control on the identical participants.
+
+Bootstrap participants as clusters: one participant resample is shared across all repeat predictions and paired methods. Use 1,000 fixed-seed replicates; percentile AP and paired AP-difference intervals are conditional on the already fitted models/splits and do not include retraining/architecture-selection uncertainty. Samples with no positives are marked undefined, never redrawn until favorable. Cohort/household survey clusters, weights, attrition and population transportability cannot be reconstructed from this bundle; participant bootstrap is not complex-survey or clinical uncertainty certification. AP depends on prevalence.
+
+No AP performance target was justified before these follow-up results, so `performance_target_ap` is null. Report curves/uncertainty only; do not invent a minimum label fraction, interpolate/extrapolate a crossing or set a convenient target afterward. A future target-reach protocol would need a defensible prospectively registered target and its own bindings/authorization.
+
+## Independent generalization boundary
+
+Current status: INDEPENDENT_TEST_NOT_AVAILABLE. Outer folds are new fitting exclusions for each run but not newly unexposed research participants; prior model/design selection already involved this population. Useful development curves or threshold gains cannot establish externally validated sensitivity or transfer superiority.
+
+A future independent cohort requires genuinely unused eligible persons, complete cross-dataset person-token nonoverlap proof from a custodian, harmonized predictor/outcome/time definitions, new permission scope and a separately finalized model/preprocessor/hyperparameter/numerical threshold record before outcomes. The old MHAS locked test is not reusable as a fresh test. The new interface freezes primary/secondary metrics, primary AP bootstrap, all source fingerprints and inclusion/exclusion/horizon before outcomes, and permits one separately authorized evaluation per registration. It never performs fitting or retuning. The interface is engineering preparation; no independent data, permission, model finalization or external result is asserted here.

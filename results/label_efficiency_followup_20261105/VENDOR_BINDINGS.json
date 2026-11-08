@@ -1,0 +1,62 @@
+{
+  "local_execution.py": {
+    "sha256": "d1227f629eaaf727c3ca41195c7ab1dccd1da3a15040168752b1f2cbbc3b2e02",
+    "public_source": "results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/experiment_tools/local_execution.py"
+  },
+  "requirements-synthetic.lock.txt": {
+    "sha256": "39cd0abb2ce48d4c55ade2723c2817a1cc1941d0478012e5e9b1f45190e8bc5a",
+    "public_source": "results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/experiment_tools/requirements-synthetic.lock.txt"
+  },
+  "vendor/train_exploratory_candidates.py": {
+    "sha256": "b7176e30876c5801781f06abe37db7edd61ef5c6775d43b3c24160c9c1a32fb1",
+    "public_source": "results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/experiment_tools/train_exploratory_candidates.py"
+  },
+  "vendor/compute_classification_metrics.py": {
+    "sha256": "daf996ad519450d672137f512019506e232a5dfb49e515848517ff5078ac7efc",
+    "public_source": "results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/experiment_tools/compute_classification_metrics.py"
+  },
+  "vendor/FROZEN_PUBLIC_HELPER_BINDINGS.json": {
+    "sha256": "026d7cc86cd3460806414af3941ea429aa4520e89cd71ebeff1b43f028934d8d",
+    "public_source": "results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/experiment_tools/FROZEN_PUBLIC_HELPER_BINDINGS.json"
+  },
+  "vendor/frozen_public/models/multiview_mlp.py": {
+    "sha256": "3ab16d2501033f86e0c6a9b87d24f2bcafe38b020e2a4340caa9e1067ebef38a",
+    "public_source": "results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/experiment_tools/frozen_public/models/multiview_mlp.py"
+  },
+  "vendor/frozen_public/evaluation.py": {
+    "sha256": "e1a5f8c9d52ba9ea779b9a4f3a5594ceb5caef57086140cff8533401e4549621",
+    "public_source": "results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/experiment_tools/frozen_public/evaluation.py"
+  },
+  "vendor/frozen_public/training.py": {
+    "sha256": "af2c104358df467d510af1ab30c9044f7edafe5272ef9c63e7dc191d28d99793",
+    "public_source": "results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/experiment_tools/frozen_public/training.py"
+  },
+  "vendor/frozen_public/safeguards.py": {
+    "sha256": "16a5dfcfe8fe4866e278ca1df1249392c0fc7375a7cc47bc12321c7183716f00",
+    "public_source": "results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/experiment_tools/frozen_public/safeguards.py"
+  },
+  "vendor/frozen_public/transfer/calibration.py": {
+    "sha256": "4652970653ac43881506b265ed36decbdd7a6c6e28e7b5e7b3b7cdb0ae6b1745",
+    "public_source": "results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/experiment_tools/frozen_public/transfer/calibration.py"
+  },
+  "vendor/frozen_public/transfer/scores.py": {
+    "sha256": "a7dcd3d7e2ff4bbfa28392a2ea07bd38867babf84e92340d1e8ea944de05cca7",
+    "public_source": "results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/experiment_tools/frozen_public/transfer/scores.py"
+  },
+  "vendor/frozen_public/transfer/adapt.py": {
+    "sha256": "d60ebd2be954818c8706df4eafd74fcd257408702be8b01259b3baf1eb30da95",
+    "public_source": "results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/experiment_tools/frozen_public/transfer/adapt.py"
+  },
+  "vendor/frozen_public/__init__.py": {
+    "sha256": "2a4fbd61f325acb68bf848ce108049814ca74aba9a542436c7061b1f43171a4a",
+    "public_source": "results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/experiment_tools/frozen_public/__init__.py"
+  },
+  "vendor/frozen_public/models/__init__.py": {
+    "sha256": "2a4fbd61f325acb68bf848ce108049814ca74aba9a542436c7061b1f43171a4a",
+    "public_source": "results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/experiment_tools/frozen_public/models/__init__.py"
+  },
+  "vendor/frozen_public/transfer/__init__.py": {
+    "sha256": "2a4fbd61f325acb68bf848ce108049814ca74aba9a542436c7061b1f43171a4a",
+    "public_source": "results/supervisor_metrics_and_improvement_20261104/public_development_staging_20261104/experiment_tools/frozen_public/transfer/__init__.py"
+  }
+}

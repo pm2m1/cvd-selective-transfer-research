@@ -1,0 +1,32 @@
+{
+  "schema": "elsa-private-source-registration-v1",
+  "status": "TEMPLATE_NOT_EXECUTED",
+  "attempt_consumed": null,
+  "historical_data_identity": "NOT_ESTABLISHED",
+  "archive_edition": "UNRESOLVED",
+  "archives": [
+    {
+      "archive_id": "OPERATOR_DEFINED",
+      "archive_path": "POPULATED_PRIVATELY_ONLY",
+      "observed_archive_sha256": null,
+      "fingerprint_domain": "ZIP_CONTAINER_BYTES",
+      "historical_archive_match": "NOT_ESTABLISHED_NO_HISTORICAL_DATA_PIN",
+      "distributor_authentication": "NOT_ESTABLISHED"
+    }
+  ],
+  "members": [
+    {
+      "role": "REPEATED_FOR_EACH_REQUIRED_PRODUCT",
+      "zip_member_name": "RECORDED_PRIVATELY_ONLY",
+      "uncompressed_member_sha256": null,
+      "materialized_file": {
+        "path": "PRIVATE_ONLY",
+        "sha256": null,
+        "dataset_basename": "PUBLIC_CATALOG_VALUE",
+        "claimed_archive_edition": "UNRESOLVED"
+      }
+    }
+  ],
+  "count_candidate_sha256": null,
+  "registration_is_count_authorization": false
+}

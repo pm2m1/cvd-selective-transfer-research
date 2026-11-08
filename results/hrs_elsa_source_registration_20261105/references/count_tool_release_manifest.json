@@ -1,0 +1,33 @@
+{
+  "schema": "elsa-public-count-package-manifest-v1",
+  "scope": "PUBLIC_CODE_DOCUMENTATION_MAPPINGS_SYNTHETIC_TESTS_ONLY",
+  "files": {
+    "ACCESS_AND_LOCAL_EXECUTION.md": "9a39bfe5ef32912ae32147fcdcd8de639eb0130f1c2109e2f6ab0ebf8f75a358",
+    "BASELINE_PREDICTOR_CONTRACT.md": "fe5d667f071e03dacc3a6a5c9ae6a3eb4e53c7a14d486052837558603f56048f",
+    "ELIGIBILITY_FLOW_AND_OUTPUTS.md": "2acae00e15d0716dd38f44d2483f2d12d12297977b64b52ea6d6c9b0acd27274",
+    "FEASIBILITY_DECISION.md": "22e54f9901671d26c76662ee9e4a38ce455bfa2a2d11ae775a1898d4b157ec16",
+    "OFFICIAL_VARIABLE_DICTIONARY.md": "0602f5fdccb14fb66f3f1cf6779be0f4dc4e28f6bdc4444013cde38f8a8b3591",
+    "PRIOR_PUBLIC_BINDINGS.json": "87b0242561e3e6022066e1f93f7bb4f52cf4136d9062fc304f3c94079769c581",
+    "PROTOCOL.json": "02e0262677facd3bd5e5db3ea26310be67900af16541c170879d2d3a9561bc92",
+    "PUBLIC_DOCUMENTATION_MANIFEST.json": "dc8a53149d3252150253f06e2078cd8bdb14ab6815a196e24f49ea91c3da05cf",
+    "README.md": "cbe08bcc6e1826e5b4391090456b7cf6e784cd599ddd6673a721dc3b27a57f45",
+    "SCIENTIFIC_PROTOCOL.md": "dd64f297da9ab7ea46eb92078beec9e598c1d47b348eac7c5e007e37fb4e59a5",
+    "STATISTICAL_FEASIBILITY.md": "9bbc25eda62d023f4c3b58d0a2439dcc9730ccc4382db00ed5f786fd021f2d48",
+    "VALIDATION_REPORT.md": "3737f5d4bd93a5c7b3c7365ae79fe414baee4625356b58ef8a2070a942af325c",
+    "VARIABLE_DICTIONARY.csv": "4ee6929f1e61ecbbf709016e581d95a705cdecab8843d9491e07f1ee430c03b3",
+    "baseline_features.py": "8bded34f31ffa86b8d8387cdbbe6b18357e1c7cbaa2feb7c140b08c2ed721898",
+    "build_public_mapping.py": "a567d07b33403b455c5365f7f816eaa11cd42c25d06c8e2785a632cf52260f05",
+    "config.template.json": "897aaf342cca11521e82820e050f81669f03a358e0c526b317fa04962f0d3816",
+    "count_engine.py": "c10fd97b2a5321eeac4ea2e7ad3b092d67f555a4641c648a15c9ff62ebf0264c",
+    "local_execution.py": "d1227f629eaaf727c3ca41195c7ab1dccd1da3a15040168752b1f2cbbc3b2e02",
+    "official_variable_map.json": "158822fb918835c34b79d7deae5050bcc9832eaadbfce570da91542372a40c61",
+    "precision.py": "c0b517bd0fc8c4683c3d62c9754a185485ccb13a790a4d1cb31ac4e47151a6ec",
+    "private_aggregate_output.schema.json": "c13459dbab56d0dccec9bed94e518f2ee07337524dcf9f23e36e57686900bd13",
+    "read_release.py": "58d8aa6bc422204d2affb4ae57d7a32a24dd9e29db3f77f835dbdf5b10b80cfd",
+    "requirements.txt": "9910927b2d632290117a6b52d540687d2528ea18e9b198498f988467de0ecc26",
+    "run_counts.py": "3b7152951087ca3a5d923929f974a7fc925c4fad8f651a4d1eabdc1c7b5fbc59",
+    "synthetic_fixture.py": "1e23af0d86ebf94ddfebf9ae3907d8eb6d75c4897f926caab3e49c9ca260204a",
+    "tests/test_counts.py": "477d3819d6e94098a46559e8a06b437b1fa4e570aa427364a23a8dff94aa5b3f",
+    "verify_public.py": "7a9f28bffeb9ab9fc31423c005997b1222ea0fe4936341aa8a531c7dbccdecfc"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "scope": "INVENTED_FIXTURES_ONLY_NOT_MHAS_RESULTS",
+  "fixed_thresholds": [
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5
+  ],
+  "invented_draws": 10,
+  "operating_point_rows": 100,
+  "separate_confusion_svgs": 100,
+  "summary_plot_files": 4,
+  "reconciliation": "PASSED_AGAINST_INVENTED_REFERENCES_ONLY",
+  "validation_status": "ORIGINAL_VALIDATION_OPTIMAL_THRESHOLD_NOT_ESTABLISHED",
+  "test_threshold_selected": false,
+  "source_sha256": {
+    "threshold_sweep.py": "bbec6784d8e73f6972455bb3d19acdd7ce6b1cf9ba403a261596660dc6b61787",
+    "sweep_analysis.py": "068eb08f9676fbaf186d843f5dd522c9bf67f2670fe804c414814619ffa10104",
+    "threshold_report.py": "3c567cda107c1e996b149b06c3a82d33a112304778e8fc0dcd1fc04a99d48b6c",
+    "frozen_metrics.py": "daf996ad519450d672137f512019506e232a5dfb49e515848517ff5078ac7efc",
+    "local_execution.py": "d1227f629eaaf727c3ca41195c7ab1dccd1da3a15040168752b1f2cbbc3b2e02"
+  },
+  "real_private_calculation_executed": false
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "elsa-private-scientific-decision-template-v1",
+  "approval_and_acceptance": {
+    "evidence_provenance_reviewed": "UNRESOLVED",
+    "frozen_code_version_verified": "UNRESOLVED",
+    "source_bindings_verified": "UNRESOLVED",
+    "original_count_history_source_equivalence_verified": "UNRESOLVED",
+    "relevant_wave_documentation_reviewed": "UNRESOLVED",
+    "original_Core_response_semantics_verified": "UNRESOLVED",
+    "harmonized_response_semantics_verified": "UNRESOLVED",
+    "linkage_assumptions_verified": "UNRESOLVED",
+    "every_observed_conflict_family_reviewed": "UNRESOLVED",
+    "proxy_fallback_semantics_reviewed": "UNRESOLVED",
+    "disease_history_effects_accepted": "UNRESOLVED",
+    "followup_interval_effects_accepted": "UNRESOLVED",
+    "selection_bias_assessed": "UNRESOLVED",
+    "misclassification_assessed": "UNRESOLVED",
+    "independent_reviewer_determination": "UNRESOLVED",
+    "scientific_adoption_status": "UNRESOLVED"
+  },
+  "recommended_scientific_action_category": "UNRESOLVED",
+  "reviewer_expertise_and_role": "UNRESOLVED",
+  "reviewer_identity_recorded_locally": "UNRESOLVED",
+  "remaining_unresolved_findings": [
+    "UNRESOLVED"
+  ],
+  "evidence_and_reasoning": "UNRESOLVED",
+  "adoption_authority_and_record": "UNRESOLVED",
+  "family_determinations": [],
+  "count_execution_authorized": false,
+  "training_authorized": false,
+  "software_acceptance_is_not_scientific_approval": true
+}

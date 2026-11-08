@@ -1,0 +1,54 @@
+{
+  "schema": "elsa-offline-scientific-review-config-v1",
+  "mode": "independent_local_only",
+  "source_use_review": "UNRESOLVED_NOT_AUTHORIZED",
+  "reviewed_scope": [],
+  "isolation_review": "UNRESOLVED",
+  "private_root": "SET_ABSOLUTE_PRIVATE_ROOT_LOCALLY",
+  "public_contract_sha256": "e977cf1eee1eb2dc74e1f519bd347ffc1899abf2a432f499d9410e0ffb7752d5",
+  "no_raw_data": true,
+  "no_event_counts": true,
+  "no_models": true,
+  "evidence": {
+    "diagnostic_config": {
+      "path": "SET_ABSOLUTE_METADATA_PATH_LOCALLY",
+      "sha256": null
+    },
+    "diagnostic_authorization": {
+      "path": "SET_ABSOLUTE_METADATA_PATH_LOCALLY",
+      "sha256": null
+    },
+    "diagnostic_completion": {
+      "path": "SET_ABSOLUTE_METADATA_PATH_LOCALLY",
+      "sha256": null
+    },
+    "diagnostic_integrity": {
+      "path": "SET_ABSOLUTE_METADATA_PATH_LOCALLY",
+      "sha256": null
+    },
+    "diagnostic_report": {
+      "path": "SET_ABSOLUTE_METADATA_PATH_LOCALLY",
+      "sha256": null
+    },
+    "diagnostic_input_validation": {
+      "path": "SET_ABSOLUTE_METADATA_PATH_LOCALLY",
+      "sha256": null
+    },
+    "failed_count_config": {
+      "path": "SET_ABSOLUTE_METADATA_PATH_LOCALLY",
+      "sha256": null
+    },
+    "failed_count_authorization": {
+      "path": "SET_ABSOLUTE_METADATA_PATH_LOCALLY",
+      "sha256": null
+    },
+    "failed_count_completion": {
+      "path": "SET_ABSOLUTE_METADATA_PATH_LOCALLY",
+      "sha256": null
+    },
+    "source_registration": {
+      "path": "SET_ABSOLUTE_METADATA_PATH_LOCALLY",
+      "sha256": null
+    }
+  }
+}

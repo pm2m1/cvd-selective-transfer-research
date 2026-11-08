@@ -1,0 +1,170 @@
+[
+  {
+    "scenario": "aligned",
+    "method": "matched_control",
+    "ap": -0.00836150870860275,
+    "auroc": -0.0038252303218533714,
+    "brier": 0.006311023827742591
+  },
+  {
+    "scenario": "aligned",
+    "method": "head_only",
+    "ap": 0.003675942561997362,
+    "auroc": 0.0014320134255312682,
+    "brier": -8.03054082640688e-05
+  },
+  {
+    "scenario": "aligned",
+    "method": "logical",
+    "ap": 0.003675942561997362,
+    "auroc": 0.0014320134255312682,
+    "brier": -8.03054082640688e-05
+  },
+  {
+    "scenario": "aligned",
+    "method": "compact_full",
+    "ap": -0.0016335963513585128,
+    "auroc": -0.002416231143712403,
+    "brier": 0.0012969038689961642
+  },
+  {
+    "scenario": "covariate_translation",
+    "method": "matched_control",
+    "ap": 0.0006803573599880227,
+    "auroc": -0.00012241158612621059,
+    "brier": -0.005780586702184153
+  },
+  {
+    "scenario": "covariate_translation",
+    "method": "head_only",
+    "ap": -0.0013503966696556031,
+    "auroc": 0.00045802896233419305,
+    "brier": -0.005308329317809894
+  },
+  {
+    "scenario": "covariate_translation",
+    "method": "logical",
+    "ap": 0.001595093378014482,
+    "auroc": 0.0006257583437971522,
+    "brier": -0.00646444958579552
+  },
+  {
+    "scenario": "covariate_translation",
+    "method": "compact_full",
+    "ap": 0.0014705766182195508,
+    "auroc": -0.0003726616650433501,
+    "brier": -0.007896199255834277
+  },
+  {
+    "scenario": "relationship_reversal",
+    "method": "matched_control",
+    "ap": 0.3872922273851456,
+    "auroc": 0.6986890268591068,
+    "brier": -0.37564576528492033
+  },
+  {
+    "scenario": "relationship_reversal",
+    "method": "head_only",
+    "ap": 0.00017884078743698553,
+    "auroc": 0.0018146828816091494,
+    "brier": -0.0928527815202554
+  },
+  {
+    "scenario": "relationship_reversal",
+    "method": "logical",
+    "ap": 0.3879092565456488,
+    "auroc": 0.7012831505313534,
+    "brier": -0.37576929510293794
+  },
+  {
+    "scenario": "relationship_reversal",
+    "method": "compact_full",
+    "ap": 0.07765763740367616,
+    "auroc": 0.3376411849060905,
+    "brier": -0.3195750680753538
+  },
+  {
+    "scenario": "scarce_positives",
+    "method": "matched_control",
+    "ap": -0.12433654489277739,
+    "auroc": -0.07291803752694315,
+    "brier": -0.023963256966805613
+  },
+  {
+    "scenario": "scarce_positives",
+    "method": "head_only",
+    "ap": -0.02266521478354527,
+    "auroc": -0.0005662652480233529,
+    "brier": -0.004848848801192144
+  },
+  {
+    "scenario": "scarce_positives",
+    "method": "logical",
+    "ap": -0.02266521478354527,
+    "auroc": -0.0005662652480233529,
+    "brier": -0.004848848801192144
+  },
+  {
+    "scenario": "scarce_positives",
+    "method": "compact_full",
+    "ap": -0.054945935511792304,
+    "auroc": -0.037660070142011004,
+    "brier": -0.022453408915099043
+  },
+  {
+    "scenario": "pure_prior_shift",
+    "method": "matched_control",
+    "ap": -0.018003024397204543,
+    "auroc": -0.007195614546579539,
+    "brier": -0.014902364848472302
+  },
+  {
+    "scenario": "pure_prior_shift",
+    "method": "head_only",
+    "ap": -0.003962331626044313,
+    "auroc": -7.763209549205285e-05,
+    "brier": -0.0059138453026697955
+  },
+  {
+    "scenario": "pure_prior_shift",
+    "method": "logical",
+    "ap": -0.003962331626044313,
+    "auroc": -7.763209549205285e-05,
+    "brier": -0.0059138453026697955
+  },
+  {
+    "scenario": "pure_prior_shift",
+    "method": "compact_full",
+    "ap": -0.010508927917195857,
+    "auroc": -0.01571508586690651,
+    "brier": -0.01431412289680073
+  },
+  {
+    "scenario": "aligned_tiny_fit",
+    "method": "matched_control",
+    "ap": -0.03478037361523234,
+    "auroc": -0.01260244974871009,
+    "brier": 0.015716935336724056
+  },
+  {
+    "scenario": "aligned_tiny_fit",
+    "method": "head_only",
+    "ap": 0.0011031969001163988,
+    "auroc": 0.0006044499053167914,
+    "brier": 0.00034053338957418705
+  },
+  {
+    "scenario": "aligned_tiny_fit",
+    "method": "logical",
+    "ap": 0.0011031969001163988,
+    "auroc": 0.0006044499053167914,
+    "brier": 0.00034053338957418705
+  },
+  {
+    "scenario": "aligned_tiny_fit",
+    "method": "compact_full",
+    "ap": -0.002001501728054763,
+    "auroc": -0.0017771157876862453,
+    "brier": 0.005941009911604613
+  }
+]

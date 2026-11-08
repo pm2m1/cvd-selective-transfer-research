@@ -1,0 +1,26 @@
+{
+  "schema": "elsa-source-registration-protocol-v1",
+  "purpose": "elsa_source_registration_v1_20261105",
+  "allowed_operations": [
+    "READ_AND_HASH_ARCHIVE_BYTES",
+    "DECOMPRESS_AND_HASH_SELECTED_MEMBERS",
+    "MATERIALIZE_SELECTED_RESTRICTED_FILES_IN_PRIVATE_STORAGE"
+  ],
+  "forbidden_operations": [
+    "PARSE_PARTICIPANT_ROWS",
+    "EXECUTE_COHORT_COUNTS",
+    "TRAIN_MODELS",
+    "REUSE_PRIOR_AUTHORIZATION"
+  ],
+  "historical_clinical_archive_pin_available": false,
+  "supported_edition_claim": "UNRESOLVED",
+  "modes": {
+    "verify_existing_local_pin": "Match an independently reviewed operator-supplied local container fingerprint; not publisher authentication",
+    "first_local_registration": "New local identity only; no historical match claimed; original 5050stata_ ZIP naming selector plus explicit reviewed study identity"
+  },
+  "unknown_edition_accepted_by_unchanged_count_engine": true,
+  "candidate_count_review": "UNRESOLVED_NOT_AUTHORIZED",
+  "optional_measurements": "Explicit all-or-none Wave 4 and Wave 6 nurse registration; no measurements means predictor completeness uncomputed",
+  "new_output_required": true,
+  "attempt_consumed_before_archive_access": true
+}

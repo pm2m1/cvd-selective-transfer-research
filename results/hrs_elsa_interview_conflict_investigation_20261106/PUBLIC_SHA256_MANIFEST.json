@@ -1,0 +1,19 @@
+{
+  "schema": "elsa-interview-conflict-public-artifacts-v1",
+  "scope": "PUBLIC_CODE_DOCUMENTATION_INVENTED_TESTS_ONLY",
+  "files": {
+    "CONFLICT_DECISION_TABLE.md": "f861b3a0a9c2291726a99124046c1c259b6ac4a5adbfe71839a17044ddb2b42d",
+    "FROZEN_PUBLIC_BINDINGS.json": "0dc9c374947a510bf966fca54d0a166f64f7db258022b5f235a9e5e3e80e69b6",
+    "INDEPENDENT_LOCAL_NEXT_STEPS.md": "99023601d299b5b40cfa4bb913361b8e3a53d34de00430cda5272aa5eb00e0ff",
+    "README.md": "aa5b3057db161e4fc834572f600319e6617deb0dbcf72d708ef75c94b77f3656",
+    "ROOT_CAUSE_ANALYSIS.md": "4d3c0b6f51dd1432aaea11827d8aa3cd023805330f34ae130f608d7b5cf70aa6",
+    "SCIENTIFIC_PROTOCOL_IMPACT.md": "61c98e6ef684a8cef54b4afc64f6533e9988994cb07bc82c7cbac1d237faba08",
+    "VALIDATION_REPORT.md": "43b21aa65925f203852c5181a25d564f881e64ea1a35181a98d7af15303ab0f0",
+    "diagnostic_classifier.py": "1e703dc601ed634776f68a46b64559ebe6846c33374290201c7d18765b151464",
+    "proposal/OBSERVABILITY_ONLY.patch": "d5f80419e9a96e783e7ace96fc182d5c4a84d170be567a95847c29b4e97cf785",
+    "proposal/count_engine_observability_v1.py": "ad05258fe3d48c2079f8cfc1593f605baa8e3058da42bc087734fed58c9332d1",
+    "public_reference.py": "24b2005c1a96a62176fb76b6bd133398e7db0e1488b84d0080df09a79fee9659",
+    "reproduce_conflict.py": "8eba99b6cdcd6e0bca2a767b039d2b971e8415432b366eaab210112568e91a66",
+    "tests/test_interview_conflict.py": "1f19e40c552ad400dcb471669df568c91cd9c94742fc6ebad1a7cc0e50977828"
+  }
+}

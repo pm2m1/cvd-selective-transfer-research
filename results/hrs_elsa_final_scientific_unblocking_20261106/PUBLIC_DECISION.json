@@ -1,0 +1,16 @@
+{
+  "schema": "public-scientific-unblocking-decision-v1",
+  "authorship": "AI_AUTHORED_PUBLIC_METHODS_REVIEW_NOT_INDEPENDENT_APPROVAL",
+  "principal_status": "REQUIRES_PRIVATE_SCIENTIFIC_DECISION",
+  "new_eligibility_changing_bug_demonstrated": false,
+  "corrected_count_release_created": false,
+  "protocol_amendment_adopted": false,
+  "training_pipeline_modified": false,
+  "synthetic_seven_method_demonstration": "PASS",
+  "HRS_feature_readiness": "PARTIAL",
+  "ELSA_feature_readiness": "PARTIAL",
+  "actual_private_diagnostic_findings_accessed": false,
+  "real_training_ready": false,
+  "scientific_next_step": "INDEPENDENT_REVIEW_OF_EXISTING_PROTECTED_DIAGNOSTIC_NO_RERUN",
+  "real_count_execution_command_available": false
+}

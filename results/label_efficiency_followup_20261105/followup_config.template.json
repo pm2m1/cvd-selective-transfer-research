@@ -1,0 +1,29 @@
+{
+  "schema": "label-efficiency-local-v1",
+  "mode": "independent_local_only",
+  "protocol": {
+    "path": null,
+    "sha256": null
+  },
+  "outer_folds": 3,
+  "inputs": {
+    "development_bundle": {
+      "path": null,
+      "sha256": null
+    },
+    "development_manifest": {
+      "path": null,
+      "sha256": null
+    },
+    "source_preprocessing": {
+      "path": null,
+      "sha256": null
+    },
+    "completed_workflow_receipt": {
+      "path": null,
+      "sha256": null
+    }
+  },
+  "no_locked_test": true,
+  "no_prior_validation_outcomes": true
+}

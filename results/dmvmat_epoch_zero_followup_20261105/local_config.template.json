@@ -1,0 +1,39 @@
+{
+  "schema": "epoch-zero-local-v1",
+  "mode": "independent_local_only",
+  "protocol": {
+    "path": "/ABSOLUTE/PUBLIC_PACKAGE/EXPERIMENT_CONFIG.json",
+    "sha256": "REPLACE_WITH_PUBLIC_PROTOCOL_SHA256"
+  },
+  "package_manifest_sha256": "REPLACE_WITH_PUBLIC_MANIFEST_SHA256",
+  "runtime_versions": {
+    "python": "REVIEW_RUNTIME_INFO",
+    "numpy": "REVIEW_RUNTIME_INFO",
+    "pandas": "REVIEW_RUNTIME_INFO",
+    "torch": "REVIEW_RUNTIME_INFO",
+    "scikit-learn": "REVIEW_RUNTIME_INFO",
+    "scipy": "REVIEW_RUNTIME_INFO",
+    "matplotlib": "REVIEW_RUNTIME_INFO",
+    "joblib": "REVIEW_RUNTIME_INFO"
+  },
+  "no_locked_test": true,
+  "no_prior_validation_outcomes": true,
+  "inputs": {
+    "development_manifest": {
+      "path": "/ABSOLUTE/REVIEWED_RETAINED_INPUT",
+      "sha256": "REPLACE_LOCALLY_FROM_EXISTING_REVIEWED_BINDING"
+    },
+    "completed_workflow_receipt": {
+      "path": "/ABSOLUTE/REVIEWED_RETAINED_INPUT",
+      "sha256": "REPLACE_LOCALLY_FROM_EXISTING_REVIEWED_BINDING"
+    },
+    "source_preprocessing": {
+      "path": "/ABSOLUTE/REVIEWED_RETAINED_INPUT",
+      "sha256": "REPLACE_LOCALLY_FROM_EXISTING_REVIEWED_BINDING"
+    },
+    "development_bundle": {
+      "path": "/ABSOLUTE/REVIEWED_RETAINED_INPUT",
+      "sha256": "REPLACE_LOCALLY_FROM_EXISTING_REVIEWED_BINDING"
+    }
+  }
+}

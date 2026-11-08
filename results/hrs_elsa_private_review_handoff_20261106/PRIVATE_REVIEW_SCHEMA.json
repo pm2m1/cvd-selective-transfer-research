@@ -1,0 +1,183 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:dmvmat:elsa:private-review-worksheet:v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "mechanical_verification",
+    "source_provenance",
+    "all_waves",
+    "evidence_limitations",
+    "reviewer_decision",
+    "no_automatic_adoption",
+    "no_count_or_training"
+  ],
+  "properties": {
+    "schema": {
+      "const": "elsa-private-scientific-evidence-worksheet-v1"
+    },
+    "mechanical_verification": {
+      "type": "object"
+    },
+    "source_provenance": {
+      "type": "object"
+    },
+    "all_waves": {
+      "type": "object",
+      "required": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "1": {
+          "type": "object"
+        },
+        "2": {
+          "type": "object"
+        },
+        "3": {
+          "type": "object"
+        },
+        "4": {
+          "type": "object"
+        },
+        "5": {
+          "type": "object"
+        },
+        "6": {
+          "type": "object"
+        },
+        "7": {
+          "type": "object"
+        },
+        "8": {
+          "type": "object"
+        },
+        "9": {
+          "type": "object"
+        }
+      }
+    },
+    "evidence_limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reviewer_decision": {
+      "type": "object",
+      "required": [
+        "schema",
+        "approval_and_acceptance",
+        "recommended_scientific_action_category",
+        "reviewer_expertise_and_role",
+        "reviewer_identity_recorded_locally",
+        "remaining_unresolved_findings",
+        "evidence_and_reasoning",
+        "adoption_authority_and_record",
+        "family_determinations",
+        "count_execution_authorized",
+        "training_authorized",
+        "software_acceptance_is_not_scientific_approval"
+      ],
+      "properties": {
+        "schema": {
+          "const": "elsa-private-scientific-decision-template-v1"
+        },
+        "approval_and_acceptance": {
+          "const": {
+            "evidence_provenance_reviewed": "UNRESOLVED",
+            "frozen_code_version_verified": "UNRESOLVED",
+            "source_bindings_verified": "UNRESOLVED",
+            "original_count_history_source_equivalence_verified": "UNRESOLVED",
+            "relevant_wave_documentation_reviewed": "UNRESOLVED",
+            "original_Core_response_semantics_verified": "UNRESOLVED",
+            "harmonized_response_semantics_verified": "UNRESOLVED",
+            "linkage_assumptions_verified": "UNRESOLVED",
+            "every_observed_conflict_family_reviewed": "UNRESOLVED",
+            "proxy_fallback_semantics_reviewed": "UNRESOLVED",
+            "disease_history_effects_accepted": "UNRESOLVED",
+            "followup_interval_effects_accepted": "UNRESOLVED",
+            "selection_bias_assessed": "UNRESOLVED",
+            "misclassification_assessed": "UNRESOLVED",
+            "independent_reviewer_determination": "UNRESOLVED",
+            "scientific_adoption_status": "UNRESOLVED"
+          }
+        },
+        "recommended_scientific_action_category": {
+          "const": "UNRESOLVED"
+        },
+        "reviewer_expertise_and_role": {
+          "const": "UNRESOLVED"
+        },
+        "reviewer_identity_recorded_locally": {
+          "const": "UNRESOLVED"
+        },
+        "remaining_unresolved_findings": {
+          "const": [
+            "UNRESOLVED"
+          ]
+        },
+        "evidence_and_reasoning": {
+          "const": "UNRESOLVED"
+        },
+        "adoption_authority_and_record": {
+          "const": "UNRESOLVED"
+        },
+        "family_determinations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "family_id",
+              "determination",
+              "supporting_evidence",
+              "action_category"
+            ],
+            "properties": {
+              "family_id": {
+                "type": "string",
+                "pattern": "^W[1-9]_FAMILY_[0-9]+$"
+              },
+              "determination": {
+                "const": "UNRESOLVED"
+              },
+              "supporting_evidence": {
+                "const": "UNRESOLVED"
+              },
+              "action_category": {
+                "const": "UNRESOLVED"
+              }
+            }
+          }
+        },
+        "count_execution_authorized": {
+          "const": false
+        },
+        "training_authorized": {
+          "const": false
+        },
+        "software_acceptance_is_not_scientific_approval": {
+          "const": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "no_automatic_adoption": {
+      "const": true
+    },
+    "no_count_or_training": {
+      "const": true
+    }
+  }
+}

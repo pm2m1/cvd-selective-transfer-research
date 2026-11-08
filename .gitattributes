@@ -1,0 +1,22 @@
+# Preserve byte-identical imported research releases, including CRLF tables.
+results/haalsi_mhas_threshold_sweep_20261107/** -text whitespace=-blank-at-eol,-blank-at-eof
+results/label_efficiency_followup_20261105/** -text whitespace=-blank-at-eol,-blank-at-eof
+results/dmvmat_epoch_zero_followup_20261105/** -text whitespace=-blank-at-eol,-blank-at-eof
+results/dmvmat_root_cause_audit_20261105/** -text whitespace=-blank-at-eol,-blank-at-eof
+results/hrs_elsa_final_count_feasibility_20261105/** -text whitespace=-blank-at-eol,-blank-at-eof
+results/hrs_elsa_source_registration_20261105/** -text whitespace=-blank-at-eol,-blank-at-eof
+results/hrs_elsa_interview_status_diagnostic_20261106/** -text whitespace=-blank-at-eol,-blank-at-eof
+results/hrs_elsa_private_review_handoff_20261106/** -text whitespace=-blank-at-eol,-blank-at-eof
+results/hrs_elsa_review_config_automation_20261106/** -text whitespace=-blank-at-eol,-blank-at-eof
+results/hrs_elsa_training_fasttrack_20261106/** -text whitespace=-blank-at-eol,-blank-at-eof
+results/hrs_elsa_final_scientific_unblocking_20261106/** -text whitespace=-blank-at-eol,-blank-at-eof
+results/haalsi_mhas_threshold_sweep_20261107_SYNTHETIC_RELEASE_CHECK/** -text whitespace=-blank-at-eol,-blank-at-eof
+research/phase1_implementation_snapshot/** -text whitespace=-blank-at-eol,-blank-at-eof
+results/hrs_elsa_interview_conflict_investigation_20261106/** -text whitespace=-blank-at-eol,-blank-at-eof
+results/hrs_elsa_source_registration_plan_helper_20261105/** -text whitespace=-blank-at-eol,-blank-at-eof
+results/haalsi_mhas_threshold_sweep_20261107_SYNTHETIC_DEMO/** -text whitespace=-blank-at-eol,-blank-at-eof
+results/haalsi_mhas_threshold_sweep_20261107_SYNTHETIC_FINAL/** -text whitespace=-blank-at-eol,-blank-at-eof
+research/legacy_implementation_snapshot/** -text whitespace=-blank-at-eol,-blank-at-eof
+
+# Preserve authentic original empirical SVG/CSV bytes and historical status labels.
+results/haalsi_mhas_real_threshold_analysis/** -text whitespace=-blank-at-eol,-blank-at-eof

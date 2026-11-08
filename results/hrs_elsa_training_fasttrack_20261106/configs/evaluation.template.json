@@ -1,0 +1,28 @@
+{
+  "schema": "hrs-elsa-fasttrack-local-operation-v1",
+  "mode": "independent_local_only",
+  "phase": "evaluation",
+  "source_use_review": "UNRESOLVED_NOT_AUTHORIZED",
+  "protocol_sha256": "e6ad9c2adcdf6d8d9e8f067de5808b7292b725d55f90f4dc388eec66933cb7a0",
+  "device": "cpu",
+  "data": {
+    "path": "SET_ABSOLUTE_PRIVATE_PATH_LOCALLY",
+    "sha256": null
+  },
+  "manifest": {
+    "path": "SET_ABSOLUTE_PRIVATE_PATH_LOCALLY",
+    "sha256": null
+  },
+  "readiness": {
+    "path": "SET_ABSOLUTE_PRIVATE_PATH_LOCALLY",
+    "sha256": null
+  },
+  "artifact": {
+    "path": "SET_ABSOLUTE_PRIVATE_PATH_LOCALLY",
+    "sha256": null
+  },
+  "freeze": {
+    "path": "SET_ABSOLUTE_PRIVATE_PATH_LOCALLY",
+    "sha256": null
+  }
+}

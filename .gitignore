@@ -4,6 +4,9 @@ datasets/
 private_data/
 private_locks/
 private_evaluations/
+private_outputs/
+*.private.*
+*.reviewed.json
 **/raw/
 **/controlled/
 *.dta
@@ -58,6 +61,7 @@ results/selector_validation/
 
 # Local build and editor state
 .venv/
+.tools-venv/
 venv/
 __pycache__/
 *.py[cod]
@@ -69,3 +73,32 @@ build/
 dist/
 .DS_Store
 *.log
+
+# Academic submission artifacts are reference-only by explicit author instruction.
+*.tex
+*.sty
+*.bib
+
+# Exact original invented-output/schema tables reviewed in the import registry.
+!results/hrs_elsa_final_count_feasibility_20261105/VARIABLE_DICTIONARY.csv
+!results/hrs_elsa_private_review_handoff_20261106/references/OFFICIAL_VARIABLE_MAPPING.csv
+!results/hrs_elsa_review_config_automation_20261106/tests/frozen_review_tools/references/OFFICIAL_VARIABLE_MAPPING.csv
+!results/hrs_elsa_training_fasttrack_20261106/FEATURE_HARMONIZATION_MATRIX.csv
+!results/hrs_elsa_final_scientific_unblocking_20261106/OFFICIAL_VARIABLE_MAPPING.csv
+!results/haalsi_mhas_threshold_sweep_20261107_SYNTHETIC_RELEASE_CHECK/threshold_metrics_per_draw.private.csv
+!results/haalsi_mhas_threshold_sweep_20261107_SYNTHETIC_RELEASE_CHECK/threshold_metrics_summary.private.csv
+!results/haalsi_mhas_threshold_sweep_20261107_SYNTHETIC_RELEASE_CHECK/SUPERVISOR_THRESHOLD_COMPARISON.private.md
+
+# Code namespace, not a participant-data directory. Exact files remain allowlisted.
+!research/phase1_implementation_snapshot/src/dmv_mat_cvd/data/
+!research/phase1_implementation_snapshot/src/dmv_mat_cvd/data/*.py
+!results/haalsi_mhas_threshold_sweep_20261107_SYNTHETIC_DEMO/threshold_metrics_per_draw.private.csv
+!results/haalsi_mhas_threshold_sweep_20261107_SYNTHETIC_DEMO/threshold_metrics_summary.private.csv
+!results/haalsi_mhas_threshold_sweep_20261107_SYNTHETIC_DEMO/SUPERVISOR_THRESHOLD_COMPARISON.private.md
+!results/haalsi_mhas_threshold_sweep_20261107_SYNTHETIC_FINAL/threshold_metrics_per_draw.private.csv
+!results/haalsi_mhas_threshold_sweep_20261107_SYNTHETIC_FINAL/threshold_metrics_summary.private.csv
+!results/haalsi_mhas_threshold_sweep_20261107_SYNTHETIC_FINAL/SUPERVISOR_THRESHOLD_COMPARISON.private.md
+
+# Exact researcher-attested real aggregate CSVs; no private inputs or arrays.
+!results/haalsi_mhas_real_threshold_analysis/threshold_metrics_per_draw.csv
+!results/haalsi_mhas_real_threshold_analysis/threshold_metrics_summary.csv
