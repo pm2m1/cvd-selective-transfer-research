@@ -73,5 +73,7 @@ jobs:
           python -m pip install -e . -r requirements-dev.txt -r requirements-figures.txt
       - name: Check original file hashes and package manifests
         run: python scripts/verify_imported_artifacts.py
+      - name: Provide historical macOS temporary-path compatibility
+        run: sudo install -d -m 1777 /private/tmp
       - name: Run available original suites and report external-document dependencies
         run: python scripts/run_imported_tests.py
